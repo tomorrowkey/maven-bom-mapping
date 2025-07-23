@@ -98,7 +98,15 @@ function populateVersionSelects(bom) {
     if (bom.versions.length >= 2) {
         versionFromSelect.value = bom.versions[bom.versions.length - 2].version;
         versionToSelect.value = bom.versions[bom.versions.length - 1].version;
+        // Update compare button state after setting default values
+        updateCompareButtonState();
     }
+}
+
+// Update compare button state
+function updateCompareButtonState() {
+    compareBtn.disabled = !versionFromSelect.value || !versionToSelect.value || 
+                       versionFromSelect.value === versionToSelect.value;
 }
 
 // Clear version select dropdowns
@@ -110,8 +118,7 @@ function clearVersionSelects() {
 // Enable/disable compare button based on selections
 [versionFromSelect, versionToSelect].forEach(select => {
     select.addEventListener('change', () => {
-        compareBtn.disabled = !versionFromSelect.value || !versionToSelect.value || 
-                           versionFromSelect.value === versionToSelect.value;
+        updateCompareButtonState();
     });
 });
 

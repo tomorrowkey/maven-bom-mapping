@@ -154,79 +154,120 @@ compareBtn.addEventListener('click', () => {
 function displayResults(result) {
     resultsDiv.innerHTML = '';
     
-    const hasChanges = result.added.length > 0 || result.removed.length > 0 || result.updated.length > 0;
+    // Create a map of all artifacts with their status
+    const artifactMap = new Map();
     
-    if (!hasChanges) {
+    // Process removed artifacts
+    result.removed.forEach(artifact => {
+        const key = `${artifact.groupId}:${artifact.artifactId}`;
+        artifactMap.set(key, {
+            groupId: artifact.groupId,
+            artifactId: artifact.artifactId,
+            status: 'removed',
+            fromVersion: artifact.version,
+            toVersion: null
+        });
+    });
+    
+    // Process added artifacts
+    result.added.forEach(artifact => {
+        const key = `${artifact.groupId}:${artifact.artifactId}`;
+        artifactMap.set(key, {
+            groupId: artifact.groupId,
+            artifactId: artifact.artifactId,
+            status: 'added',
+            fromVersion: null,
+            toVersion: artifact.version
+        });
+    });
+    
+    // Process updated artifacts
+    result.updated.forEach(update => {
+        const key = `${update.groupId}:${update.artifactId}`;
+        artifactMap.set(key, {
+            groupId: update.groupId,
+            artifactId: update.artifactId,
+            status: 'updated',
+            fromVersion: update.fromVersion,
+            toVersion: update.toVersion
+        });
+    });
+    
+    // Sort artifacts alphabetically
+    const sortedArtifacts = Array.from(artifactMap.entries())
+        .sort((a, b) => a[0].localeCompare(b[0]));
+    
+    if (sortedArtifacts.length === 0) {
         resultsDiv.innerHTML = '<div class="empty-state">変更はありません</div>';
         return;
     }
     
-    // Added artifacts
-    if (result.added.length > 0) {
-        const section = createResultSection('added', '追加', result.added.length);
-        const list = document.createElement('div');
-        list.className = 'artifact-list';
-        
-        result.added.forEach(artifact => {
-            const item = document.createElement('div');
-            item.className = 'artifact-item';
-            item.textContent = `${artifact.groupId}:${artifact.artifactId}:${artifact.version}`;
-            item.dataset.searchText = item.textContent.toLowerCase();
-            list.appendChild(item);
-        });
-        
-        section.appendChild(list);
-        resultsDiv.appendChild(section);
-    }
+    // Create header
+    const header = document.createElement('div');
+    header.className = 'result-header';
+    header.innerHTML = `
+        <h3>比較結果: ${result.fromVersion} → ${result.toVersion}</h3>
+        <div class="result-summary">
+            <span class="added-count">追加: ${result.added.length}</span>
+            <span class="removed-count">削除: ${result.removed.length}</span>
+            <span class="updated-count">更新: ${result.updated.length}</span>
+        </div>
+    `;
+    resultsDiv.appendChild(header);
     
-    // Removed artifacts
-    if (result.removed.length > 0) {
-        const section = createResultSection('removed', '削除', result.removed.length);
-        const list = document.createElement('div');
-        list.className = 'artifact-list';
-        
-        result.removed.forEach(artifact => {
-            const item = document.createElement('div');
-            item.className = 'artifact-item';
-            item.textContent = `${artifact.groupId}:${artifact.artifactId}:${artifact.version}`;
-            item.dataset.searchText = item.textContent.toLowerCase();
-            list.appendChild(item);
-        });
-        
-        section.appendChild(list);
-        resultsDiv.appendChild(section);
-    }
+    // Create artifact list
+    const list = document.createElement('div');
+    list.className = 'artifact-list';
     
-    // Updated artifacts
-    if (result.updated.length > 0) {
-        const section = createResultSection('updated', '更新', result.updated.length);
-        const list = document.createElement('div');
-        list.className = 'artifact-list';
+    sortedArtifacts.forEach(([key, artifact]) => {
+        const item = document.createElement('div');
+        item.className = `artifact-item ${artifact.status}`;
+        item.dataset.searchText = key.toLowerCase();
         
-        result.updated.forEach(update => {
-            const item = document.createElement('div');
-            item.className = 'artifact-item';
-            item.innerHTML = `${update.groupId}:${update.artifactId}: <span class="version-change">${update.fromVersion} → ${update.toVersion}</span>`;
-            item.dataset.searchText = `${update.groupId}:${update.artifactId}`.toLowerCase();
-            list.appendChild(item);
-        });
+        // Create content div
+        const content = document.createElement('div');
+        content.className = 'artifact-content';
         
-        section.appendChild(list);
-        resultsDiv.appendChild(section);
-    }
+        // Artifact name
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'artifact-name';
+        nameSpan.textContent = `${artifact.groupId}:${artifact.artifactId}`;
+        content.appendChild(nameSpan);
+        
+        // Version info
+        const versionSpan = document.createElement('span');
+        versionSpan.className = 'version-info';
+        
+        if (artifact.status === 'added') {
+            versionSpan.innerHTML = `<span class="version-to">${artifact.toVersion}</span>`;
+        } else if (artifact.status === 'removed') {
+            versionSpan.innerHTML = `<span class="version-from">${artifact.fromVersion}</span>`;
+        } else if (artifact.status === 'updated') {
+            versionSpan.innerHTML = `<span class="version-from">${artifact.fromVersion}</span><span class="version-arrow">→</span><span class="version-to">${artifact.toVersion}</span>`;
+        }
+        
+        content.appendChild(versionSpan);
+        
+        // Status badge
+        const badge = document.createElement('span');
+        badge.className = `status-badge ${artifact.status}`;
+        
+        if (artifact.status === 'added') {
+            badge.textContent = 'ADD';
+        } else if (artifact.status === 'removed') {
+            badge.textContent = 'DEL';
+        } else if (artifact.status === 'updated') {
+            badge.textContent = 'MOD';
+        }
+        
+        item.appendChild(content);
+        item.appendChild(badge);
+        list.appendChild(item);
+    });
+    
+    resultsDiv.appendChild(list);
 }
 
-// Create result section
-function createResultSection(className, title, count) {
-    const section = document.createElement('div');
-    section.className = `result-section ${className}`;
-    
-    const header = document.createElement('h3');
-    header.textContent = `${title} (${count})`;
-    section.appendChild(header);
-    
-    return section;
-}
 
 // Handle filter input
 filterInput.addEventListener('input', (e) => {

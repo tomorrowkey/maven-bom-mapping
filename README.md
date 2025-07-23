@@ -44,7 +44,24 @@ BOM mapping
 
 ### 2. 比較UIの確認
 
-`docs/index.html`をブラウザで開くか、GitHub Pagesでホストして利用します。
+#### ローカルでの確認（Docker Compose）
+Docker Composeを使用してNginxサーバーを起動します：
+
+```bash
+# サーバーを起動
+docker compose up
+
+# バックグラウンドで起動する場合
+docker compose up -d
+
+# 停止する場合
+docker compose down
+```
+
+ブラウザで http://localhost:8080 にアクセスします。
+
+#### GitHub Pagesでの公開
+リポジトリの設定でGitHub Pagesを有効にし、`docs`フォルダを公開ディレクトリとして設定します。
 
 ## 設定ファイル
 

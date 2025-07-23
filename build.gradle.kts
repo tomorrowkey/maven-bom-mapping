@@ -48,14 +48,3 @@ kotlin {
 application {
     mainClass.set("com.example.bommapping.MainKt")
 }
-
-tasks.register("serve") {
-    doLast {
-        println("Starting server at http://localhost:8000")
-        println("Press Ctrl+C to stop")
-        exec {
-            workingDir = file("docs")
-            commandLine("python3", "-m", "http.server", "8000")
-        }
-    }
-}

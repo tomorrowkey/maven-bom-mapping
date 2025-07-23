@@ -1,0 +1,9 @@
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./docs:/usr/share/nginx/html:ro
+    command: >
+      sh -c "echo 'Starting BOM Mapping UI at http://localhost:8080' && nginx -g 'daemon off;'"

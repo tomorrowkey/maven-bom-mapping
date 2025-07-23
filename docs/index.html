@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maven BOM Comparison Tool</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Maven BOM Comparison Tool</h1>
+            <p>異なるバージョンのBOMに含まれるアーティファクトを比較します</p>
+        </header>
+
+        <main>
+            <div class="controls">
+                <div class="control-group">
+                    <label for="bom-select">BOM:</label>
+                    <select id="bom-select">
+                        <option value="">-- BOMを選択 --</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label for="version-from">From:</label>
+                    <select id="version-from" disabled>
+                        <option value="">-- バージョンを選択 --</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label for="version-to">To:</label>
+                    <select id="version-to" disabled>
+                        <option value="">-- バージョンを選択 --</option>
+                    </select>
+                </div>
+
+                <button id="compare-btn" disabled>比較</button>
+            </div>
+
+            <div class="filter-section" style="display: none;">
+                <input type="text" id="filter-input" placeholder="アーティファクトを検索...">
+            </div>
+
+            <div id="results" class="results"></div>
+
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>読み込み中...</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Last updated: <span id="last-updated">-</span></p>
+        </footer>
+    </div>
+
+    <script src="js/comparator.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

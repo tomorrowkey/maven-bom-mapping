@@ -1,13 +1,17 @@
 package com.example.bommapping.parser
 
 import com.example.bommapping.model.Artifact
+import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.dataformat.xml.XmlMapper
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 import org.slf4j.LoggerFactory
 
 class PomParser {
     private val logger = LoggerFactory.getLogger(PomParser::class.java)
-    private val xmlMapper = XmlMapper().registerKotlinModule()
+    private val xmlMapper = XmlMapper().apply {
+        registerKotlinModule()
+        configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+    }
     
     fun parsePom(pomContent: String): List<Artifact> {
         val pom = xmlMapper.readValue(pomContent, Pom::class.java)

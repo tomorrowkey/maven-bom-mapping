@@ -48,6 +48,6 @@ boms:
       - 33.6.0
 
 settings:
-  mavenRepository: https://repo1.maven.org/maven2/
+  mavenRepository: https://maven.google.com/
   snapshotDirectory: ./snapshots
   cacheEnabled: true

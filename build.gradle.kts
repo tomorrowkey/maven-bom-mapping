@@ -25,6 +25,7 @@ dependencies {
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.16.1")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.16.1")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.1")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.1")
     
     // Logging
     implementation("org.slf4j:slf4j-api:2.0.11")
@@ -46,4 +47,15 @@ kotlin {
 
 application {
     mainClass.set("com.example.bommapping.MainKt")
+}
+
+tasks.register("serve") {
+    doLast {
+        println("Starting server at http://localhost:8000")
+        println("Press Ctrl+C to stop")
+        exec {
+            workingDir = file("docs")
+            commandLine("python3", "-m", "http.server", "8000")
+        }
+    }
 }

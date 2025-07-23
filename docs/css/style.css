@@ -73,26 +73,6 @@ header p {
     cursor: not-allowed;
 }
 
-#compare-btn {
-    padding: 8px 24px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#compare-btn:hover:not(:disabled) {
-    background-color: #2980b9;
-}
-
-#compare-btn:disabled {
-    background-color: #bdc3c7;
-    cursor: not-allowed;
-}
 
 .filter-section {
     background-color: #fff;
@@ -343,10 +323,6 @@ footer {
     }
     
     .control-group {
-        width: 100%;
-    }
-    
-    #compare-btn {
         width: 100%;
     }
 }

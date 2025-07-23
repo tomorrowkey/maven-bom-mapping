@@ -6,7 +6,6 @@ const comparator = new BomComparator();
 const bomSelect = document.getElementById('bom-select');
 const versionFromSelect = document.getElementById('version-from');
 const versionToSelect = document.getElementById('version-to');
-const compareBtn = document.getElementById('compare-btn');
 const resultsDiv = document.getElementById('results');
 const loadingDiv = document.getElementById('loading');
 const filterSection = document.querySelector('.filter-section');
@@ -66,7 +65,6 @@ bomSelect.addEventListener('change', (e) => {
     if (!selectedValue) {
         versionFromSelect.disabled = true;
         versionToSelect.disabled = true;
-        compareBtn.disabled = true;
         clearVersionSelects();
         updateUrl();
         return;
@@ -104,15 +102,16 @@ function populateVersionSelects(bom) {
     if (bom.versions.length >= 2) {
         versionFromSelect.value = bom.versions[bom.versions.length - 2].version;
         versionToSelect.value = bom.versions[bom.versions.length - 1].version;
-        // Update compare button state after setting default values
-        updateCompareButtonState();
+        // Trigger automatic comparison if all values are set
+        checkAndExecuteComparison();
     }
 }
 
-// Update compare button state
-function updateCompareButtonState() {
-    compareBtn.disabled = !versionFromSelect.value || !versionToSelect.value || 
-                       versionFromSelect.value === versionToSelect.value;
+// Check if all inputs are filled and trigger comparison
+function checkAndExecuteComparison() {
+    if (bomSelect.value && versionFromSelect.value && versionToSelect.value) {
+        executeComparison();
+    }
 }
 
 // Clear version select dropdowns
@@ -121,11 +120,11 @@ function clearVersionSelects() {
     versionToSelect.innerHTML = '<option value="">-- バージョンを選択 --</option>';
 }
 
-// Enable/disable compare button based on selections
+// Auto-execute comparison based on selections
 [versionFromSelect, versionToSelect].forEach(select => {
     select.addEventListener('change', () => {
-        updateCompareButtonState();
         updateUrl();
+        checkAndExecuteComparison();
     });
 });
 
@@ -157,8 +156,6 @@ function executeComparison() {
     }
 }
 
-// Handle compare button click
-compareBtn.addEventListener('click', executeComparison);
 
 // Display comparison results
 function displayResults(result) {
@@ -352,11 +349,10 @@ function restoreFromUrl() {
                 versionToSelect.value = toParam;
             }
             
-            updateCompareButtonState();
+            checkAndExecuteComparison();
             
             // Auto-execute comparison if all parameters are present
-            if (fromParam && toParam && versionFromSelect.value && versionToSelect.value && 
-                versionFromSelect.value !== versionToSelect.value) {
+            if (fromParam && toParam && versionFromSelect.value && versionToSelect.value) {
                 executeComparison();
             }
         }

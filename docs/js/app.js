@@ -31,6 +31,9 @@ async function init() {
         populateBomSelect();
         updateLastUpdated();
         
+        // Restore state from URL parameters
+        restoreFromUrl();
+        
         showLoading(false);
     } catch (error) {
         showError(`エラー: ${error.message}`);
@@ -65,6 +68,7 @@ bomSelect.addEventListener('change', (e) => {
         versionToSelect.disabled = true;
         compareBtn.disabled = true;
         clearVersionSelects();
+        updateUrl();
         return;
     }
     
@@ -76,6 +80,8 @@ bomSelect.addEventListener('change', (e) => {
         versionFromSelect.disabled = false;
         versionToSelect.disabled = false;
     }
+    
+    updateUrl();
 });
 
 // Populate version select dropdowns
@@ -119,11 +125,12 @@ function clearVersionSelects() {
 [versionFromSelect, versionToSelect].forEach(select => {
     select.addEventListener('change', () => {
         updateCompareButtonState();
+        updateUrl();
     });
 });
 
-// Handle compare button click
-compareBtn.addEventListener('click', () => {
+// Execute comparison
+function executeComparison() {
     const selectedBom = bomSelect.value;
     const fromVersion = versionFromSelect.value;
     const toVersion = versionToSelect.value;
@@ -148,7 +155,10 @@ compareBtn.addEventListener('click', () => {
     } catch (error) {
         showError(`比較エラー: ${error.message}`);
     }
-});
+}
+
+// Handle compare button click
+compareBtn.addEventListener('click', executeComparison);
 
 // Display comparison results
 function displayResults(result) {
@@ -292,6 +302,65 @@ function showLoading(show) {
 // Show error message
 function showError(message) {
     resultsDiv.innerHTML = `<div class="error-state">${message}</div>`;
+}
+
+// URL parameter management
+function updateUrl() {
+    const params = new URLSearchParams();
+    
+    if (bomSelect.value) {
+        params.set('bom', bomSelect.value);
+    }
+    
+    if (versionFromSelect.value) {
+        params.set('from', versionFromSelect.value);
+    }
+    
+    if (versionToSelect.value) {
+        params.set('to', versionToSelect.value);
+    }
+    
+    const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
+    window.history.replaceState({}, '', newUrl);
+}
+
+function restoreFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const bomParam = params.get('bom');
+    const fromParam = params.get('from');
+    const toParam = params.get('to');
+    
+    // Restore BOM selection
+    if (bomParam && bomData.boms.some(b => `${b.groupId}:${b.artifactId}` === bomParam)) {
+        bomSelect.value = bomParam;
+        
+        // Trigger BOM selection logic
+        const [groupId, artifactId] = bomParam.split(':');
+        const bom = bomData.boms.find(b => b.groupId === groupId && b.artifactId === artifactId);
+        
+        if (bom) {
+            populateVersionSelects(bom);
+            versionFromSelect.disabled = false;
+            versionToSelect.disabled = false;
+            
+            // Restore version selections
+            if (fromParam && bom.versions.some(v => v.version === fromParam)) {
+                versionFromSelect.value = fromParam;
+            }
+            
+            if (toParam && bom.versions.some(v => v.version === toParam)) {
+                versionToSelect.value = toParam;
+            }
+            
+            updateCompareButtonState();
+            
+            // Auto-execute comparison if all parameters are present
+            if (fromParam && toParam && versionFromSelect.value && versionToSelect.value && 
+                versionFromSelect.value !== versionToSelect.value) {
+                executeComparison();
+            }
+        }
+    }
 }
 
 // Initialize on page load

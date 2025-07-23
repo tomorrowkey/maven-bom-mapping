@@ -204,11 +204,6 @@ function displayResults(result) {
     const sortedArtifacts = Array.from(artifactMap.entries())
         .sort((a, b) => a[0].localeCompare(b[0]));
     
-    if (sortedArtifacts.length === 0) {
-        resultsDiv.innerHTML = '<div class="empty-state">変更はありません</div>';
-        return;
-    }
-    
     // Create header
     const header = document.createElement('div');
     header.className = 'result-header';
@@ -221,6 +216,14 @@ function displayResults(result) {
         </div>
     `;
     resultsDiv.appendChild(header);
+    
+    if (sortedArtifacts.length === 0) {
+        const emptyState = document.createElement('div');
+        emptyState.className = 'empty-state';
+        emptyState.textContent = '変更はありません';
+        resultsDiv.appendChild(emptyState);
+        return;
+    }
     
     // Create artifact list
     const list = document.createElement('div');

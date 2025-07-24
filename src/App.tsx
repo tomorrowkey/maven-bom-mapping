@@ -19,15 +19,16 @@ function App() {
   const [selectedToVersion, setSelectedToVersion] = useState('');
   const [comparisonResult, setComparisonResult] = useState<ComparisonResult | null>(null);
   const [filter, setFilter] = useState('');
+  const [hasRestoredFromUrl, setHasRestoredFromUrl] = useState(false);
 
   // Load BOM data on mount
   useEffect(() => {
     loadBomData();
   }, []);
 
-  // Restore from URL parameters
+  // Restore from URL parameters (run only once when bomData is available)
   useEffect(() => {
-    if (!bomData) return;
+    if (!bomData || hasRestoredFromUrl) return;
 
     const params = new URLSearchParams(window.location.search);
     const bomParam = params.get('bom');
@@ -35,31 +36,67 @@ function App() {
     const toParam = params.get('to');
 
     if (bomParam && bomData.boms.some(b => `${b.groupId}:${b.artifactId}` === bomParam)) {
-      setSelectedBom(bomParam);
-
       const bom = bomData.boms.find(b => `${b.groupId}:${b.artifactId}` === bomParam);
+      
       if (bom) {
+        
+        // Set all states in a batch
+        setSelectedBom(bomParam);
+        
         if (fromParam && bom.versions.some(v => v.version === fromParam)) {
           setSelectedFromVersion(fromParam);
+        } else if (bom.versions.length >= 2) {
+          setSelectedFromVersion(bom.versions[bom.versions.length - 2].version);
         }
+        
         if (toParam && bom.versions.some(v => v.version === toParam)) {
           setSelectedToVersion(toParam);
+        } else if (bom.versions.length >= 1) {
+          setSelectedToVersion(bom.versions[bom.versions.length - 1].version);
         }
       }
     }
-  }, [bomData]);
+    
+    // Mark that we've attempted URL restoration
+    setHasRestoredFromUrl(true);
+  }, [bomData, hasRestoredFromUrl]);
+
+  const executeComparison = useCallback(() => {
+    if (!bomData || !selectedBom || !selectedFromVersion || !selectedToVersion) {
+      return;
+    }
+
+    const [groupId, artifactId] = selectedBom.split(':');
+    const bom = bomData.boms.find(b => b.groupId === groupId && b.artifactId === artifactId);
+
+    if (!bom) {
+      setError('BOMが見つかりません');
+      return;
+    }
+
+    try {
+      const result = comparator.compare(bom, selectedFromVersion, selectedToVersion);
+      setComparisonResult(result);
+      setFilter('');
+      setError(null);
+    } catch (err) {
+      setError(`比較エラー: ${err instanceof Error ? err.message : 'Unknown error'}`);
+    }
+  }, [bomData, selectedBom, selectedFromVersion, selectedToVersion]);
 
   // Auto-execute comparison when all fields are filled
   useEffect(() => {
     if (selectedBom && selectedFromVersion && selectedToVersion) {
       executeComparison();
     }
-  }, [selectedBom, selectedFromVersion, selectedToVersion]);
+  }, [selectedBom, selectedFromVersion, selectedToVersion, executeComparison]);
 
-  // Update URL when selections change
+  // Update URL when selections change (but only after initial restoration)
   useEffect(() => {
-    updateUrl();
-  }, [selectedBom, selectedFromVersion, selectedToVersion]);
+    if (hasRestoredFromUrl) {
+      updateUrl();
+    }
+  }, [selectedBom, selectedFromVersion, selectedToVersion, hasRestoredFromUrl]);
 
   const loadBomData = async () => {
     try {
@@ -91,35 +128,13 @@ function App() {
     window.history.replaceState({}, '', newUrl);
   };
 
-  const executeComparison = useCallback(() => {
-    if (!bomData || !selectedBom || !selectedFromVersion || !selectedToVersion) {
-      return;
-    }
-
-    const [groupId, artifactId] = selectedBom.split(':');
-    const bom = bomData.boms.find(b => b.groupId === groupId && b.artifactId === artifactId);
-
-    if (!bom) {
-      setError('BOMが見つかりません');
-      return;
-    }
-
-    try {
-      const result = comparator.compare(bom, selectedFromVersion, selectedToVersion);
-      setComparisonResult(result);
-      setFilter('');
-      setError(null);
-    } catch (err) {
-      setError(`比較エラー: ${err instanceof Error ? err.message : 'Unknown error'}`);
-    }
-  }, [bomData, selectedBom, selectedFromVersion, selectedToVersion]);
-
   const handleBomChange = (value: string) => {
     setSelectedBom(value);
     setSelectedFromVersion('');
     setSelectedToVersion('');
     setComparisonResult(null);
 
+    // Set default versions for manual BOM changes
     if (value && bomData) {
       const [groupId, artifactId] = value.split(':');
       const bom = bomData.boms.find(b => b.groupId === groupId && b.artifactId === artifactId);

@@ -1,7 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Header } from './components/Header';
 import { Controls } from './components/Controls';
-import { FilterSection } from './components/FilterSection';
 import { Results } from './components/Results';
 import { Footer } from './components/Footer';
 import { Loading } from './components/Loading';
@@ -20,7 +19,6 @@ function App() {
   const [selectedToVersion, setSelectedToVersion] = useState('');
   const [comparisonResult, setComparisonResult] = useState<ComparisonResult | null>(null);
   const [filter, setFilter] = useState('');
-  const [showFilter, setShowFilter] = useState(false);
 
   // Load BOM data on mount
   useEffect(() => {
@@ -109,7 +107,6 @@ function App() {
     try {
       const result = comparator.compare(bom, selectedFromVersion, selectedToVersion);
       setComparisonResult(result);
-      setShowFilter(true);
       setFilter('');
       setError(null);
     } catch (err) {
@@ -122,7 +119,6 @@ function App() {
     setSelectedFromVersion('');
     setSelectedToVersion('');
     setComparisonResult(null);
-    setShowFilter(false);
 
     if (value && bomData) {
       const [groupId, artifactId] = value.split(':');
@@ -160,13 +156,11 @@ function App() {
               onToVersionChange={setSelectedToVersion}
             />
 
-            <FilterSection
-              visible={showFilter}
-              value={filter}
-              onChange={setFilter}
+            <Results 
+              result={comparisonResult} 
+              filter={filter}
+              onFilterChange={setFilter}
             />
-
-            <Results result={comparisonResult} filter={filter} />
           </>
         )}
 

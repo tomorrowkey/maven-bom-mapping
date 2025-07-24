@@ -4,9 +4,10 @@ import { ComparisonResult, ProcessedArtifact } from '../types';
 interface ResultsProps {
   result: ComparisonResult | null;
   filter: string;
+  onFilterChange: (value: string) => void;
 }
 
-export const Results: React.FC<ResultsProps> = ({ result, filter }) => {
+export const Results: React.FC<ResultsProps> = ({ result, filter, onFilterChange }) => {
   if (!result) return null;
 
   // Process artifacts into a unified list
@@ -60,11 +61,22 @@ export const Results: React.FC<ResultsProps> = ({ result, filter }) => {
   return (
     <div className="results">
       <div className="result-header">
-        <h3>比較結果: {result.fromVersion} → {result.toVersion}</h3>
-        <div className="result-summary">
-          <span className="added-count">追加: {result.added.length}</span>
-          <span className="removed-count">削除: {result.removed.length}</span>
-          <span className="updated-count">更新: {result.updated.length}</span>
+        <div className="result-header-left">
+          <h3>比較結果: {result.fromVersion} → {result.toVersion}</h3>
+          <div className="result-summary">
+            <span className="added-count">追加: {result.added.length}</span>
+            <span className="removed-count">削除: {result.removed.length}</span>
+            <span className="updated-count">更新: {result.updated.length}</span>
+          </div>
+        </div>
+        <div className="result-header-right">
+          <input
+            type="text"
+            className="filter-input"
+            placeholder="検索..."
+            value={filter}
+            onChange={(e) => onFilterChange(e.target.value)}
+          />
         </div>
       </div>
 

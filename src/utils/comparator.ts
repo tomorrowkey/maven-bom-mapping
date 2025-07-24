@@ -10,10 +10,11 @@ export class BomComparator {
       toVersion,
       added: [],
       removed: [],
-      updated: []
+      updated: [],
+      unchanged: []
     };
 
-    // Find added and updated artifacts
+    // Find added, updated, and unchanged artifacts
     for (const [key, artifact] of toArtifacts) {
       if (!fromArtifacts.has(key)) {
         result.added.push(artifact);
@@ -26,6 +27,9 @@ export class BomComparator {
             fromVersion: fromArtifact.version,
             toVersion: artifact.version
           });
+        } else {
+          // Artifact exists in both versions with same version
+          result.unchanged.push(artifact);
         }
       }
     }
@@ -41,6 +45,7 @@ export class BomComparator {
     result.added.sort((a, b) => this.compareArtifacts(a, b));
     result.removed.sort((a, b) => this.compareArtifacts(a, b));
     result.updated.sort((a, b) => this.compareArtifacts(a, b));
+    result.unchanged.sort((a, b) => this.compareArtifacts(a, b));
 
     return result;
   }

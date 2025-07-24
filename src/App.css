@@ -161,6 +161,16 @@ header p {
     margin-right: 2px;
 }
 
+.unchanged-count {
+    color: #656d76;
+    font-weight: 600;
+}
+
+.unchanged-count::before {
+    content: "=";
+    margin-right: 2px;
+}
+
 .artifact-list {
     font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
     font-size: 12px;
@@ -218,6 +228,16 @@ header p {
     background-color: #fef2c0;
 }
 
+.artifact-item.unchanged {
+    background-color: #f8f9fa;
+}
+
+.artifact-item.unchanged::before {
+    content: "=";
+    color: #656d76;
+    background-color: #e9ecef;
+}
+
 .artifact-item:hover {
     background-color: rgba(175, 184, 193, 0.1);
 }
@@ -260,6 +280,10 @@ header p {
 .version-info .version-arrow {
     color: #656d76;
     margin: 0 4px;
+}
+
+.version-info .version-unchanged {
+    color: #656d76;
 }
 
 .loading {

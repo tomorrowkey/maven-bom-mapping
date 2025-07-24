@@ -49,6 +49,18 @@ export const Results: React.FC<ResultsProps> = ({ result, filter, onFilterChange
     });
   });
 
+  // Process unchanged artifacts
+  result.unchanged.forEach(artifact => {
+    const key = `${artifact.groupId}:${artifact.artifactId}`;
+    artifactMap.set(key, {
+      groupId: artifact.groupId,
+      artifactId: artifact.artifactId,
+      status: 'unchanged',
+      fromVersion: artifact.version,
+      toVersion: artifact.version
+    });
+  });
+
   // Sort artifacts alphabetically
   const sortedArtifacts = Array.from(artifactMap.entries())
     .sort((a, b) => a[0].localeCompare(b[0]));
@@ -67,6 +79,7 @@ export const Results: React.FC<ResultsProps> = ({ result, filter, onFilterChange
             <span className="added-count">Added: {result.added.length}</span>
             <span className="removed-count">Removed: {result.removed.length}</span>
             <span className="updated-count">Updated: {result.updated.length}</span>
+            <span className="unchanged-count">Unchanged: {result.unchanged.length}</span>
           </div>
         </div>
         <div className="result-header-right">
@@ -106,6 +119,9 @@ export const Results: React.FC<ResultsProps> = ({ result, filter, onFilterChange
                       <span className="version-arrow">→</span>
                       <span className="version-to">{artifact.toVersion}</span>
                     </>
+                  )}
+                  {artifact.status === 'unchanged' && (
+                    <span className="version-unchanged">{artifact.fromVersion}</span>
                   )}
                 </span>
               </div>

@@ -32,6 +32,7 @@ export interface ComparisonResult {
     fromVersion: string;
     toVersion: string;
   }[];
+  unchanged: Artifact[];
 }
 
 export interface ProcessedArtifact {

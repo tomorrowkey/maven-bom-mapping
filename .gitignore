@@ -171,3 +171,15 @@ Sessionx.vim
 tags
 # Persistent undo
 [._]*.un~
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Snapshots
+snapshots/*.yaml
+
+# Environment
+.env
+.env.local

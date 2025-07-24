@@ -73,7 +73,6 @@ header p {
     cursor: not-allowed;
 }
 
-
 .filter-section {
     background-color: #fff;
     padding: 15px 20px;
@@ -155,7 +154,7 @@ header p {
 
 .artifact-item {
     display: grid;
-    grid-template-columns: 20px 1fr auto;
+    grid-template-columns: 20px 1fr;
     align-items: center;
     padding: 0;
     margin: 0;
@@ -246,36 +245,6 @@ header p {
 .version-info .version-arrow {
     color: #656d76;
     margin: 0 4px;
-}
-
-.status-badge {
-    padding: 2px 6px;
-    margin: 6px 8px;
-    border-radius: 12px;
-    font-size: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    flex-shrink: 0;
-}
-
-.status-badge.added {
-    background-color: #1a7f37;
-    color: #fff;
-}
-
-.status-badge.removed {
-    background-color: #cf222e;
-    color: #fff;
-}
-
-.status-badge.updated {
-    background-color: #bf8700;
-    color: #fff;
-}
-
-.artifact-item.filtered-out {
-    display: none;
 }
 
 .loading {

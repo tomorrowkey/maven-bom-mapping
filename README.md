@@ -6,20 +6,37 @@ BOM mapping
 
 ## 機能
 
-- Maven CentralからBOMファイルを自動取得
+- Maven CentralやGoogle MavenからBOMファイルを自動取得
 - BOMに含まれるアーティファクトのバージョンを抽出してYAML形式で保存
-- GitHub Pagesで動作するインタラクティブな比較UI
-- バージョン間の追加・削除・更新されたアーティファクトを可視化
+- React製のインタラクティブな比較UI
+- バージョン間の追加・削除・更新されたアーティファクトをGitHub風のdiff表示で可視化
+- URLパラメータによるパーマリンク機能
+- 選択内容に応じた自動比較実行
 
 ## セットアップ
 
 ### 必要な環境
 - JDK 17以上
 - Gradle 8.5以上
+- Node.js 20以上（UIビルド用）
 
 ### ビルド
+
+#### バックエンド（Kotlin）
 ```bash
 ./gradlew build
+```
+
+#### フロントエンド（React）
+```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
+npm run dev
+
+# 本番ビルド
+npm run build
 ```
 
 ## 使い方
@@ -45,20 +62,25 @@ BOM mapping
 ### 2. 比較UIの確認
 
 #### ローカルでの確認（Docker Compose）
-Docker Composeを使用してNginxサーバーを起動します：
 
+開発サーバー（React + Vite）：
 ```bash
-# サーバーを起動
-docker compose up
+# 開発サーバーを起動（ホットリロード対応）
+docker compose up dev
 
-# バックグラウンドで起動する場合
-docker compose up -d
-
-# 停止する場合
-docker compose down
+# http://localhost:5173 にアクセス
 ```
 
-ブラウザで http://localhost:8080 にアクセスします。
+本番プレビュー（静的ファイル）：
+```bash
+# まずビルドを実行
+npm run build
+
+# Nginxサーバーを起動
+docker compose up web
+
+# http://localhost:8080 にアクセス
+```
 
 #### GitHub Pagesでの公開
 リポジトリの設定でGitHub Pagesを有効にし、`docs`フォルダを公開ディレクトリとして設定します。
@@ -69,15 +91,22 @@ docker compose down
 
 ```yaml
 boms:
-  - groupId: org.springframework.boot
-    artifactId: spring-boot-dependencies
+  - groupId: androidx.compose
+    artifactId: compose-bom
     versions:
-      - 2.7.18
-      - 3.0.13
-      - 3.2.1
+      - 2024.11.00
+      - 2024.12.01
+      - 2025.01.00
+      - 2025.01.01
+
+  - groupId: com.google.firebase
+    artifactId: firebase-bom
+    versions:
+      - 33.5.1
+      - 33.6.0
 
 settings:
-  mavenRepository: https://repo1.maven.org/maven2/
+  mavenRepository: https://maven.google.com/
   snapshotDirectory: ./snapshots
   cacheEnabled: true
 ```
@@ -88,11 +117,18 @@ settings:
 bom-mapping/
 ├── config.yaml         # BOM設定ファイル
 ├── snapshots/         # YAML形式の中間ファイル
-├── docs/              # GitHub Pages用ファイル
+├── docs/              # GitHub Pages用ファイル（ビルド出力）
 │   ├── index.html
-│   ├── js/
-│   ├── css/
+│   ├── assets/       # JS/CSSバンドル
 │   └── data/
 │       └── boms.json  # 生成されたBOMデータ
-└── src/               # Kotlinソースコード
+├── src/               # ソースコード
+│   ├── main/         # Kotlinソースコード
+│   ├── index.html    # React開発用HTML
+│   ├── App.tsx       # Reactメインコンポーネント
+│   ├── components/   # Reactコンポーネント
+│   └── types/        # TypeScript型定義
+├── package.json       # Node.js設定
+├── tsconfig.json     # TypeScript設定
+└── vite.config.ts    # Vite設定
 ```

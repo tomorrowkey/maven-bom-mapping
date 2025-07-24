@@ -1,4 +1,18 @@
 services:
+  # Development server
+  dev:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    command: sh -c "npm install && npm run dev -- --host"
+    environment:
+      - NODE_ENV=development
+  
+  # Production preview
   web:
     image: nginx:alpine
     ports:

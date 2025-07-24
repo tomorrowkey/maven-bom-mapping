@@ -4,7 +4,7 @@ export const Header: React.FC = () => {
   return (
     <header>
       <h1>Maven BOM Comparison Tool</h1>
-      <p>異なるバージョンのBOMに含まれるアーティファクトを比較します</p>
+      <p>Compare artifacts included in different versions of BOMs</p>
     </header>
   );
 };

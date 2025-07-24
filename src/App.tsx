@@ -70,7 +70,7 @@ function App() {
     const bom = bomData.boms.find(b => b.groupId === groupId && b.artifactId === artifactId);
 
     if (!bom) {
-      setError('BOMが見つかりません');
+      setError('BOM not found');
       return;
     }
 
@@ -80,7 +80,7 @@ function App() {
       setFilter('');
       setError(null);
     } catch (err) {
-      setError(`比較エラー: ${err instanceof Error ? err.message : 'Unknown error'}`);
+      setError(`Comparison error: ${err instanceof Error ? err.message : 'Unknown error'}`);
     }
   }, [bomData, selectedBom, selectedFromVersion, selectedToVersion]);
 
@@ -109,7 +109,7 @@ function App() {
       setBomData(data);
       setError(null);
     } catch (err) {
-      setError(`エラー: ${err instanceof Error ? err.message : 'Unknown error'}`);
+      setError(`Error: ${err instanceof Error ? err.message : 'Unknown error'}`);
     } finally {
       setLoading(false);
     }
@@ -149,7 +149,7 @@ function App() {
 
   const getLastUpdated = () => {
     if (!bomData) return null;
-    return new Date(bomData.generated).toLocaleString('ja-JP');
+    return new Date(bomData.generated).toLocaleString('en-US');
   };
 
   return (

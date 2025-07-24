@@ -31,7 +31,7 @@ export const Controls: React.FC<ControlsProps> = ({
           value={selectedBom}
           onChange={(e) => onBomChange(e.target.value)}
         >
-          <option value="">-- BOMを選択 --</option>
+          <option value="">-- Select BOM --</option>
           {boms.map((bom) => (
             <option
               key={`${bom.groupId}:${bom.artifactId}`}
@@ -51,7 +51,7 @@ export const Controls: React.FC<ControlsProps> = ({
           onChange={(e) => onFromVersionChange(e.target.value)}
           disabled={!currentBom}
         >
-          <option value="">-- バージョンを選択 --</option>
+          <option value="">-- Select Version --</option>
           {currentBom?.versions.map((version) => (
             <option key={version.version} value={version.version}>
               {version.version}
@@ -68,7 +68,7 @@ export const Controls: React.FC<ControlsProps> = ({
           onChange={(e) => onToVersionChange(e.target.value)}
           disabled={!currentBom}
         >
-          <option value="">-- バージョンを選択 --</option>
+          <option value="">-- Select Version --</option>
           {currentBom?.versions.map((version) => (
             <option key={version.version} value={version.version}>
               {version.version}

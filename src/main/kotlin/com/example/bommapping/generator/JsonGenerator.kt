@@ -39,30 +39,35 @@ class JsonGenerator(
                 versions = mutableListOf()
             )
             
-            bomDef.versions.forEach { version ->
-                try {
-                    val snapshotFile = File(
-                        config.settings.snapshotDirectory,
-                        "${bomDef.groupId}/${bomDef.artifactId}-$version.yaml"
-                    )
-                    
-                    if (snapshotFile.exists()) {
+            // Find all snapshot files for this BOM
+            val bomDir = File(config.settings.snapshotDirectory, bomDef.groupId)
+            if (bomDir.exists() && bomDir.isDirectory) {
+                val snapshotFiles = bomDir.listFiles { _, name ->
+                    name.startsWith("${bomDef.artifactId}-") && name.endsWith(".yaml")
+                } ?: emptyArray()
+                
+                snapshotFiles.forEach { snapshotFile ->
+                    try {
                         val snapshot = bomExtractor.loadSnapshot(snapshotFile)
                         bomVersions.versions.add(
                             VersionData(
-                                version = version,
+                                version = snapshot.bomInfo.version,
                                 artifacts = snapshot.artifacts
                             )
                         )
-                    } else {
-                        logger.warn("Snapshot not found: ${snapshotFile.absolutePath}")
+                    } catch (e: Exception) {
+                        logger.error("Error processing snapshot ${snapshotFile.name}: ${e.message}")
                     }
-                } catch (e: Exception) {
-                    logger.error("Error processing version $version: ${e.message}")
                 }
+            } else {
+                logger.warn("No snapshots found for BOM: ${bomDef.groupId}:${bomDef.artifactId}")
             }
             
             if (bomVersions.versions.isNotEmpty()) {
+                // Sort versions in ascending order (oldest first)
+                bomVersions.versions.sortWith { a, b ->
+                    compareVersions(a.version, b.version)
+                }
                 bomData.boms.add(bomVersions)
             }
         }
@@ -91,4 +96,33 @@ class JsonGenerator(
         val version: String,
         val artifacts: List<com.example.bommapping.model.Artifact>
     )
+    
+    private fun compareVersions(version1: String, version2: String): Int {
+        val parts1 = version1.split(Regex("[.-]")).map { part ->
+            val num = part.toIntOrNull()
+            if (num != null) num else part
+        }
+        val parts2 = version2.split(Regex("[.-]")).map { part ->
+            val num = part.toIntOrNull()
+            if (num != null) num else part
+        }
+        
+        val maxLength = maxOf(parts1.size, parts2.size)
+        for (i in 0 until maxLength) {
+            val part1 = if (i < parts1.size) parts1[i] else 0
+            val part2 = if (i < parts2.size) parts2[i] else 0
+            
+            when {
+                part1 is Int && part2 is Int -> {
+                    if (part1 != part2) return part1.compareTo(part2)
+                }
+                part1 is String && part2 is String -> {
+                    if (part1 != part2) return part1.compareTo(part2)
+                }
+                part1 is Int && part2 is String -> return -1
+                part1 is String && part2 is Int -> return 1
+            }
+        }
+        return 0
+    }
 }

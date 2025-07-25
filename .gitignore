@@ -183,3 +183,7 @@ snapshots/*.yaml
 # Environment
 .env
 .env.local
+
+# Vite build output with hash
+docs/assets/index-*.js
+docs/assets/index-*.css

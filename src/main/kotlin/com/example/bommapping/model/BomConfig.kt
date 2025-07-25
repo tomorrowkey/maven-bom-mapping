@@ -6,8 +6,7 @@ data class BomConfig(
 ) {
     data class BomDefinition(
         val groupId: String,
-        val artifactId: String,
-        val versions: List<String>
+        val artifactId: String
     )
     
     data class Settings(

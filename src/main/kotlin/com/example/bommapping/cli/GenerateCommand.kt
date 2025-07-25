@@ -5,6 +5,7 @@ import com.example.bommapping.extractor.BomExtractor
 import com.example.bommapping.fetcher.PomFetcher
 import com.example.bommapping.generator.JsonGenerator
 import com.example.bommapping.parser.PomParser
+import com.example.bommapping.service.VersionDiscoveryService
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.parameters.options.default
 import com.github.ajalt.clikt.parameters.options.flag
@@ -47,6 +48,7 @@ class GenerateCommand : CliktCommand(
                 pomParser = pomParser,
                 snapshotDirectory = config.settings.snapshotDirectory
             )
+            val versionDiscoveryService = VersionDiscoveryService()
             val jsonGenerator = JsonGenerator(bomExtractor)
             
             // Filter BOMs if specified
@@ -67,7 +69,21 @@ class GenerateCommand : CliktCommand(
             bomsToProcess.forEach { bomDef ->
                 logger.info("Processing BOM: ${bomDef.groupId}:${bomDef.artifactId}")
                 
-                bomDef.versions.forEach { version ->
+                // Discover all available versions from the repository
+                val versions = versionDiscoveryService.discoverVersions(
+                    baseUrl = config.settings.mavenRepository,
+                    groupId = bomDef.groupId,
+                    artifactId = bomDef.artifactId
+                )
+                
+                if (versions.isEmpty()) {
+                    logger.warn("No versions found for ${bomDef.groupId}:${bomDef.artifactId}")
+                    return@forEach
+                }
+                
+                logger.info("Found ${versions.size} versions for ${bomDef.artifactId}: ${versions.joinToString(", ")}")
+                
+                versions.forEach { version ->
                     try {
                         bomExtractor.extractBom(
                             groupId = bomDef.groupId,

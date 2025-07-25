@@ -21,6 +21,12 @@ export const Controls: React.FC<ControlsProps> = ({
   onToVersionChange,
 }) => {
   const currentBom = boms.find(b => `${b.groupId}:${b.artifactId}` === selectedBom);
+  
+  // Sort versions in ascending order (oldest first) - use existing order from JSON
+  // The JSON is already sorted by the backend, so we don't need to re-sort
+  const sortVersions = (versions: Array<{version: string}>) => {
+    return versions; // JSON is already sorted in ascending order
+  };
 
   return (
     <div className="controls">
@@ -52,11 +58,11 @@ export const Controls: React.FC<ControlsProps> = ({
           disabled={!currentBom}
         >
           <option value="">-- Select Version --</option>
-          {currentBom?.versions.map((version) => (
+          {currentBom ? sortVersions(currentBom.versions).map((version) => (
             <option key={version.version} value={version.version}>
               {version.version}
             </option>
-          ))}
+          )) : null}
         </select>
       </div>
 
@@ -69,11 +75,11 @@ export const Controls: React.FC<ControlsProps> = ({
           disabled={!currentBom}
         >
           <option value="">-- Select Version --</option>
-          {currentBom?.versions.map((version) => (
+          {currentBom ? sortVersions(currentBom.versions).map((version) => (
             <option key={version.version} value={version.version}>
               {version.version}
             </option>
-          ))}
+          )) : null}
         </select>
       </div>
     </div>

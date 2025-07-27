@@ -40,16 +40,9 @@ class GenerateCommand : CliktCommand(
             val config = ConfigLoader().load(configFile)
             logger.info("Loaded configuration from: $configFile")
             
-            // Initialize components
-            val pomFetcher = PomFetcher(config.settings.mavenRepository)
+            // Initialize components (will be recreated per BOM if needed)
             val pomParser = PomParser()
-            val bomExtractor = BomExtractor(
-                pomFetcher = pomFetcher,
-                pomParser = pomParser,
-                snapshotDirectory = config.settings.snapshotDirectory
-            )
             val versionDiscoveryService = VersionDiscoveryService()
-            val jsonGenerator = JsonGenerator(bomExtractor)
             
             // Filter BOMs if specified
             val bomsToProcess = if (bomFilter != null) {
@@ -69,9 +62,17 @@ class GenerateCommand : CliktCommand(
             bomsToProcess.forEach { bomDef ->
                 logger.info("Processing BOM: ${bomDef.groupId}:${bomDef.artifactId}")
                 
+                // Determine which repository to use
+                val repositoryUrl = when {
+                    bomDef.repository != null && config.settings.repositories.containsKey(bomDef.repository) -> 
+                        config.settings.repositories[bomDef.repository]!!
+                    bomDef.repository != null -> bomDef.repository // Direct URL
+                    else -> config.settings.mavenRepository
+                }
+                
                 // Discover all available versions from the repository
                 val versions = versionDiscoveryService.discoverVersions(
-                    baseUrl = config.settings.mavenRepository,
+                    baseUrl = repositoryUrl,
                     groupId = bomDef.groupId,
                     artifactId = bomDef.artifactId
                 )
@@ -82,6 +83,14 @@ class GenerateCommand : CliktCommand(
                 }
                 
                 logger.info("Found ${versions.size} versions for ${bomDef.artifactId}: ${versions.joinToString(", ")}")
+                
+                // Create repository-specific components
+                val pomFetcher = PomFetcher(repositoryUrl)
+                val bomExtractor = BomExtractor(
+                    pomFetcher = pomFetcher,
+                    pomParser = pomParser,
+                    snapshotDirectory = config.settings.snapshotDirectory
+                )
                 
                 versions.forEach { version ->
                     try {
@@ -100,6 +109,14 @@ class GenerateCommand : CliktCommand(
             
             // Generate JSON
             logger.info("Generating JSON for GitHub Pages...")
+            // Create a dummy BomExtractor for JSON generation (it will read from snapshots)
+            val dummyPomFetcher = PomFetcher(config.settings.mavenRepository)
+            val dummyBomExtractor = BomExtractor(
+                pomFetcher = dummyPomFetcher,
+                pomParser = pomParser,
+                snapshotDirectory = config.settings.snapshotDirectory
+            )
+            val jsonGenerator = JsonGenerator(dummyBomExtractor)
             val outputFile = jsonGenerator.generateJson(config)
             logger.info("✓ JSON generated: ${outputFile.absolutePath}")
             

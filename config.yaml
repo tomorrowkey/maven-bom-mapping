@@ -1,10 +1,62 @@
 boms:
+  # Android (Google Maven)
   - groupId: androidx.compose
     artifactId: compose-bom
+    repository: google
   - groupId: com.google.firebase
     artifactId: firebase-bom
+    repository: google
+  
+  # Spring Framework (Maven Central)
+  - groupId: org.springframework.boot
+    artifactId: spring-boot-dependencies
+    repository: central
+  - groupId: org.springframework.cloud
+    artifactId: spring-cloud-dependencies
+    repository: central
+  
+  # AWS (Maven Central)
+  - groupId: com.amazonaws
+    artifactId: aws-java-sdk-bom
+    repository: central
+  - groupId: software.amazon.awssdk
+    artifactId: bom
+    repository: central
+  
+  # Testing (Maven Central)
+  - groupId: org.junit
+    artifactId: junit-bom
+    repository: central
+  
+  # Logging (Maven Central)
+  - groupId: org.apache.logging.log4j
+    artifactId: log4j-bom
+    repository: central
+  
+  # JSON Processing (Maven Central)
+  - groupId: com.fasterxml.jackson
+    artifactId: jackson-bom
+    repository: central
+  
+  # Java EE / Jakarta EE (Maven Central)
+  - groupId: jakarta.platform
+    artifactId: jakarta.jakartaee-bom
+    repository: central
+  
+  # Apache Camel (Maven Central)
+  - groupId: org.apache.camel
+    artifactId: camel-bom
+    repository: central
+  
+  # Quarkus (Maven Central)
+  - groupId: io.quarkus.platform
+    artifactId: quarkus-bom
+    repository: central
 
 settings:
-  mavenRepository: https://maven.google.com/
+  mavenRepository: https://repo1.maven.org/maven2/
   snapshotDirectory: ./snapshots
   cacheEnabled: true
+  repositories:
+    central: https://repo1.maven.org/maven2/
+    google: https://maven.google.com/

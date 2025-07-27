@@ -175,6 +175,7 @@ function App() {
               result={comparisonResult} 
               filter={filter}
               onFilterChange={setFilter}
+              bomName={selectedBom}
             />
           </>
         )}

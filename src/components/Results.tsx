@@ -1,14 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ComparisonResult, ProcessedArtifact } from '../types';
+import { generateDiff, copyToClipboard } from '../utils/diffGenerator';
 
 interface ResultsProps {
   result: ComparisonResult | null;
   filter: string;
   onFilterChange: (value: string) => void;
+  bomName?: string;
 }
 
-export const Results: React.FC<ResultsProps> = ({ result, filter, onFilterChange }) => {
+export const Results: React.FC<ResultsProps> = ({ result, filter, onFilterChange, bomName = 'BOM' }) => {
+  const [copySuccess, setCopySuccess] = useState(false);
+  
   if (!result) return null;
+  
+  const handleCopyDiff = async () => {
+    const diffText = generateDiff(result, bomName);
+    const success = await copyToClipboard(diffText);
+    
+    if (success) {
+      setCopySuccess(true);
+      setTimeout(() => setCopySuccess(false), 2000);
+    }
+  };
 
   // Process artifacts into a unified list
   const artifactMap = new Map<string, ProcessedArtifact>();
@@ -83,6 +97,13 @@ export const Results: React.FC<ResultsProps> = ({ result, filter, onFilterChange
           </div>
         </div>
         <div className="result-header-right">
+          <button 
+            className="copy-diff-button"
+            onClick={handleCopyDiff}
+            title="Copy as diff"
+          >
+            {copySuccess ? '✓ Copied' : 'Copy Diff'}
+          </button>
           <input
             type="text"
             className="filter-input"

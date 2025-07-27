@@ -61,7 +61,7 @@ function App() {
     setHasRestoredFromUrl(true);
   }, [bomData, hasRestoredFromUrl]);
 
-  const executeComparison = useCallback(() => {
+  const executeComparison = useCallback(async () => {
     if (!bomData || !selectedBom || !selectedFromVersion || !selectedToVersion) {
       return;
     }
@@ -75,6 +75,32 @@ function App() {
     }
 
     try {
+      // Load version data on demand if not already loaded
+      const fromVersionData = bom.versions.find(v => v.version === selectedFromVersion);
+      const toVersionData = bom.versions.find(v => v.version === selectedToVersion);
+      
+      if (!fromVersionData || !toVersionData) {
+        setError('Version not found');
+        return;
+      }
+      
+      // Load artifacts if not already loaded
+      if (fromVersionData.artifacts.length === 0 && bom.directory) {
+        const response = await fetch(`./data/${bom.directory}/${selectedFromVersion}.json`);
+        if (response.ok) {
+          const data = await response.json();
+          fromVersionData.artifacts = data.artifacts;
+        }
+      }
+      
+      if (toVersionData.artifacts.length === 0 && bom.directory) {
+        const response = await fetch(`./data/${bom.directory}/${selectedToVersion}.json`);
+        if (response.ok) {
+          const data = await response.json();
+          toVersionData.artifacts = data.artifacts;
+        }
+      }
+      
       const result = comparator.compare(bom, selectedFromVersion, selectedToVersion);
       setComparisonResult(result);
       setFilter('');
@@ -101,12 +127,40 @@ function App() {
   const loadBomData = async () => {
     try {
       setLoading(true);
-      const response = await fetch('./data/boms.json');
-      if (!response.ok) {
-        throw new Error('Failed to load BOM data');
+      // First load the manifest to get the list of available BOMs
+      const manifestResponse = await fetch('./data/manifest.json');
+      if (!manifestResponse.ok) {
+        throw new Error('Failed to load BOM manifest');
       }
-      const data = await response.json();
-      setBomData(data);
+      const manifest = await manifestResponse.json();
+      
+      // Load all BOM metadata files in parallel
+      const bomPromises = manifest.boms.map(async (bomEntry: any) => {
+        const response = await fetch(`./data/${bomEntry.directory}/metadata.json`);
+        if (!response.ok) {
+          console.error(`Failed to load BOM metadata for ${bomEntry.directory}`);
+          return null;
+        }
+        const metadata = await response.json();
+        return {
+          ...metadata,
+          directory: bomEntry.directory,
+          versions: metadata.versions.map((version: string) => ({
+            version,
+            artifacts: [] // Will be loaded on demand
+          }))
+        };
+      });
+      
+      const bomDataList = await Promise.all(bomPromises);
+      
+      // Filter out any failed loads and convert to BomData format
+      const bomData: BomData = {
+        generated: manifest.generated,
+        boms: bomDataList.filter(bom => bom !== null)
+      };
+      
+      setBomData(bomData);
       setError(null);
     } catch (err) {
       setError(`Error: ${err instanceof Error ? err.message : 'Unknown error'}`);

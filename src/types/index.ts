@@ -13,6 +13,7 @@ export interface BomVersion {
 export interface Bom {
   groupId: string;
   artifactId: string;
+  directory?: string;
   versions: BomVersion[];
 }
 

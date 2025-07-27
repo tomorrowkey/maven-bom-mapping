@@ -1,0 +1,2009 @@
+{
+  "version" : "3.1.10",
+  "artifacts" : [ {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-amqp",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-amqp:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-blueprint",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-blueprint:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-broker",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-broker:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-client",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-client:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-client-jakarta",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-client-jakarta:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-console",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-console:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-http",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-http:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-jaas",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-jaas:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-jdbc-store",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-jdbc-store:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-jms-pool",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-jms-pool:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-kahadb-store",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-kahadb-store:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-karaf",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-karaf:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-log4j-appender",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-log4j-appender:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-mqtt",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-mqtt:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-openwire-generator",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-openwire-generator:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-openwire-legacy",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-openwire-legacy:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-osgi",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-osgi:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-partition",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-partition:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-pool",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-pool:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-ra",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-ra:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-run",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-run:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-runtime-config",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-runtime-config:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-shiro",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-shiro:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-spring",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-spring:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-stomp",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-stomp:${activemq.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-web",
+    "version" : "${activemq.version}",
+    "coordinates" : "org.apache.activemq:activemq-web:${activemq.version}"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "angus-core",
+    "version" : "${angus-mail.version}",
+    "coordinates" : "org.eclipse.angus:angus-core:${angus-mail.version}"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "angus-mail",
+    "version" : "${angus-mail.version}",
+    "coordinates" : "org.eclipse.angus:angus-mail:${angus-mail.version}"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "dsn",
+    "version" : "${angus-mail.version}",
+    "coordinates" : "org.eclipse.angus:dsn:${angus-mail.version}"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "gimap",
+    "version" : "${angus-mail.version}",
+    "coordinates" : "org.eclipse.angus:gimap:${angus-mail.version}"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "imap",
+    "version" : "${angus-mail.version}",
+    "coordinates" : "org.eclipse.angus:imap:${angus-mail.version}"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "jakarta.mail",
+    "version" : "${angus-mail.version}",
+    "coordinates" : "org.eclipse.angus:jakarta.mail:${angus-mail.version}"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "logging-mailhandler",
+    "version" : "${angus-mail.version}",
+    "coordinates" : "org.eclipse.angus:logging-mailhandler:${angus-mail.version}"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "pop3",
+    "version" : "${angus-mail.version}",
+    "coordinates" : "org.eclipse.angus:pop3:${angus-mail.version}"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "smtp",
+    "version" : "${angus-mail.version}",
+    "coordinates" : "org.eclipse.angus:smtp:${angus-mail.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-amqp-protocol",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-amqp-protocol:${artemis.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-commons",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-commons:${artemis.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-core-client",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-core-client:${artemis.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-jakarta-client",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-jakarta-client:${artemis.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-jakarta-server",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-jakarta-server:${artemis.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-jakarta-service-extensions",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-jakarta-service-extensions:${artemis.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-jdbc-store",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-jdbc-store:${artemis.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-journal",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-journal:${artemis.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-quorum-api",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-quorum-api:${artemis.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-selector",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-selector:${artemis.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-server",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-server:${artemis.version}"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-service-extensions",
+    "version" : "${artemis.version}",
+    "coordinates" : "org.apache.activemq:artemis-service-extensions:${artemis.version}"
+  }, {
+    "groupId" : "org.aspectj",
+    "artifactId" : "aspectjrt",
+    "version" : "${aspectj.version}",
+    "coordinates" : "org.aspectj:aspectjrt:${aspectj.version}"
+  }, {
+    "groupId" : "org.aspectj",
+    "artifactId" : "aspectjtools",
+    "version" : "${aspectj.version}",
+    "coordinates" : "org.aspectj:aspectjtools:${aspectj.version}"
+  }, {
+    "groupId" : "org.aspectj",
+    "artifactId" : "aspectjweaver",
+    "version" : "${aspectj.version}",
+    "coordinates" : "org.aspectj:aspectjweaver:${aspectj.version}"
+  }, {
+    "groupId" : "org.awaitility",
+    "artifactId" : "awaitility",
+    "version" : "${awaitility.version}",
+    "coordinates" : "org.awaitility:awaitility:${awaitility.version}"
+  }, {
+    "groupId" : "org.awaitility",
+    "artifactId" : "awaitility-groovy",
+    "version" : "${awaitility.version}",
+    "coordinates" : "org.awaitility:awaitility-groovy:${awaitility.version}"
+  }, {
+    "groupId" : "org.awaitility",
+    "artifactId" : "awaitility-kotlin",
+    "version" : "${awaitility.version}",
+    "coordinates" : "org.awaitility:awaitility-kotlin:${awaitility.version}"
+  }, {
+    "groupId" : "org.awaitility",
+    "artifactId" : "awaitility-scala",
+    "version" : "${awaitility.version}",
+    "coordinates" : "org.awaitility:awaitility-scala:${awaitility.version}"
+  }, {
+    "groupId" : "net.bytebuddy",
+    "artifactId" : "byte-buddy",
+    "version" : "${byte-buddy.version}",
+    "coordinates" : "net.bytebuddy:byte-buddy:${byte-buddy.version}"
+  }, {
+    "groupId" : "net.bytebuddy",
+    "artifactId" : "byte-buddy-agent",
+    "version" : "${byte-buddy.version}",
+    "coordinates" : "net.bytebuddy:byte-buddy-agent:${byte-buddy.version}"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-api",
+    "version" : "${cache2k.version}",
+    "coordinates" : "org.cache2k:cache2k-api:${cache2k.version}"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-config",
+    "version" : "${cache2k.version}",
+    "coordinates" : "org.cache2k:cache2k-config:${cache2k.version}"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-core",
+    "version" : "${cache2k.version}",
+    "coordinates" : "org.cache2k:cache2k-core:${cache2k.version}"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-jcache",
+    "version" : "${cache2k.version}",
+    "coordinates" : "org.cache2k:cache2k-jcache:${cache2k.version}"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-micrometer",
+    "version" : "${cache2k.version}",
+    "coordinates" : "org.cache2k:cache2k-micrometer:${cache2k.version}"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-spring",
+    "version" : "${cache2k.version}",
+    "coordinates" : "org.cache2k:cache2k-spring:${cache2k.version}"
+  }, {
+    "groupId" : "com.github.ben-manes.caffeine",
+    "artifactId" : "caffeine",
+    "version" : "${caffeine.version}",
+    "coordinates" : "com.github.ben-manes.caffeine:caffeine:${caffeine.version}"
+  }, {
+    "groupId" : "com.github.ben-manes.caffeine",
+    "artifactId" : "guava",
+    "version" : "${caffeine.version}",
+    "coordinates" : "com.github.ben-manes.caffeine:guava:${caffeine.version}"
+  }, {
+    "groupId" : "com.github.ben-manes.caffeine",
+    "artifactId" : "jcache",
+    "version" : "${caffeine.version}",
+    "coordinates" : "com.github.ben-manes.caffeine:jcache:${caffeine.version}"
+  }, {
+    "groupId" : "com.github.ben-manes.caffeine",
+    "artifactId" : "simulator",
+    "version" : "${caffeine.version}",
+    "coordinates" : "com.github.ben-manes.caffeine:simulator:${caffeine.version}"
+  }, {
+    "groupId" : "com.datastax.oss",
+    "artifactId" : "java-driver-core",
+    "version" : "${cassandra-driver.version}",
+    "coordinates" : "com.datastax.oss:java-driver-core:${cassandra-driver.version}"
+  }, {
+    "groupId" : "com.fasterxml",
+    "artifactId" : "classmate",
+    "version" : "${classmate.version}",
+    "coordinates" : "com.fasterxml:classmate:${classmate.version}"
+  }, {
+    "groupId" : "commons-codec",
+    "artifactId" : "commons-codec",
+    "version" : "${commons-codec.version}",
+    "coordinates" : "commons-codec:commons-codec:${commons-codec.version}"
+  }, {
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-dbcp2",
+    "version" : "${commons-dbcp2.version}",
+    "coordinates" : "org.apache.commons:commons-dbcp2:${commons-dbcp2.version}"
+  }, {
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-lang3",
+    "version" : "${commons-lang3.version}",
+    "coordinates" : "org.apache.commons:commons-lang3:${commons-lang3.version}"
+  }, {
+    "groupId" : "commons-pool",
+    "artifactId" : "commons-pool",
+    "version" : "${commons-pool.version}",
+    "coordinates" : "commons-pool:commons-pool:${commons-pool.version}"
+  }, {
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-pool2",
+    "version" : "${commons-pool2.version}",
+    "coordinates" : "org.apache.commons:commons-pool2:${commons-pool2.version}"
+  }, {
+    "groupId" : "com.couchbase.client",
+    "artifactId" : "java-client",
+    "version" : "${couchbase-client.version}",
+    "coordinates" : "com.couchbase.client:java-client:${couchbase-client.version}"
+  }, {
+    "groupId" : "com.ibm.db2",
+    "artifactId" : "jcc",
+    "version" : "${db2-jdbc.version}",
+    "coordinates" : "com.ibm.db2:jcc:${db2-jdbc.version}"
+  }, {
+    "groupId" : "io.spring.gradle",
+    "artifactId" : "dependency-management-plugin",
+    "version" : "${dependency-management-plugin.version}",
+    "coordinates" : "io.spring.gradle:dependency-management-plugin:${dependency-management-plugin.version}"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derby",
+    "version" : "${derby.version}",
+    "coordinates" : "org.apache.derby:derby:${derby.version}"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derbyclient",
+    "version" : "${derby.version}",
+    "coordinates" : "org.apache.derby:derbyclient:${derby.version}"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derbynet",
+    "version" : "${derby.version}",
+    "coordinates" : "org.apache.derby:derbynet:${derby.version}"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derbyoptionaltools",
+    "version" : "${derby.version}",
+    "coordinates" : "org.apache.derby:derbyoptionaltools:${derby.version}"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derbyshared",
+    "version" : "${derby.version}",
+    "coordinates" : "org.apache.derby:derbyshared:${derby.version}"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derbytools",
+    "version" : "${derby.version}",
+    "coordinates" : "org.apache.derby:derbytools:${derby.version}"
+  }, {
+    "groupId" : "org.ehcache",
+    "artifactId" : "ehcache",
+    "version" : "${ehcache3.version}",
+    "coordinates" : "org.ehcache:ehcache:${ehcache3.version}"
+  }, {
+    "groupId" : "org.ehcache",
+    "artifactId" : "ehcache",
+    "version" : "${ehcache3.version}",
+    "coordinates" : "org.ehcache:ehcache:${ehcache3.version}"
+  }, {
+    "groupId" : "org.ehcache",
+    "artifactId" : "ehcache-clustered",
+    "version" : "${ehcache3.version}",
+    "coordinates" : "org.ehcache:ehcache-clustered:${ehcache3.version}"
+  }, {
+    "groupId" : "org.ehcache",
+    "artifactId" : "ehcache-transactions",
+    "version" : "${ehcache3.version}",
+    "coordinates" : "org.ehcache:ehcache-transactions:${ehcache3.version}"
+  }, {
+    "groupId" : "org.ehcache",
+    "artifactId" : "ehcache-transactions",
+    "version" : "${ehcache3.version}",
+    "coordinates" : "org.ehcache:ehcache-transactions:${ehcache3.version}"
+  }, {
+    "groupId" : "org.elasticsearch.client",
+    "artifactId" : "elasticsearch-rest-client",
+    "version" : "${elasticsearch-client.version}",
+    "coordinates" : "org.elasticsearch.client:elasticsearch-rest-client:${elasticsearch-client.version}"
+  }, {
+    "groupId" : "org.elasticsearch.client",
+    "artifactId" : "elasticsearch-rest-client-sniffer",
+    "version" : "${elasticsearch-client.version}",
+    "coordinates" : "org.elasticsearch.client:elasticsearch-rest-client-sniffer:${elasticsearch-client.version}"
+  }, {
+    "groupId" : "co.elastic.clients",
+    "artifactId" : "elasticsearch-java",
+    "version" : "${elasticsearch-client.version}",
+    "coordinates" : "co.elastic.clients:elasticsearch-java:${elasticsearch-client.version}"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-core",
+    "version" : "${flyway.version}",
+    "coordinates" : "org.flywaydb:flyway-core:${flyway.version}"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-firebird",
+    "version" : "${flyway.version}",
+    "coordinates" : "org.flywaydb:flyway-firebird:${flyway.version}"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-mysql",
+    "version" : "${flyway.version}",
+    "coordinates" : "org.flywaydb:flyway-mysql:${flyway.version}"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-sqlserver",
+    "version" : "${flyway.version}",
+    "coordinates" : "org.flywaydb:flyway-sqlserver:${flyway.version}"
+  }, {
+    "groupId" : "org.freemarker",
+    "artifactId" : "freemarker",
+    "version" : "${freemarker.version}",
+    "coordinates" : "org.freemarker:freemarker:${freemarker.version}"
+  }, {
+    "groupId" : "org.glassfish.web",
+    "artifactId" : "jakarta.servlet.jsp.jstl",
+    "version" : "${glassfish-jstl.version}",
+    "coordinates" : "org.glassfish.web:jakarta.servlet.jsp.jstl:${glassfish-jstl.version}"
+  }, {
+    "groupId" : "com.graphql-java",
+    "artifactId" : "graphql-java",
+    "version" : "${graphql-java.version}",
+    "coordinates" : "com.graphql-java:graphql-java:${graphql-java.version}"
+  }, {
+    "groupId" : "com.google.code.gson",
+    "artifactId" : "gson",
+    "version" : "${gson.version}",
+    "coordinates" : "com.google.code.gson:gson:${gson.version}"
+  }, {
+    "groupId" : "com.h2database",
+    "artifactId" : "h2",
+    "version" : "${h2.version}",
+    "coordinates" : "com.h2database:h2:${h2.version}"
+  }, {
+    "groupId" : "org.hamcrest",
+    "artifactId" : "hamcrest",
+    "version" : "${hamcrest.version}",
+    "coordinates" : "org.hamcrest:hamcrest:${hamcrest.version}"
+  }, {
+    "groupId" : "org.hamcrest",
+    "artifactId" : "hamcrest-core",
+    "version" : "${hamcrest.version}",
+    "coordinates" : "org.hamcrest:hamcrest-core:${hamcrest.version}"
+  }, {
+    "groupId" : "org.hamcrest",
+    "artifactId" : "hamcrest-library",
+    "version" : "${hamcrest.version}",
+    "coordinates" : "org.hamcrest:hamcrest-library:${hamcrest.version}"
+  }, {
+    "groupId" : "com.hazelcast",
+    "artifactId" : "hazelcast",
+    "version" : "${hazelcast.version}",
+    "coordinates" : "com.hazelcast:hazelcast:${hazelcast.version}"
+  }, {
+    "groupId" : "com.hazelcast",
+    "artifactId" : "hazelcast-spring",
+    "version" : "${hazelcast.version}",
+    "coordinates" : "com.hazelcast:hazelcast-spring:${hazelcast.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-agroal",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-agroal:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-ant",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-ant:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-c3p0",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-c3p0:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-community-dialects",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-community-dialects:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-core",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-core:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-envers",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-envers:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-graalvm",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-graalvm:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-hikaricp",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-hikaricp:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-jcache",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-jcache:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-jpamodelgen",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-jpamodelgen:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-micrometer",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-micrometer:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-proxool",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-proxool:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-spatial",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-spatial:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-testing",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-testing:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-vibur",
+    "version" : "${hibernate.version}",
+    "coordinates" : "org.hibernate.orm:hibernate-vibur:${hibernate.version}"
+  }, {
+    "groupId" : "org.hibernate.validator",
+    "artifactId" : "hibernate-validator",
+    "version" : "${hibernate-validator.version}",
+    "coordinates" : "org.hibernate.validator:hibernate-validator:${hibernate-validator.version}"
+  }, {
+    "groupId" : "org.hibernate.validator",
+    "artifactId" : "hibernate-validator-annotation-processor",
+    "version" : "${hibernate-validator.version}",
+    "coordinates" : "org.hibernate.validator:hibernate-validator-annotation-processor:${hibernate-validator.version}"
+  }, {
+    "groupId" : "com.zaxxer",
+    "artifactId" : "HikariCP",
+    "version" : "${hikaricp.version}",
+    "coordinates" : "com.zaxxer:HikariCP:${hikaricp.version}"
+  }, {
+    "groupId" : "org.hsqldb",
+    "artifactId" : "hsqldb",
+    "version" : "${hsqldb.version}",
+    "coordinates" : "org.hsqldb:hsqldb:${hsqldb.version}"
+  }, {
+    "groupId" : "net.sourceforge.htmlunit",
+    "artifactId" : "htmlunit",
+    "version" : "${htmlunit.version}",
+    "coordinates" : "net.sourceforge.htmlunit:htmlunit:${htmlunit.version}"
+  }, {
+    "groupId" : "org.apache.httpcomponents",
+    "artifactId" : "httpasyncclient",
+    "version" : "${httpasyncclient.version}",
+    "coordinates" : "org.apache.httpcomponents:httpasyncclient:${httpasyncclient.version}"
+  }, {
+    "groupId" : "org.apache.httpcomponents.client5",
+    "artifactId" : "httpclient5",
+    "version" : "${httpclient5.version}",
+    "coordinates" : "org.apache.httpcomponents.client5:httpclient5:${httpclient5.version}"
+  }, {
+    "groupId" : "org.apache.httpcomponents.client5",
+    "artifactId" : "httpclient5-cache",
+    "version" : "${httpclient5.version}",
+    "coordinates" : "org.apache.httpcomponents.client5:httpclient5-cache:${httpclient5.version}"
+  }, {
+    "groupId" : "org.apache.httpcomponents.client5",
+    "artifactId" : "httpclient5-fluent",
+    "version" : "${httpclient5.version}",
+    "coordinates" : "org.apache.httpcomponents.client5:httpclient5-fluent:${httpclient5.version}"
+  }, {
+    "groupId" : "org.apache.httpcomponents.client5",
+    "artifactId" : "httpclient5-win",
+    "version" : "${httpclient5.version}",
+    "coordinates" : "org.apache.httpcomponents.client5:httpclient5-win:${httpclient5.version}"
+  }, {
+    "groupId" : "org.apache.httpcomponents",
+    "artifactId" : "httpcore",
+    "version" : "${httpcore.version}",
+    "coordinates" : "org.apache.httpcomponents:httpcore:${httpcore.version}"
+  }, {
+    "groupId" : "org.apache.httpcomponents",
+    "artifactId" : "httpcore-nio",
+    "version" : "${httpcore.version}",
+    "coordinates" : "org.apache.httpcomponents:httpcore-nio:${httpcore.version}"
+  }, {
+    "groupId" : "org.apache.httpcomponents.core5",
+    "artifactId" : "httpcore5",
+    "version" : "${httpcore5.version}",
+    "coordinates" : "org.apache.httpcomponents.core5:httpcore5:${httpcore5.version}"
+  }, {
+    "groupId" : "org.apache.httpcomponents.core5",
+    "artifactId" : "httpcore5-h2",
+    "version" : "${httpcore5.version}",
+    "coordinates" : "org.apache.httpcomponents.core5:httpcore5-h2:${httpcore5.version}"
+  }, {
+    "groupId" : "org.apache.httpcomponents.core5",
+    "artifactId" : "httpcore5-reactive",
+    "version" : "${httpcore5.version}",
+    "coordinates" : "org.apache.httpcomponents.core5:httpcore5-reactive:${httpcore5.version}"
+  }, {
+    "groupId" : "org.influxdb",
+    "artifactId" : "influxdb-java",
+    "version" : "${influxdb-java.version}",
+    "coordinates" : "org.influxdb:influxdb-java:${influxdb-java.version}"
+  }, {
+    "groupId" : "jakarta.activation",
+    "artifactId" : "jakarta.activation-api",
+    "version" : "${jakarta-activation.version}",
+    "coordinates" : "jakarta.activation:jakarta.activation-api:${jakarta-activation.version}"
+  }, {
+    "groupId" : "jakarta.annotation",
+    "artifactId" : "jakarta.annotation-api",
+    "version" : "${jakarta-annotation.version}",
+    "coordinates" : "jakarta.annotation:jakarta.annotation-api:${jakarta-annotation.version}"
+  }, {
+    "groupId" : "jakarta.jms",
+    "artifactId" : "jakarta.jms-api",
+    "version" : "${jakarta-jms.version}",
+    "coordinates" : "jakarta.jms:jakarta.jms-api:${jakarta-jms.version}"
+  }, {
+    "groupId" : "jakarta.json",
+    "artifactId" : "jakarta.json-api",
+    "version" : "${jakarta-json.version}",
+    "coordinates" : "jakarta.json:jakarta.json-api:${jakarta-json.version}"
+  }, {
+    "groupId" : "jakarta.json.bind",
+    "artifactId" : "jakarta.json.bind-api",
+    "version" : "${jakarta-json-bind.version}",
+    "coordinates" : "jakarta.json.bind:jakarta.json.bind-api:${jakarta-json-bind.version}"
+  }, {
+    "groupId" : "jakarta.mail",
+    "artifactId" : "jakarta.mail-api",
+    "version" : "${jakarta-mail.version}",
+    "coordinates" : "jakarta.mail:jakarta.mail-api:${jakarta-mail.version}"
+  }, {
+    "groupId" : "jakarta.management.j2ee",
+    "artifactId" : "jakarta.management.j2ee-api",
+    "version" : "${jakarta-management.version}",
+    "coordinates" : "jakarta.management.j2ee:jakarta.management.j2ee-api:${jakarta-management.version}"
+  }, {
+    "groupId" : "jakarta.persistence",
+    "artifactId" : "jakarta.persistence-api",
+    "version" : "${jakarta-persistence.version}",
+    "coordinates" : "jakarta.persistence:jakarta.persistence-api:${jakarta-persistence.version}"
+  }, {
+    "groupId" : "jakarta.servlet",
+    "artifactId" : "jakarta.servlet-api",
+    "version" : "${jakarta-servlet.version}",
+    "coordinates" : "jakarta.servlet:jakarta.servlet-api:${jakarta-servlet.version}"
+  }, {
+    "groupId" : "jakarta.servlet.jsp.jstl",
+    "artifactId" : "jakarta.servlet.jsp.jstl-api",
+    "version" : "${jakarta-servlet-jsp-jstl.version}",
+    "coordinates" : "jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:${jakarta-servlet-jsp-jstl.version}"
+  }, {
+    "groupId" : "jakarta.transaction",
+    "artifactId" : "jakarta.transaction-api",
+    "version" : "${jakarta-transaction.version}",
+    "coordinates" : "jakarta.transaction:jakarta.transaction-api:${jakarta-transaction.version}"
+  }, {
+    "groupId" : "jakarta.validation",
+    "artifactId" : "jakarta.validation-api",
+    "version" : "${jakarta-validation.version}",
+    "coordinates" : "jakarta.validation:jakarta.validation-api:${jakarta-validation.version}"
+  }, {
+    "groupId" : "jakarta.websocket",
+    "artifactId" : "jakarta.websocket-api",
+    "version" : "${jakarta-websocket.version}",
+    "coordinates" : "jakarta.websocket:jakarta.websocket-api:${jakarta-websocket.version}"
+  }, {
+    "groupId" : "jakarta.websocket",
+    "artifactId" : "jakarta.websocket-client-api",
+    "version" : "${jakarta-websocket.version}",
+    "coordinates" : "jakarta.websocket:jakarta.websocket-client-api:${jakarta-websocket.version}"
+  }, {
+    "groupId" : "jakarta.ws.rs",
+    "artifactId" : "jakarta.ws.rs-api",
+    "version" : "${jakarta-ws-rs.version}",
+    "coordinates" : "jakarta.ws.rs:jakarta.ws.rs-api:${jakarta-ws-rs.version}"
+  }, {
+    "groupId" : "jakarta.xml.bind",
+    "artifactId" : "jakarta.xml.bind-api",
+    "version" : "${jakarta-xml-bind.version}",
+    "coordinates" : "jakarta.xml.bind:jakarta.xml.bind-api:${jakarta-xml-bind.version}"
+  }, {
+    "groupId" : "jakarta.xml.soap",
+    "artifactId" : "jakarta.xml.soap-api",
+    "version" : "${jakarta-xml-soap.version}",
+    "coordinates" : "jakarta.xml.soap:jakarta.xml.soap-api:${jakarta-xml-soap.version}"
+  }, {
+    "groupId" : "jakarta.xml.ws",
+    "artifactId" : "jakarta.xml.ws-api",
+    "version" : "${jakarta-xml-ws.version}",
+    "coordinates" : "jakarta.xml.ws:jakarta.xml.ws-api:${jakarta-xml-ws.version}"
+  }, {
+    "groupId" : "org.codehaus.janino",
+    "artifactId" : "commons-compiler",
+    "version" : "${janino.version}",
+    "coordinates" : "org.codehaus.janino:commons-compiler:${janino.version}"
+  }, {
+    "groupId" : "org.codehaus.janino",
+    "artifactId" : "commons-compiler-jdk",
+    "version" : "${janino.version}",
+    "coordinates" : "org.codehaus.janino:commons-compiler-jdk:${janino.version}"
+  }, {
+    "groupId" : "org.codehaus.janino",
+    "artifactId" : "janino",
+    "version" : "${janino.version}",
+    "coordinates" : "org.codehaus.janino:janino:${janino.version}"
+  }, {
+    "groupId" : "javax.cache",
+    "artifactId" : "cache-api",
+    "version" : "${javax-cache.version}",
+    "coordinates" : "javax.cache:cache-api:${javax-cache.version}"
+  }, {
+    "groupId" : "javax.money",
+    "artifactId" : "money-api",
+    "version" : "${javax-money.version}",
+    "coordinates" : "javax.money:money-api:${javax-money.version}"
+  }, {
+    "groupId" : "jaxen",
+    "artifactId" : "jaxen",
+    "version" : "${jaxen.version}",
+    "coordinates" : "jaxen:jaxen:${jaxen.version}"
+  }, {
+    "groupId" : "org.firebirdsql.jdbc",
+    "artifactId" : "jaybird",
+    "version" : "${jaybird.version}",
+    "coordinates" : "org.firebirdsql.jdbc:jaybird:${jaybird.version}"
+  }, {
+    "groupId" : "org.jboss.logging",
+    "artifactId" : "jboss-logging",
+    "version" : "${jboss-logging.version}",
+    "coordinates" : "org.jboss.logging:jboss-logging:${jboss-logging.version}"
+  }, {
+    "groupId" : "org.jdom",
+    "artifactId" : "jdom2",
+    "version" : "${jdom2.version}",
+    "coordinates" : "org.jdom:jdom2:${jdom2.version}"
+  }, {
+    "groupId" : "redis.clients",
+    "artifactId" : "jedis",
+    "version" : "${jedis.version}",
+    "coordinates" : "redis.clients:jedis:${jedis.version}"
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-reactive-httpclient",
+    "version" : "${jetty-reactive-httpclient.version}",
+    "coordinates" : "org.eclipse.jetty:jetty-reactive-httpclient:${jetty-reactive-httpclient.version}"
+  }, {
+    "groupId" : "com.samskivert",
+    "artifactId" : "jmustache",
+    "version" : "${jmustache.version}",
+    "coordinates" : "com.samskivert:jmustache:${jmustache.version}"
+  }, {
+    "groupId" : "org.jooq",
+    "artifactId" : "jooq",
+    "version" : "${jooq.version}",
+    "coordinates" : "org.jooq:jooq:${jooq.version}"
+  }, {
+    "groupId" : "org.jooq",
+    "artifactId" : "jooq-codegen",
+    "version" : "${jooq.version}",
+    "coordinates" : "org.jooq:jooq-codegen:${jooq.version}"
+  }, {
+    "groupId" : "org.jooq",
+    "artifactId" : "jooq-kotlin",
+    "version" : "${jooq.version}",
+    "coordinates" : "org.jooq:jooq-kotlin:${jooq.version}"
+  }, {
+    "groupId" : "org.jooq",
+    "artifactId" : "jooq-meta",
+    "version" : "${jooq.version}",
+    "coordinates" : "org.jooq:jooq-meta:${jooq.version}"
+  }, {
+    "groupId" : "com.jayway.jsonpath",
+    "artifactId" : "json-path",
+    "version" : "${json-path.version}",
+    "coordinates" : "com.jayway.jsonpath:json-path:${json-path.version}"
+  }, {
+    "groupId" : "com.jayway.jsonpath",
+    "artifactId" : "json-path-assert",
+    "version" : "${json-path.version}",
+    "coordinates" : "com.jayway.jsonpath:json-path-assert:${json-path.version}"
+  }, {
+    "groupId" : "net.minidev",
+    "artifactId" : "json-smart",
+    "version" : "${json-smart.version}",
+    "coordinates" : "net.minidev:json-smart:${json-smart.version}"
+  }, {
+    "groupId" : "org.skyscreamer",
+    "artifactId" : "jsonassert",
+    "version" : "${jsonassert.version}",
+    "coordinates" : "org.skyscreamer:jsonassert:${jsonassert.version}"
+  }, {
+    "groupId" : "net.sourceforge.jtds",
+    "artifactId" : "jtds",
+    "version" : "${jtds.version}",
+    "coordinates" : "net.sourceforge.jtds:jtds:${jtds.version}"
+  }, {
+    "groupId" : "junit",
+    "artifactId" : "junit",
+    "version" : "${junit.version}",
+    "coordinates" : "junit:junit:${junit.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:connect:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-api",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:connect-api:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-basic-auth-extension",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:connect-basic-auth-extension:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-file",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:connect-file:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-json",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:connect-json:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-mirror",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:connect-mirror:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-mirror-client",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:connect-mirror-client:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-runtime",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:connect-runtime:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-transforms",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:connect-transforms:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "generator",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:generator:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-clients",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-clients:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-clients",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-clients:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-log4j-appender",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-log4j-appender:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-metadata",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-metadata:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-raft",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-raft:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-server-common",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-server-common:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-server-common",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-server-common:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-shell",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-shell:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-storage",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-storage:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-storage-api",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-storage-api:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-streams",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-streams:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-streams-scala_2.12",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-streams-scala_2.12:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-streams-scala_2.13",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-streams-scala_2.13:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-streams-test-utils",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-streams-test-utils:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-tools",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka-tools:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka_2.12",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka_2.12:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka_2.12",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka_2.12:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka_2.13",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka_2.13:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka_2.13",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:kafka_2.13:${kafka.version}"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "trogdor",
+    "version" : "${kafka.version}",
+    "coordinates" : "org.apache.kafka:trogdor:${kafka.version}"
+  }, {
+    "groupId" : "io.lettuce",
+    "artifactId" : "lettuce-core",
+    "version" : "${lettuce.version}",
+    "coordinates" : "io.lettuce:lettuce-core:${lettuce.version}"
+  }, {
+    "groupId" : "org.liquibase",
+    "artifactId" : "liquibase-cdi",
+    "version" : "${liquibase.version}",
+    "coordinates" : "org.liquibase:liquibase-cdi:${liquibase.version}"
+  }, {
+    "groupId" : "org.liquibase",
+    "artifactId" : "liquibase-core",
+    "version" : "${liquibase.version}",
+    "coordinates" : "org.liquibase:liquibase-core:${liquibase.version}"
+  }, {
+    "groupId" : "ch.qos.logback",
+    "artifactId" : "logback-access",
+    "version" : "${logback.version}",
+    "coordinates" : "ch.qos.logback:logback-access:${logback.version}"
+  }, {
+    "groupId" : "ch.qos.logback",
+    "artifactId" : "logback-classic",
+    "version" : "${logback.version}",
+    "coordinates" : "ch.qos.logback:logback-classic:${logback.version}"
+  }, {
+    "groupId" : "ch.qos.logback",
+    "artifactId" : "logback-core",
+    "version" : "${logback.version}",
+    "coordinates" : "ch.qos.logback:logback-core:${logback.version}"
+  }, {
+    "groupId" : "org.projectlombok",
+    "artifactId" : "lombok",
+    "version" : "${lombok.version}",
+    "coordinates" : "org.projectlombok:lombok:${lombok.version}"
+  }, {
+    "groupId" : "org.mariadb.jdbc",
+    "artifactId" : "mariadb-java-client",
+    "version" : "${mariadb.version}",
+    "coordinates" : "org.mariadb.jdbc:mariadb-java-client:${mariadb.version}"
+  }, {
+    "groupId" : "io.micrometer",
+    "artifactId" : "micrometer-registry-stackdriver",
+    "version" : "${micrometer.version}",
+    "coordinates" : "io.micrometer:micrometer-registry-stackdriver:${micrometer.version}"
+  }, {
+    "groupId" : "org.mongodb",
+    "artifactId" : "bson",
+    "version" : "${mongodb.version}",
+    "coordinates" : "org.mongodb:bson:${mongodb.version}"
+  }, {
+    "groupId" : "org.mongodb",
+    "artifactId" : "bson-record-codec",
+    "version" : "${mongodb.version}",
+    "coordinates" : "org.mongodb:bson-record-codec:${mongodb.version}"
+  }, {
+    "groupId" : "org.mongodb",
+    "artifactId" : "mongodb-driver-core",
+    "version" : "${mongodb.version}",
+    "coordinates" : "org.mongodb:mongodb-driver-core:${mongodb.version}"
+  }, {
+    "groupId" : "org.mongodb",
+    "artifactId" : "mongodb-driver-legacy",
+    "version" : "${mongodb.version}",
+    "coordinates" : "org.mongodb:mongodb-driver-legacy:${mongodb.version}"
+  }, {
+    "groupId" : "org.mongodb",
+    "artifactId" : "mongodb-driver-reactivestreams",
+    "version" : "${mongodb.version}",
+    "coordinates" : "org.mongodb:mongodb-driver-reactivestreams:${mongodb.version}"
+  }, {
+    "groupId" : "org.mongodb",
+    "artifactId" : "mongodb-driver-sync",
+    "version" : "${mongodb.version}",
+    "coordinates" : "org.mongodb:mongodb-driver-sync:${mongodb.version}"
+  }, {
+    "groupId" : "com.microsoft.sqlserver",
+    "artifactId" : "mssql-jdbc",
+    "version" : "${mssql-jdbc.version}",
+    "coordinates" : "com.microsoft.sqlserver:mssql-jdbc:${mssql-jdbc.version}"
+  }, {
+    "groupId" : "com.mysql",
+    "artifactId" : "mysql-connector-j",
+    "version" : "${mysql.version}",
+    "coordinates" : "com.mysql:mysql-connector-j:${mysql.version}"
+  }, {
+    "groupId" : "net.sourceforge.nekohtml",
+    "artifactId" : "nekohtml",
+    "version" : "${nekohtml.version}",
+    "coordinates" : "net.sourceforge.nekohtml:nekohtml:${nekohtml.version}"
+  }, {
+    "groupId" : "org.neo4j.driver",
+    "artifactId" : "neo4j-java-driver",
+    "version" : "${neo4j-java-driver.version}",
+    "coordinates" : "org.neo4j.driver:neo4j-java-driver:${neo4j-java-driver.version}"
+  }, {
+    "groupId" : "com.oracle.database.r2dbc",
+    "artifactId" : "oracle-r2dbc",
+    "version" : "${oracle-r2dbc.version}",
+    "coordinates" : "com.oracle.database.r2dbc:oracle-r2dbc:${oracle-r2dbc.version}"
+  }, {
+    "groupId" : "org.messaginghub",
+    "artifactId" : "pooled-jms",
+    "version" : "${pooled-jms.version}",
+    "coordinates" : "org.messaginghub:pooled-jms:${pooled-jms.version}"
+  }, {
+    "groupId" : "org.postgresql",
+    "artifactId" : "postgresql",
+    "version" : "${postgresql.version}",
+    "coordinates" : "org.postgresql:postgresql:${postgresql.version}"
+  }, {
+    "groupId" : "org.quartz-scheduler",
+    "artifactId" : "quartz",
+    "version" : "${quartz.version}",
+    "coordinates" : "org.quartz-scheduler:quartz:${quartz.version}"
+  }, {
+    "groupId" : "org.quartz-scheduler",
+    "artifactId" : "quartz-jobs",
+    "version" : "${quartz.version}",
+    "coordinates" : "org.quartz-scheduler:quartz-jobs:${quartz.version}"
+  }, {
+    "groupId" : "io.r2dbc",
+    "artifactId" : "r2dbc-h2",
+    "version" : "${r2dbc-h2.version}",
+    "coordinates" : "io.r2dbc:r2dbc-h2:${r2dbc-h2.version}"
+  }, {
+    "groupId" : "org.mariadb",
+    "artifactId" : "r2dbc-mariadb",
+    "version" : "${r2dbc-mariadb.version}",
+    "coordinates" : "org.mariadb:r2dbc-mariadb:${r2dbc-mariadb.version}"
+  }, {
+    "groupId" : "io.r2dbc",
+    "artifactId" : "r2dbc-mssql",
+    "version" : "${r2dbc-mssql.version}",
+    "coordinates" : "io.r2dbc:r2dbc-mssql:${r2dbc-mssql.version}"
+  }, {
+    "groupId" : "io.asyncer",
+    "artifactId" : "r2dbc-mysql",
+    "version" : "${r2dbc-mysql.version}",
+    "coordinates" : "io.asyncer:r2dbc-mysql:${r2dbc-mysql.version}"
+  }, {
+    "groupId" : "io.r2dbc",
+    "artifactId" : "r2dbc-pool",
+    "version" : "${r2dbc-pool.version}",
+    "coordinates" : "io.r2dbc:r2dbc-pool:${r2dbc-pool.version}"
+  }, {
+    "groupId" : "org.postgresql",
+    "artifactId" : "r2dbc-postgresql",
+    "version" : "${r2dbc-postgresql.version}",
+    "coordinates" : "org.postgresql:r2dbc-postgresql:${r2dbc-postgresql.version}"
+  }, {
+    "groupId" : "io.r2dbc",
+    "artifactId" : "r2dbc-proxy",
+    "version" : "${r2dbc-proxy.version}",
+    "coordinates" : "io.r2dbc:r2dbc-proxy:${r2dbc-proxy.version}"
+  }, {
+    "groupId" : "io.r2dbc",
+    "artifactId" : "r2dbc-spi",
+    "version" : "${r2dbc-spi.version}",
+    "coordinates" : "io.r2dbc:r2dbc-spi:${r2dbc-spi.version}"
+  }, {
+    "groupId" : "com.rabbitmq",
+    "artifactId" : "amqp-client",
+    "version" : "${rabbit-amqp-client.version}",
+    "coordinates" : "com.rabbitmq:amqp-client:${rabbit-amqp-client.version}"
+  }, {
+    "groupId" : "com.rabbitmq",
+    "artifactId" : "stream-client",
+    "version" : "${rabbit-stream-client.version}",
+    "coordinates" : "com.rabbitmq:stream-client:${rabbit-stream-client.version}"
+  }, {
+    "groupId" : "org.reactivestreams",
+    "artifactId" : "reactive-streams",
+    "version" : "${reactive-streams.version}",
+    "coordinates" : "org.reactivestreams:reactive-streams:${reactive-streams.version}"
+  }, {
+    "groupId" : "io.reactivex.rxjava3",
+    "artifactId" : "rxjava",
+    "version" : "${rxjava3.version}",
+    "coordinates" : "io.reactivex.rxjava3:rxjava:${rxjava3.version}"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-test",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-test:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-test-autoconfigure",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-test-autoconfigure:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-testcontainers",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-testcontainers:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-actuator",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-actuator:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-actuator-autoconfigure",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-actuator-autoconfigure:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-autoconfigure",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-autoconfigure:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-autoconfigure-processor",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-autoconfigure-processor:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-buildpack-platform",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-buildpack-platform:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-configuration-metadata",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-configuration-metadata:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-configuration-processor",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-configuration-processor:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-devtools",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-devtools:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-docker-compose",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-docker-compose:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-jarmode-layertools",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-jarmode-layertools:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-loader",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-loader:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-loader-tools",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-loader-tools:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-properties-migrator",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-properties-migrator:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-activemq",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-activemq:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-actuator",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-actuator:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-amqp",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-amqp:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-aop",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-aop:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-artemis",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-artemis:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-batch",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-batch:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-cache",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-cache:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-cassandra",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-cassandra:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-cassandra-reactive",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-cassandra-reactive:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-couchbase",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-couchbase:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-couchbase-reactive",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-couchbase-reactive:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-elasticsearch",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-elasticsearch:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-jdbc",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-jdbc:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-jpa",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-jpa:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-ldap",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-ldap:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-mongodb",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-mongodb:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-mongodb-reactive",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-mongodb-reactive:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-r2dbc",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-r2dbc:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-redis",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-redis:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-redis-reactive",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-redis-reactive:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-neo4j",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-neo4j:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-rest",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-rest:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-freemarker",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-freemarker:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-graphql",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-graphql:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-groovy-templates",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-groovy-templates:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-hateoas",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-hateoas:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-integration",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-integration:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jdbc",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-jdbc:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jersey",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-jersey:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jetty",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-jetty:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jooq",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-jooq:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-json",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-json:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-log4j2",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-log4j2:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-logging",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-logging:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-mail",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-mail:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-mustache",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-mustache:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-oauth2-authorization-server",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-oauth2-authorization-server:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-oauth2-client",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-oauth2-client:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-oauth2-resource-server",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-oauth2-resource-server:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-quartz",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-quartz:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-reactor-netty",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-reactor-netty:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-rsocket",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-rsocket:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-security",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-security:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-test",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-test:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-thymeleaf",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-thymeleaf:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-tomcat",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-tomcat:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-undertow",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-undertow:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-validation",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-validation:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-web",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-web:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-webflux",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-webflux:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-websocket",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-websocket:3.1.10"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-web-services",
+    "version" : "3.1.10",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-web-services:3.1.10"
+  }, {
+    "groupId" : "com.sun.xml.messaging.saaj",
+    "artifactId" : "saaj-impl",
+    "version" : "${saaj-impl.version}",
+    "coordinates" : "com.sun.xml.messaging.saaj:saaj-impl:${saaj-impl.version}"
+  }, {
+    "groupId" : "org.seleniumhq.selenium",
+    "artifactId" : "htmlunit-driver",
+    "version" : "${selenium-htmlunit.version}",
+    "coordinates" : "org.seleniumhq.selenium:htmlunit-driver:${selenium-htmlunit.version}"
+  }, {
+    "groupId" : "com.sendgrid",
+    "artifactId" : "sendgrid-java",
+    "version" : "${sendgrid.version}",
+    "coordinates" : "com.sendgrid:sendgrid-java:${sendgrid.version}"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "jcl-over-slf4j",
+    "version" : "${slf4j.version}",
+    "coordinates" : "org.slf4j:jcl-over-slf4j:${slf4j.version}"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "jul-to-slf4j",
+    "version" : "${slf4j.version}",
+    "coordinates" : "org.slf4j:jul-to-slf4j:${slf4j.version}"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "log4j-over-slf4j",
+    "version" : "${slf4j.version}",
+    "coordinates" : "org.slf4j:log4j-over-slf4j:${slf4j.version}"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-api",
+    "version" : "${slf4j.version}",
+    "coordinates" : "org.slf4j:slf4j-api:${slf4j.version}"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-ext",
+    "version" : "${slf4j.version}",
+    "coordinates" : "org.slf4j:slf4j-ext:${slf4j.version}"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-jdk-platform-logging",
+    "version" : "${slf4j.version}",
+    "coordinates" : "org.slf4j:slf4j-jdk-platform-logging:${slf4j.version}"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-jdk14",
+    "version" : "${slf4j.version}",
+    "coordinates" : "org.slf4j:slf4j-jdk14:${slf4j.version}"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-log4j12",
+    "version" : "${slf4j.version}",
+    "coordinates" : "org.slf4j:slf4j-log4j12:${slf4j.version}"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-nop",
+    "version" : "${slf4j.version}",
+    "coordinates" : "org.slf4j:slf4j-nop:${slf4j.version}"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-reload4j",
+    "version" : "${slf4j.version}",
+    "coordinates" : "org.slf4j:slf4j-reload4j:${slf4j.version}"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-simple",
+    "version" : "${slf4j.version}",
+    "coordinates" : "org.slf4j:slf4j-simple:${slf4j.version}"
+  }, {
+    "groupId" : "org.yaml",
+    "artifactId" : "snakeyaml",
+    "version" : "${snakeyaml.version}",
+    "coordinates" : "org.yaml:snakeyaml:${snakeyaml.version}"
+  }, {
+    "groupId" : "org.springframework.security",
+    "artifactId" : "spring-security-oauth2-authorization-server",
+    "version" : "${spring-authorization-server.version}",
+    "coordinates" : "org.springframework.security:spring-security-oauth2-authorization-server:${spring-authorization-server.version}"
+  }, {
+    "groupId" : "org.springframework.graphql",
+    "artifactId" : "spring-graphql",
+    "version" : "${spring-graphql.version}",
+    "coordinates" : "org.springframework.graphql:spring-graphql:${spring-graphql.version}"
+  }, {
+    "groupId" : "org.springframework.graphql",
+    "artifactId" : "spring-graphql-test",
+    "version" : "${spring-graphql.version}",
+    "coordinates" : "org.springframework.graphql:spring-graphql-test:${spring-graphql.version}"
+  }, {
+    "groupId" : "org.springframework.hateoas",
+    "artifactId" : "spring-hateoas",
+    "version" : "${spring-hateoas.version}",
+    "coordinates" : "org.springframework.hateoas:spring-hateoas:${spring-hateoas.version}"
+  }, {
+    "groupId" : "org.springframework.kafka",
+    "artifactId" : "spring-kafka",
+    "version" : "${spring-kafka.version}",
+    "coordinates" : "org.springframework.kafka:spring-kafka:${spring-kafka.version}"
+  }, {
+    "groupId" : "org.springframework.kafka",
+    "artifactId" : "spring-kafka-test",
+    "version" : "${spring-kafka.version}",
+    "coordinates" : "org.springframework.kafka:spring-kafka-test:${spring-kafka.version}"
+  }, {
+    "groupId" : "org.springframework.ldap",
+    "artifactId" : "spring-ldap-core",
+    "version" : "${spring-ldap.version}",
+    "coordinates" : "org.springframework.ldap:spring-ldap-core:${spring-ldap.version}"
+  }, {
+    "groupId" : "org.springframework.ldap",
+    "artifactId" : "spring-ldap-ldif-core",
+    "version" : "${spring-ldap.version}",
+    "coordinates" : "org.springframework.ldap:spring-ldap-ldif-core:${spring-ldap.version}"
+  }, {
+    "groupId" : "org.springframework.ldap",
+    "artifactId" : "spring-ldap-odm",
+    "version" : "${spring-ldap.version}",
+    "coordinates" : "org.springframework.ldap:spring-ldap-odm:${spring-ldap.version}"
+  }, {
+    "groupId" : "org.springframework.ldap",
+    "artifactId" : "spring-ldap-test",
+    "version" : "${spring-ldap.version}",
+    "coordinates" : "org.springframework.ldap:spring-ldap-test:${spring-ldap.version}"
+  }, {
+    "groupId" : "org.springframework.retry",
+    "artifactId" : "spring-retry",
+    "version" : "${spring-retry.version}",
+    "coordinates" : "org.springframework.retry:spring-retry:${spring-retry.version}"
+  }, {
+    "groupId" : "org.xerial",
+    "artifactId" : "sqlite-jdbc",
+    "version" : "${sqlite-jdbc.version}",
+    "coordinates" : "org.xerial:sqlite-jdbc:${sqlite-jdbc.version}"
+  }, {
+    "groupId" : "org.thymeleaf",
+    "artifactId" : "thymeleaf",
+    "version" : "${thymeleaf.version}",
+    "coordinates" : "org.thymeleaf:thymeleaf:${thymeleaf.version}"
+  }, {
+    "groupId" : "org.thymeleaf",
+    "artifactId" : "thymeleaf-spring6",
+    "version" : "${thymeleaf.version}",
+    "coordinates" : "org.thymeleaf:thymeleaf-spring6:${thymeleaf.version}"
+  }, {
+    "groupId" : "com.github.mxab.thymeleaf.extras",
+    "artifactId" : "thymeleaf-extras-data-attribute",
+    "version" : "${thymeleaf-extras-data-attribute.version}",
+    "coordinates" : "com.github.mxab.thymeleaf.extras:thymeleaf-extras-data-attribute:${thymeleaf-extras-data-attribute.version}"
+  }, {
+    "groupId" : "org.thymeleaf.extras",
+    "artifactId" : "thymeleaf-extras-springsecurity6",
+    "version" : "${thymeleaf-extras-springsecurity.version}",
+    "coordinates" : "org.thymeleaf.extras:thymeleaf-extras-springsecurity6:${thymeleaf-extras-springsecurity.version}"
+  }, {
+    "groupId" : "nz.net.ultraq.thymeleaf",
+    "artifactId" : "thymeleaf-layout-dialect",
+    "version" : "${thymeleaf-layout-dialect.version}",
+    "coordinates" : "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:${thymeleaf-layout-dialect.version}"
+  }, {
+    "groupId" : "org.apache.tomcat",
+    "artifactId" : "tomcat-annotations-api",
+    "version" : "${tomcat.version}",
+    "coordinates" : "org.apache.tomcat:tomcat-annotations-api:${tomcat.version}"
+  }, {
+    "groupId" : "org.apache.tomcat",
+    "artifactId" : "tomcat-jdbc",
+    "version" : "${tomcat.version}",
+    "coordinates" : "org.apache.tomcat:tomcat-jdbc:${tomcat.version}"
+  }, {
+    "groupId" : "org.apache.tomcat",
+    "artifactId" : "tomcat-jsp-api",
+    "version" : "${tomcat.version}",
+    "coordinates" : "org.apache.tomcat:tomcat-jsp-api:${tomcat.version}"
+  }, {
+    "groupId" : "org.apache.tomcat.embed",
+    "artifactId" : "tomcat-embed-core",
+    "version" : "${tomcat.version}",
+    "coordinates" : "org.apache.tomcat.embed:tomcat-embed-core:${tomcat.version}"
+  }, {
+    "groupId" : "org.apache.tomcat.embed",
+    "artifactId" : "tomcat-embed-el",
+    "version" : "${tomcat.version}",
+    "coordinates" : "org.apache.tomcat.embed:tomcat-embed-el:${tomcat.version}"
+  }, {
+    "groupId" : "org.apache.tomcat.embed",
+    "artifactId" : "tomcat-embed-jasper",
+    "version" : "${tomcat.version}",
+    "coordinates" : "org.apache.tomcat.embed:tomcat-embed-jasper:${tomcat.version}"
+  }, {
+    "groupId" : "org.apache.tomcat.embed",
+    "artifactId" : "tomcat-embed-websocket",
+    "version" : "${tomcat.version}",
+    "coordinates" : "org.apache.tomcat.embed:tomcat-embed-websocket:${tomcat.version}"
+  }, {
+    "groupId" : "com.unboundid",
+    "artifactId" : "unboundid-ldapsdk",
+    "version" : "${unboundid-ldapsdk.version}",
+    "coordinates" : "com.unboundid:unboundid-ldapsdk:${unboundid-ldapsdk.version}"
+  }, {
+    "groupId" : "io.undertow",
+    "artifactId" : "undertow-core",
+    "version" : "${undertow.version}",
+    "coordinates" : "io.undertow:undertow-core:${undertow.version}"
+  }, {
+    "groupId" : "io.undertow",
+    "artifactId" : "undertow-servlet",
+    "version" : "${undertow.version}",
+    "coordinates" : "io.undertow:undertow-servlet:${undertow.version}"
+  }, {
+    "groupId" : "io.undertow",
+    "artifactId" : "undertow-websockets-jsr",
+    "version" : "${undertow.version}",
+    "coordinates" : "io.undertow:undertow-websockets-jsr:${undertow.version}"
+  }, {
+    "groupId" : "org.webjars",
+    "artifactId" : "webjars-locator-core",
+    "version" : "${webjars-locator-core.version}",
+    "coordinates" : "org.webjars:webjars-locator-core:${webjars-locator-core.version}"
+  }, {
+    "groupId" : "wsdl4j",
+    "artifactId" : "wsdl4j",
+    "version" : "${wsdl4j.version}",
+    "coordinates" : "wsdl4j:wsdl4j:${wsdl4j.version}"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-assertj",
+    "version" : "${xmlunit2.version}",
+    "coordinates" : "org.xmlunit:xmlunit-assertj:${xmlunit2.version}"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-assertj3",
+    "version" : "${xmlunit2.version}",
+    "coordinates" : "org.xmlunit:xmlunit-assertj3:${xmlunit2.version}"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-core",
+    "version" : "${xmlunit2.version}",
+    "coordinates" : "org.xmlunit:xmlunit-core:${xmlunit2.version}"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-jakarta-jaxb-impl",
+    "version" : "${xmlunit2.version}",
+    "coordinates" : "org.xmlunit:xmlunit-jakarta-jaxb-impl:${xmlunit2.version}"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-legacy",
+    "version" : "${xmlunit2.version}",
+    "coordinates" : "org.xmlunit:xmlunit-legacy:${xmlunit2.version}"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-matchers",
+    "version" : "${xmlunit2.version}",
+    "coordinates" : "org.xmlunit:xmlunit-matchers:${xmlunit2.version}"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-placeholders",
+    "version" : "${xmlunit2.version}",
+    "coordinates" : "org.xmlunit:xmlunit-placeholders:${xmlunit2.version}"
+  }, {
+    "groupId" : "org.eclipse",
+    "artifactId" : "yasson",
+    "version" : "${yasson.version}",
+    "coordinates" : "org.eclipse:yasson:${yasson.version}"
+  }, {
+    "groupId" : "org.assertj",
+    "artifactId" : "assertj-bom",
+    "version" : "${assertj.version}",
+    "coordinates" : "org.assertj:assertj-bom:${assertj.version}"
+  }, {
+    "groupId" : "io.zipkin.brave",
+    "artifactId" : "brave-bom",
+    "version" : "${brave.version}",
+    "coordinates" : "io.zipkin.brave:brave-bom:${brave.version}"
+  }, {
+    "groupId" : "com.datastax.oss",
+    "artifactId" : "java-driver-bom",
+    "version" : "${cassandra-driver.version}",
+    "coordinates" : "com.datastax.oss:java-driver-bom:${cassandra-driver.version}"
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-bom",
+    "version" : "${dropwizard-metrics.version}",
+    "coordinates" : "io.dropwizard.metrics:metrics-bom:${dropwizard-metrics.version}"
+  }, {
+    "groupId" : "org.glassfish.jaxb",
+    "artifactId" : "jaxb-bom",
+    "version" : "${glassfish-jaxb.version}",
+    "coordinates" : "org.glassfish.jaxb:jaxb-bom:${glassfish-jaxb.version}"
+  }, {
+    "groupId" : "org.apache.groovy",
+    "artifactId" : "groovy-bom",
+    "version" : "${groovy.version}",
+    "coordinates" : "org.apache.groovy:groovy-bom:${groovy.version}"
+  }, {
+    "groupId" : "org.infinispan",
+    "artifactId" : "infinispan-bom",
+    "version" : "${infinispan.version}",
+    "coordinates" : "org.infinispan:infinispan-bom:${infinispan.version}"
+  }, {
+    "groupId" : "com.fasterxml.jackson",
+    "artifactId" : "jackson-bom",
+    "version" : "${jackson-bom.version}",
+    "coordinates" : "com.fasterxml.jackson:jackson-bom:${jackson-bom.version}"
+  }, {
+    "groupId" : "org.glassfish.jersey",
+    "artifactId" : "jersey-bom",
+    "version" : "${jersey.version}",
+    "coordinates" : "org.glassfish.jersey:jersey-bom:${jersey.version}"
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-bom",
+    "version" : "${jetty.version}",
+    "coordinates" : "org.eclipse.jetty:jetty-bom:${jetty.version}"
+  }, {
+    "groupId" : "org.junit",
+    "artifactId" : "junit-bom",
+    "version" : "${junit-jupiter.version}",
+    "coordinates" : "org.junit:junit-bom:${junit-jupiter.version}"
+  }, {
+    "groupId" : "org.jetbrains.kotlin",
+    "artifactId" : "kotlin-bom",
+    "version" : "${kotlin.version}",
+    "coordinates" : "org.jetbrains.kotlin:kotlin-bom:${kotlin.version}"
+  }, {
+    "groupId" : "org.jetbrains.kotlinx",
+    "artifactId" : "kotlinx-coroutines-bom",
+    "version" : "${kotlin-coroutines.version}",
+    "coordinates" : "org.jetbrains.kotlinx:kotlinx-coroutines-bom:${kotlin-coroutines.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-bom",
+    "version" : "${log4j2.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-bom:${log4j2.version}"
+  }, {
+    "groupId" : "io.micrometer",
+    "artifactId" : "micrometer-bom",
+    "version" : "${micrometer.version}",
+    "coordinates" : "io.micrometer:micrometer-bom:${micrometer.version}"
+  }, {
+    "groupId" : "io.micrometer",
+    "artifactId" : "micrometer-tracing-bom",
+    "version" : "${micrometer-tracing.version}",
+    "coordinates" : "io.micrometer:micrometer-tracing-bom:${micrometer-tracing.version}"
+  }, {
+    "groupId" : "org.mockito",
+    "artifactId" : "mockito-bom",
+    "version" : "${mockito.version}",
+    "coordinates" : "org.mockito:mockito-bom:${mockito.version}"
+  }, {
+    "groupId" : "io.netty",
+    "artifactId" : "netty-bom",
+    "version" : "${netty.version}",
+    "coordinates" : "io.netty:netty-bom:${netty.version}"
+  }, {
+    "groupId" : "com.squareup.okhttp3",
+    "artifactId" : "okhttp-bom",
+    "version" : "${okhttp.version}",
+    "coordinates" : "com.squareup.okhttp3:okhttp-bom:${okhttp.version}"
+  }, {
+    "groupId" : "io.opentelemetry",
+    "artifactId" : "opentelemetry-bom",
+    "version" : "${opentelemetry.version}",
+    "coordinates" : "io.opentelemetry:opentelemetry-bom:${opentelemetry.version}"
+  }, {
+    "groupId" : "com.oracle.database.jdbc",
+    "artifactId" : "ojdbc-bom",
+    "version" : "${oracle-database.version}",
+    "coordinates" : "com.oracle.database.jdbc:ojdbc-bom:${oracle-database.version}"
+  }, {
+    "groupId" : "io.prometheus",
+    "artifactId" : "simpleclient_bom",
+    "version" : "${prometheus-client.version}",
+    "coordinates" : "io.prometheus:simpleclient_bom:${prometheus-client.version}"
+  }, {
+    "groupId" : "com.querydsl",
+    "artifactId" : "querydsl-bom",
+    "version" : "${querydsl.version}",
+    "coordinates" : "com.querydsl:querydsl-bom:${querydsl.version}"
+  }, {
+    "groupId" : "io.projectreactor",
+    "artifactId" : "reactor-bom",
+    "version" : "${reactor-bom.version}",
+    "coordinates" : "io.projectreactor:reactor-bom:${reactor-bom.version}"
+  }, {
+    "groupId" : "io.rest-assured",
+    "artifactId" : "rest-assured-bom",
+    "version" : "${rest-assured.version}",
+    "coordinates" : "io.rest-assured:rest-assured-bom:${rest-assured.version}"
+  }, {
+    "groupId" : "io.rsocket",
+    "artifactId" : "rsocket-bom",
+    "version" : "${rsocket.version}",
+    "coordinates" : "io.rsocket:rsocket-bom:${rsocket.version}"
+  }, {
+    "groupId" : "org.seleniumhq.selenium",
+    "artifactId" : "selenium-bom",
+    "version" : "${selenium.version}",
+    "coordinates" : "org.seleniumhq.selenium:selenium-bom:${selenium.version}"
+  }, {
+    "groupId" : "org.springframework.amqp",
+    "artifactId" : "spring-amqp-bom",
+    "version" : "${spring-amqp.version}",
+    "coordinates" : "org.springframework.amqp:spring-amqp-bom:${spring-amqp.version}"
+  }, {
+    "groupId" : "org.springframework.batch",
+    "artifactId" : "spring-batch-bom",
+    "version" : "${spring-batch.version}",
+    "coordinates" : "org.springframework.batch:spring-batch-bom:${spring-batch.version}"
+  }, {
+    "groupId" : "org.springframework.data",
+    "artifactId" : "spring-data-bom",
+    "version" : "${spring-data-bom.version}",
+    "coordinates" : "org.springframework.data:spring-data-bom:${spring-data-bom.version}"
+  }, {
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-framework-bom",
+    "version" : "${spring-framework.version}",
+    "coordinates" : "org.springframework:spring-framework-bom:${spring-framework.version}"
+  }, {
+    "groupId" : "org.springframework.integration",
+    "artifactId" : "spring-integration-bom",
+    "version" : "${spring-integration.version}",
+    "coordinates" : "org.springframework.integration:spring-integration-bom:${spring-integration.version}"
+  }, {
+    "groupId" : "org.springframework.restdocs",
+    "artifactId" : "spring-restdocs-bom",
+    "version" : "${spring-restdocs.version}",
+    "coordinates" : "org.springframework.restdocs:spring-restdocs-bom:${spring-restdocs.version}"
+  }, {
+    "groupId" : "org.springframework.security",
+    "artifactId" : "spring-security-bom",
+    "version" : "${spring-security.version}",
+    "coordinates" : "org.springframework.security:spring-security-bom:${spring-security.version}"
+  }, {
+    "groupId" : "org.springframework.session",
+    "artifactId" : "spring-session-bom",
+    "version" : "${spring-session.version}",
+    "coordinates" : "org.springframework.session:spring-session-bom:${spring-session.version}"
+  }, {
+    "groupId" : "org.springframework.ws",
+    "artifactId" : "spring-ws-bom",
+    "version" : "${spring-ws.version}",
+    "coordinates" : "org.springframework.ws:spring-ws-bom:${spring-ws.version}"
+  }, {
+    "groupId" : "org.testcontainers",
+    "artifactId" : "testcontainers-bom",
+    "version" : "${testcontainers.version}",
+    "coordinates" : "org.testcontainers:testcontainers-bom:${testcontainers.version}"
+  } ]
+}

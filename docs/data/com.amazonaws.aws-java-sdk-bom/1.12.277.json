@@ -1,0 +1,1534 @@
+{
+  "version" : "1.12.277",
+  "artifacts" : [ {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-licensemanagerusersubscriptions",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-licensemanagerusersubscriptions:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iamrolesanywhere",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iamrolesanywhere:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-redshiftserverless",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-redshiftserverless:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-connectcampaign",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-connectcampaign:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mainframemodernization",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mainframemodernization:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-emrserverless",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-emrserverless:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-chimesdkmediapipelines",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-chimesdkmediapipelines:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ivschat",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ivschat:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-pinpointsmsvoicev2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-pinpointsmsvoicev2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-gamesparks",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-gamesparks:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-billingconductor",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-billingconductor:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-keyspaces",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-keyspaces:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-amplifyuibuilder",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-amplifyuibuilder:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-backupgateway",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-backupgateway:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-workspacesweb",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-workspacesweb:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iottwinmaker",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iottwinmaker:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-recyclebin",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-recyclebin:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloudwatchrum",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloudwatchrum:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloudwatchevidently",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloudwatchevidently:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-inspector2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-inspector2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-migrationhubrefactorspaces",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-migrationhubrefactorspaces:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-appconfigdata",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-appconfigdata:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-drs",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-drs:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-migrationhubstrategyrecommendations",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-migrationhubstrategyrecommendations:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-resiliencehub",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-resiliencehub:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-chimesdkmeetings",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-chimesdkmeetings:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-panorama",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-panorama:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-managedgrafana",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-managedgrafana:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloudcontrolapi",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloudcontrolapi:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-account",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-account:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-voiceid",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-voiceid:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-connectwisdom",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-connectwisdom:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-kafkaconnect",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-kafkaconnect:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-opensearch",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-opensearch:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-memorydb",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-memorydb:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-snowdevicemanagement",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-snowdevicemanagement:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-chimesdkidentity",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-chimesdkidentity:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-chimesdkmessaging",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-chimesdkmessaging:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-route53recoverycluster",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-route53recoverycluster:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-route53recoverycontrolconfig",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-route53recoverycontrolconfig:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-route53recoveryreadiness",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-route53recoveryreadiness:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-proton",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-proton:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-apprunner",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-apprunner:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-applicationcostprofiler",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-applicationcostprofiler:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ssmcontacts",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ssmcontacts:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ssmincidents",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ssmincidents:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-finspacedata",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-finspacedata:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-finspace",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-finspace:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-nimblestudio",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-nimblestudio:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-lookoutequipment",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-lookoutequipment:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mgn",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mgn:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-lookoutmetrics",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-lookoutmetrics:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-fis",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-fis:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-lexmodelsv2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-lexmodelsv2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-lexruntimev2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-lexruntimev2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-wellarchitected",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-wellarchitected:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-location",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-location:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iotdeviceadvisor",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iotdeviceadvisor:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iotfleethub",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iotfleethub:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iotwireless",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iotwireless:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-greengrassv2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-greengrassv2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-prometheus",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-prometheus:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-auditmanager",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-auditmanager:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-healthlake",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-healthlake:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-sagemakeredgemanager",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-sagemakeredgemanager:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-emrcontainers",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-emrcontainers:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-customerprofiles",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-customerprofiles:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-lookoutforvision",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-lookoutforvision:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-connectcontactlens",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-connectcontactlens:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-amplifybackend",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-amplifybackend:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ecrpublic",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ecrpublic:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-appintegrations",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-appintegrations:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-sagemakerfeaturestoreruntime",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-sagemakerfeaturestoreruntime:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-devopsguru",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-devopsguru:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mwaa",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mwaa:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-networkfirewall",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-networkfirewall:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-appregistry",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-appregistry:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-gluedatabrew",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-gluedatabrew:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-s3outposts",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-s3outposts:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-timestreamquery",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-timestreamquery:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-timestreamwrite",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-timestreamwrite:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ssoadmin",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ssoadmin:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-redshiftdataapi",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-redshiftdataapi:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-appflow",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-appflow:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-identitystore",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-identitystore:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-braket",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-braket:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ivs",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ivs:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-honeycode",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-honeycode:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-codeartifact",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-codeartifact:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-macie2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-macie2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iotsitewise",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iotsitewise:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-synthetics",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-synthetics:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-codestarconnections",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-codestarconnections:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-detective",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-detective:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-kinesisvideosignalingchannels",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-kinesisvideosignalingchannels:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ebs",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ebs:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-augmentedairuntime",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-augmentedairuntime:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-outposts",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-outposts:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-codeguruprofiler",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-codeguruprofiler:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-codegurureviewer",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-codegurureviewer:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-frauddetector",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-frauddetector:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-kendra",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-kendra:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-networkmanager",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-networkmanager:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-computeoptimizer",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-computeoptimizer:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-accessanalyzer",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-accessanalyzer:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-schemas",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-schemas:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-imagebuilder",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-imagebuilder:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-elasticinference",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-elasticinference:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iotsecuretunneling",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iotsecuretunneling:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-appconfig",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-appconfig:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-wafv2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-wafv2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-connectparticipant",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-connectparticipant:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-migrationhubconfig",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-migrationhubconfig:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-dataexchange",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-dataexchange:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-sesv2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-sesv2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-marketplacecatalog",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-marketplacecatalog:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ssooidc",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ssooidc:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-sso",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-sso:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-savingsplans",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-savingsplans:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-codestarnotifications",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-codestarnotifications:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-workmailmessageflow",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-workmailmessageflow:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-qldbsession",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-qldbsession:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-qldb",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-qldb:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-forecastquery",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-forecastquery:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-forecast",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-forecast:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-lakeformation",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-lakeformation:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-eventbridge",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-eventbridge:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ec2instanceconnect",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ec2instanceconnect:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-applicationinsights",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-applicationinsights:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-servicequotas",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-servicequotas:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-personalizeevents",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-personalizeevents:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-personalize",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-personalize:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-personalizeruntime",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-personalizeruntime:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ioteventsdata",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ioteventsdata:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iotevents",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iotevents:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iotthingsgraph",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iotthingsgraph:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-groundstation",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-groundstation:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mediapackagevod",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mediapackagevod:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-managedblockchain",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-managedblockchain:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-textract",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-textract:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-worklink",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-worklink:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-backup",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-backup:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-docdb",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-docdb:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-apigatewayv2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-apigatewayv2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-apigatewaymanagementapi",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-apigatewaymanagementapi:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-kafka",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-kafka:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-appmesh",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-appmesh:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-licensemanager",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-licensemanager:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-securityhub",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-securityhub:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-fsx",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-fsx:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mediaconnect",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mediaconnect:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-kinesisanalyticsv2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-kinesisanalyticsv2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-comprehendmedical",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-comprehendmedical:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-globalaccelerator",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-globalaccelerator:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-transfer",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-transfer:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-datasync",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-datasync:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-robomaker",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-robomaker:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-amplify",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-amplify:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-quicksight",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-quicksight:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-rdsdata",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-rdsdata:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-route53resolver",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-route53resolver:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ram",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ram:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-s3control",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-s3control:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-pinpointsmsvoice",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-pinpointsmsvoice:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-pinpointemail",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-pinpointemail:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-chime",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-chime:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-signer",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-signer:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-dlm",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-dlm:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-macie",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-macie:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-eks",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-eks:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mediatailor",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mediatailor:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-neptune",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-neptune:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-pi",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-pi:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iot1clickprojects",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iot1clickprojects:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iot1clickdevices",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iot1clickdevices:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iotanalytics",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iotanalytics:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-acmpca",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-acmpca:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-secretsmanager",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-secretsmanager:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-fms",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-fms:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-connect",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-connect:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-transcribe",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-transcribe:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-autoscalingplans",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-autoscalingplans:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-workmail",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-workmail:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-servicediscovery",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-servicediscovery:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloud9",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloud9:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-serverlessapplicationrepository",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-serverlessapplicationrepository:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-alexaforbusiness",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-alexaforbusiness:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-resourcegroups",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-resourcegroups:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-comprehend",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-comprehend:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-translate",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-translate:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-sagemaker",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-sagemaker:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iotjobsdataplane",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iotjobsdataplane:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-sagemakerruntime",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-sagemakerruntime:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-kinesisvideo",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-kinesisvideo:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-appsync",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-appsync:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-guardduty",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-guardduty:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mq",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mq:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mediaconvert",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mediaconvert:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mediastore",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mediastore:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mediastoredata",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mediastoredata:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-medialive",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-medialive:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mediapackage",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mediapackage:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-costexplorer",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-costexplorer:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-pricing",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-pricing:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mobile",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mobile:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloudhsmv2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloudhsmv2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-glue",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-glue:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-migrationhub",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-migrationhub:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-dax",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-dax:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-greengrass",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-greengrass:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-athena",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-athena:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-marketplaceentitlement",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-marketplaceentitlement:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-codestar",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-codestar:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-lexmodelbuilding",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-lexmodelbuilding:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-resourcegroupstaggingapi",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-resourcegroupstaggingapi:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-pinpoint",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-pinpoint:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-xray",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-xray:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-opsworkscm",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-opsworkscm:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-support",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-support:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-simpledb",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-simpledb:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-servicecatalog",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-servicecatalog:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-servermigration",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-servermigration:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-simpleworkflow",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-simpleworkflow:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-storagegateway",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-storagegateway:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-route53",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-route53:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-s3",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-s3:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-importexport",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-importexport:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-sts",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-sts:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-sqs",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-sqs:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-rds",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-rds:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-redshift",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-redshift:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-elasticbeanstalk",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-elasticbeanstalk:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-glacier",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-glacier:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iam",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iam:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-datapipeline",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-datapipeline:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-elasticloadbalancing",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-elasticloadbalancing:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-elasticloadbalancingv2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-elasticloadbalancingv2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-emr",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-emr:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-elasticache",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-elasticache:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-elastictranscoder",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-elastictranscoder:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ec2",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ec2:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-dynamodb",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-dynamodb:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-sns",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-sns:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-budgets",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-budgets:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloudtrail",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloudtrail:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloudwatch",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloudwatch:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-logs",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-logs:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-events",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-events:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cognitoidentity",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cognitoidentity:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cognitosync",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cognitosync:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-directconnect",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-directconnect:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloudformation",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloudformation:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloudfront",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloudfront:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-clouddirectory",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-clouddirectory:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-kinesis",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-kinesis:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-opsworks",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-opsworks:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ses",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ses:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-autoscaling",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-autoscaling:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloudsearch",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloudsearch:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloudwatchmetrics",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloudwatchmetrics:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-codedeploy",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-codedeploy:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-codepipeline",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-codepipeline:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-kms",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-kms:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-config",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-config:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-lambda",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-lambda:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ecs",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ecs:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ecr",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ecr:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cloudhsm",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cloudhsm:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-ssm",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-ssm:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-workspaces",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-workspaces:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-machinelearning",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-machinelearning:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-directory",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-directory:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-efs",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-efs:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-codecommit",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-codecommit:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-devicefarm",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-devicefarm:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-elasticsearch",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-elasticsearch:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-waf",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-waf:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-marketplacecommerceanalytics",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-marketplacecommerceanalytics:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-inspector",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-inspector:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-iot",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-iot:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-api-gateway",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-api-gateway:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-acm",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-acm:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-gamelift",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-gamelift:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-dms",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-dms:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-marketplacemeteringservice",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-marketplacemeteringservice:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-cognitoidp",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-cognitoidp:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-discovery",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-discovery:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-applicationautoscaling",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-applicationautoscaling:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-snowball",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-snowball:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-rekognition",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-rekognition:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-polly",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-polly:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-lightsail",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-lightsail:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-stepfunctions",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-stepfunctions:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-health",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-health:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-costandusagereport",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-costandusagereport:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-codebuild",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-codebuild:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-appstream",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-appstream:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-shield",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-shield:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-batch",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-batch:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-lex",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-lex:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-mechanicalturkrequester",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-mechanicalturkrequester:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-organizations",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-organizations:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-workdocs",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-workdocs:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-core",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-core:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-models",
+    "version" : "${awsjavasdk.version}",
+    "coordinates" : "com.amazonaws:aws-java-sdk-models:${awsjavasdk.version}"
+  }, {
+    "groupId" : "com.amazonaws",
+    "artifactId" : "aws-java-sdk-swf-libraries",
+    "version" : "1.11.22",
+    "coordinates" : "com.amazonaws:aws-java-sdk-swf-libraries:1.11.22"
+  } ]
+}

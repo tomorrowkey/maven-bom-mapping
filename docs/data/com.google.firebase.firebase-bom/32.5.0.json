@@ -1,0 +1,204 @@
+{
+  "version" : "32.5.0",
+  "artifacts" : [ {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-ml-modeldownloader-ktx",
+    "version" : "24.2.1",
+    "coordinates" : "com.google.firebase:firebase-ml-modeldownloader-ktx:24.2.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-perf",
+    "version" : "20.5.0",
+    "coordinates" : "com.google.firebase:firebase-perf:20.5.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-crashlytics-ndk",
+    "version" : "18.5.1",
+    "coordinates" : "com.google.firebase:firebase-crashlytics-ndk:18.5.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-appcheck",
+    "version" : "17.1.1",
+    "coordinates" : "com.google.firebase:firebase-appcheck:17.1.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-encoders",
+    "version" : "17.0.0",
+    "coordinates" : "com.google.firebase:firebase-encoders:17.0.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-functions-ktx",
+    "version" : "20.4.0",
+    "coordinates" : "com.google.firebase:firebase-functions-ktx:20.4.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-storage-ktx",
+    "version" : "20.3.0",
+    "coordinates" : "com.google.firebase:firebase-storage-ktx:20.3.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-functions",
+    "version" : "20.4.0",
+    "coordinates" : "com.google.firebase:firebase-functions:20.4.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-appcheck-debug",
+    "version" : "17.1.1",
+    "coordinates" : "com.google.firebase:firebase-appcheck-debug:17.1.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-perf-ktx",
+    "version" : "20.5.0",
+    "coordinates" : "com.google.firebase:firebase-perf-ktx:20.5.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-analytics",
+    "version" : "21.5.0",
+    "coordinates" : "com.google.firebase:firebase-analytics:21.5.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-dynamic-links-ktx",
+    "version" : "21.2.0",
+    "coordinates" : "com.google.firebase:firebase-dynamic-links-ktx:21.2.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-appcheck-debug-testing",
+    "version" : "17.1.1",
+    "coordinates" : "com.google.firebase:firebase-appcheck-debug-testing:17.1.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-auth",
+    "version" : "22.2.0",
+    "coordinates" : "com.google.firebase:firebase-auth:22.2.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-config-ktx",
+    "version" : "21.5.0",
+    "coordinates" : "com.google.firebase:firebase-config-ktx:21.5.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-inappmessaging-display",
+    "version" : "20.4.0",
+    "coordinates" : "com.google.firebase:firebase-inappmessaging-display:20.4.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-installations-ktx",
+    "version" : "17.2.0",
+    "coordinates" : "com.google.firebase:firebase-installations-ktx:17.2.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-crashlytics-ktx",
+    "version" : "18.5.1",
+    "coordinates" : "com.google.firebase:firebase-crashlytics-ktx:18.5.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-inappmessaging",
+    "version" : "20.4.0",
+    "coordinates" : "com.google.firebase:firebase-inappmessaging:20.4.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-analytics-ktx",
+    "version" : "21.5.0",
+    "coordinates" : "com.google.firebase:firebase-analytics-ktx:21.5.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-firestore",
+    "version" : "24.9.1",
+    "coordinates" : "com.google.firebase:firebase-firestore:24.9.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-database-ktx",
+    "version" : "20.3.0",
+    "coordinates" : "com.google.firebase:firebase-database-ktx:20.3.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-inappmessaging-display-ktx",
+    "version" : "20.4.0",
+    "coordinates" : "com.google.firebase:firebase-inappmessaging-display-ktx:20.4.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-ml-modeldownloader",
+    "version" : "24.2.1",
+    "coordinates" : "com.google.firebase:firebase-ml-modeldownloader:24.2.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-config",
+    "version" : "21.5.0",
+    "coordinates" : "com.google.firebase:firebase-config:21.5.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-common-ktx",
+    "version" : "20.4.2",
+    "coordinates" : "com.google.firebase:firebase-common-ktx:20.4.2"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-firestore-ktx",
+    "version" : "24.9.1",
+    "coordinates" : "com.google.firebase:firebase-firestore-ktx:24.9.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-messaging-directboot",
+    "version" : "23.3.1",
+    "coordinates" : "com.google.firebase:firebase-messaging-directboot:23.3.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-appcheck-playintegrity",
+    "version" : "17.1.1",
+    "coordinates" : "com.google.firebase:firebase-appcheck-playintegrity:17.1.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-appcheck-ktx",
+    "version" : "17.1.1",
+    "coordinates" : "com.google.firebase:firebase-appcheck-ktx:17.1.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-messaging",
+    "version" : "23.3.1",
+    "coordinates" : "com.google.firebase:firebase-messaging:23.3.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-auth-ktx",
+    "version" : "22.2.0",
+    "coordinates" : "com.google.firebase:firebase-auth-ktx:22.2.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-messaging-ktx",
+    "version" : "23.3.1",
+    "coordinates" : "com.google.firebase:firebase-messaging-ktx:23.3.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-crashlytics",
+    "version" : "18.5.1",
+    "coordinates" : "com.google.firebase:firebase-crashlytics:18.5.1"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-dynamic-links",
+    "version" : "21.2.0",
+    "coordinates" : "com.google.firebase:firebase-dynamic-links:21.2.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-storage",
+    "version" : "20.3.0",
+    "coordinates" : "com.google.firebase:firebase-storage:20.3.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-common",
+    "version" : "20.4.2",
+    "coordinates" : "com.google.firebase:firebase-common:20.4.2"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-installations",
+    "version" : "17.2.0",
+    "coordinates" : "com.google.firebase:firebase-installations:17.2.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-inappmessaging-ktx",
+    "version" : "20.4.0",
+    "coordinates" : "com.google.firebase:firebase-inappmessaging-ktx:20.4.0"
+  }, {
+    "groupId" : "com.google.firebase",
+    "artifactId" : "firebase-database",
+    "version" : "20.3.0",
+    "coordinates" : "com.google.firebase:firebase-database:20.3.0"
+  } ]
+}

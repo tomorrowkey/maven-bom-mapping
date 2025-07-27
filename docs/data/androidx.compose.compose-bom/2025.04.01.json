@@ -1,0 +1,734 @@
+{
+  "version" : "2025.04.01",
+  "artifacts" : [ {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-core",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-core:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-core-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-core-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-core-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.animation:animation-core-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-core-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-core-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-core-lint",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-core-lint:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-core-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-core-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.animation:animation-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-graphics",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-graphics:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-graphics-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-graphics-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-graphics-desktop",
+    "version" : "1.7.1",
+    "coordinates" : "androidx.compose.animation:animation-graphics-desktop:1.7.1"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-graphics-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-graphics-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-graphics-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-graphics-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-lint",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-lint:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.animation",
+    "artifactId" : "animation-tooling-internal",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.animation:animation-tooling-internal:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.foundation",
+    "artifactId" : "foundation",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.foundation:foundation:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.foundation",
+    "artifactId" : "foundation-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.foundation:foundation-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.foundation",
+    "artifactId" : "foundation-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.foundation:foundation-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.foundation",
+    "artifactId" : "foundation-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.foundation:foundation-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.foundation",
+    "artifactId" : "foundation-layout",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.foundation:foundation-layout:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.foundation",
+    "artifactId" : "foundation-layout-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.foundation:foundation-layout-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.foundation",
+    "artifactId" : "foundation-layout-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.foundation:foundation-layout-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.foundation",
+    "artifactId" : "foundation-layout-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.foundation:foundation-layout-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.foundation",
+    "artifactId" : "foundation-layout-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.foundation:foundation-layout-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.foundation",
+    "artifactId" : "foundation-lint",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.foundation:foundation-lint:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.foundation",
+    "artifactId" : "foundation-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.foundation:foundation-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.material:material:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.material:material-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.material:material-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-icons-core",
+    "version" : "1.7.8",
+    "coordinates" : "androidx.compose.material:material-icons-core:1.7.8"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-icons-core-android",
+    "version" : "1.7.8",
+    "coordinates" : "androidx.compose.material:material-icons-core-android:1.7.8"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-icons-core-desktop",
+    "version" : "1.7.8",
+    "coordinates" : "androidx.compose.material:material-icons-core-desktop:1.7.8"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-icons-extended",
+    "version" : "1.7.8",
+    "coordinates" : "androidx.compose.material:material-icons-extended:1.7.8"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-icons-extended-android",
+    "version" : "1.7.8",
+    "coordinates" : "androidx.compose.material:material-icons-extended-android:1.7.8"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-icons-extended-desktop",
+    "version" : "1.7.8",
+    "coordinates" : "androidx.compose.material:material-icons-extended-desktop:1.7.8"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.material:material-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.material:material-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-navigation",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.material:material-navigation:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-ripple",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.material:material-ripple:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-ripple-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.material:material-ripple-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-ripple-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.material:material-ripple-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-ripple-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.material:material-ripple-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.material",
+    "artifactId" : "material-ripple-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.material:material-ripple-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.material3",
+    "artifactId" : "material3",
+    "version" : "1.3.2",
+    "coordinates" : "androidx.compose.material3:material3:1.3.2"
+  }, {
+    "groupId" : "androidx.compose.material3",
+    "artifactId" : "material3-adaptive-navigation-suite",
+    "version" : "1.3.2",
+    "coordinates" : "androidx.compose.material3:material3-adaptive-navigation-suite:1.3.2"
+  }, {
+    "groupId" : "androidx.compose.material3",
+    "artifactId" : "material3-adaptive-navigation-suite-android",
+    "version" : "1.3.2",
+    "coordinates" : "androidx.compose.material3:material3-adaptive-navigation-suite-android:1.3.2"
+  }, {
+    "groupId" : "androidx.compose.material3",
+    "artifactId" : "material3-adaptive-navigation-suite-desktop",
+    "version" : "1.3.2",
+    "coordinates" : "androidx.compose.material3:material3-adaptive-navigation-suite-desktop:1.3.2"
+  }, {
+    "groupId" : "androidx.compose.material3",
+    "artifactId" : "material3-android",
+    "version" : "1.3.2",
+    "coordinates" : "androidx.compose.material3:material3-android:1.3.2"
+  }, {
+    "groupId" : "androidx.compose.material3",
+    "artifactId" : "material3-desktop",
+    "version" : "1.3.2",
+    "coordinates" : "androidx.compose.material3:material3-desktop:1.3.2"
+  }, {
+    "groupId" : "androidx.compose.material3",
+    "artifactId" : "material3-window-size-class",
+    "version" : "1.3.2",
+    "coordinates" : "androidx.compose.material3:material3-window-size-class:1.3.2"
+  }, {
+    "groupId" : "androidx.compose.material3",
+    "artifactId" : "material3-window-size-class-android",
+    "version" : "1.3.2",
+    "coordinates" : "androidx.compose.material3:material3-window-size-class-android:1.3.2"
+  }, {
+    "groupId" : "androidx.compose.material3",
+    "artifactId" : "material3-window-size-class-desktop",
+    "version" : "1.3.2",
+    "coordinates" : "androidx.compose.material3:material3-window-size-class-desktop:1.3.2"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive",
+    "version" : "1.1.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive:1.1.0"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive-android",
+    "version" : "1.1.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive-android:1.1.0"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive-desktop",
+    "version" : "1.0.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive-desktop:1.0.0"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive-jvmstubs",
+    "version" : "1.1.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive-jvmstubs:1.1.0"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive-layout",
+    "version" : "1.1.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive-layout:1.1.0"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive-layout-android",
+    "version" : "1.1.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive-layout-android:1.1.0"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive-layout-desktop",
+    "version" : "1.0.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive-layout-desktop:1.0.0"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive-layout-jvmstubs",
+    "version" : "1.1.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive-layout-jvmstubs:1.1.0"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive-navigation",
+    "version" : "1.1.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive-navigation:1.1.0"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive-navigation-android",
+    "version" : "1.1.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive-navigation-android:1.1.0"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive-navigation-desktop",
+    "version" : "1.0.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive-navigation-desktop:1.0.0"
+  }, {
+    "groupId" : "androidx.compose.material3.adaptive",
+    "artifactId" : "adaptive-navigation-jvmstubs",
+    "version" : "1.1.0",
+    "coordinates" : "androidx.compose.material3.adaptive:adaptive-navigation-jvmstubs:1.1.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.runtime:runtime-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-lint",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-lint:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-livedata",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-livedata:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-rxjava2",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-rxjava2:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-rxjava3",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-rxjava3:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-saveable",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-saveable:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-saveable-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-saveable-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-saveable-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.runtime:runtime-saveable-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-saveable-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-saveable-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-saveable-lint",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-saveable-lint:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-saveable-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-saveable-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.runtime",
+    "artifactId" : "runtime-tracing",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.runtime:runtime-tracing:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-android-stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-android-stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.ui:ui-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-geometry",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-geometry:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-geometry-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-geometry-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-geometry-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.ui:ui-geometry-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-geometry-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-geometry-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-geometry-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-geometry-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-graphics",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-graphics:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-graphics-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-graphics-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-graphics-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.ui:ui-graphics-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-graphics-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-graphics-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-graphics-lint",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-graphics-lint:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-graphics-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-graphics-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-lint",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-lint:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-accessibility",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-accessibility:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-accessibility-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-accessibility-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.ui:ui-test-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-junit4",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-junit4:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-junit4-accessibility",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-junit4-accessibility:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-junit4-accessibility-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-junit4-accessibility-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-junit4-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-junit4-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-junit4-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.ui:ui-test-junit4-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-junit4-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-junit4-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-manifest",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-manifest:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-test-manifest-lint",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-test-manifest-lint:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-text",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-text:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-text-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-text-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-text-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.ui:ui-text-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-text-google-fonts",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-text-google-fonts:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-text-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-text-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-text-lint",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-text-lint:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-text-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-text-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling-data",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling-data:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling-data-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling-data-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling-data-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling-data-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling-data-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling-data-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling-preview",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling-preview:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling-preview-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling-preview-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling-preview-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling-preview-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-tooling-preview-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-tooling-preview-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-unit",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-unit:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-unit-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-unit-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-unit-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.ui:ui-unit-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-unit-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-unit-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-unit-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-unit-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-util",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-util:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-util-android",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-util-android:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-util-desktop",
+    "version" : "1.7.0",
+    "coordinates" : "androidx.compose.ui:ui-util-desktop:1.7.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-util-jvmstubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-util-jvmstubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-util-linuxx64stubs",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-util-linuxx64stubs:1.8.0"
+  }, {
+    "groupId" : "androidx.compose.ui",
+    "artifactId" : "ui-viewbinding",
+    "version" : "1.8.0",
+    "coordinates" : "androidx.compose.ui:ui-viewbinding:1.8.0"
+  } ]
+}

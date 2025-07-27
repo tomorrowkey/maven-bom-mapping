@@ -1,0 +1,114 @@
+{
+  "version" : "2.13.1",
+  "artifacts" : [ {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-api",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-api:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-core",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-core:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-1.2-api",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-1.2-api:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-jcl",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-jcl:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-flume-ng",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-flume-ng:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-taglib",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-taglib:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-jmx-gui",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-jmx-gui:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-slf4j-impl",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-slf4j-impl:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-slf4j18-impl",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-slf4j18-impl:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-to-slf4j",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-to-slf4j:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-appserver",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-appserver:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-web",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-web:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-couchdb",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-couchdb:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-mongodb2",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-mongodb2:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-mongodb3",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-mongodb3:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-cassandra",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-cassandra:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-jpa",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-jpa:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-iostreams",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-iostreams:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-jul",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-jul:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-liquibase",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-liquibase:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-docker",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-docker:${project.version}"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-spring-cloud-config-client",
+    "version" : "${project.version}",
+    "coordinates" : "org.apache.logging.log4j:log4j-spring-cloud-config-client:${project.version}"
+  } ]
+}

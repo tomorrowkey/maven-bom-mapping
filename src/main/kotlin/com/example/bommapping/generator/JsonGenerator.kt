@@ -25,7 +25,8 @@ class JsonGenerator(
     fun generateJson(config: BomConfig): File {
         logger.info("Generating JSON data for GitHub Pages")
         
-        val bomData = BomData(
+        // Create a manifest file that lists all available BOMs
+        val manifest = BomManifest(
             generated = LocalDateTime.now(),
             boms = mutableListOf()
         )
@@ -33,11 +34,11 @@ class JsonGenerator(
         config.boms.forEach { bomDef ->
             logger.info("Processing BOM: ${bomDef.groupId}:${bomDef.artifactId}")
             
-            val bomVersions = BomVersions(
-                groupId = bomDef.groupId,
-                artifactId = bomDef.artifactId,
-                versions = mutableListOf()
-            )
+            val bomKey = "${bomDef.groupId}.${bomDef.artifactId}"
+            val bomDirPath = File(outputDirectory, bomKey)
+            bomDirPath.mkdirs()
+            
+            val versions = mutableListOf<String>()
             
             // Find all snapshot files for this BOM
             val bomDir = File(config.settings.snapshotDirectory, bomDef.groupId)
@@ -49,12 +50,16 @@ class JsonGenerator(
                 snapshotFiles.forEach { snapshotFile ->
                     try {
                         val snapshot = bomExtractor.loadSnapshot(snapshotFile)
-                        bomVersions.versions.add(
-                            VersionData(
-                                version = snapshot.bomInfo.version,
-                                artifacts = snapshot.artifacts
-                            )
-                        )
+                        val version = snapshot.bomInfo.version
+                        
+                        // Save individual version file
+                        val versionFile = File(bomDirPath, "${version}.json")
+                        jsonMapper.writeValue(versionFile, VersionData(
+                            version = version,
+                            artifacts = snapshot.artifacts
+                        ))
+                        
+                        versions.add(version)
                     } catch (e: Exception) {
                         logger.error("Error processing snapshot ${snapshotFile.name}: ${e.message}")
                     }
@@ -63,33 +68,56 @@ class JsonGenerator(
                 logger.warn("No snapshots found for BOM: ${bomDef.groupId}:${bomDef.artifactId}")
             }
             
-            if (bomVersions.versions.isNotEmpty()) {
+            if (versions.isNotEmpty()) {
                 // Sort versions in ascending order (oldest first)
-                bomVersions.versions.sortWith { a, b ->
-                    compareVersions(a.version, b.version)
-                }
-                bomData.boms.add(bomVersions)
+                versions.sortWith { a, b -> compareVersions(a, b) }
+                
+                // Save BOM metadata file with just version list
+                val bomMetadata = BomMetadata(
+                    groupId = bomDef.groupId,
+                    artifactId = bomDef.artifactId,
+                    versions = versions
+                )
+                val metadataFile = File(bomDirPath, "metadata.json")
+                jsonMapper.writeValue(metadataFile, bomMetadata)
+                
+                logger.info("Generated ${versions.size} version files for ${bomKey}")
+                
+                // Add to manifest
+                manifest.boms.add(BomManifestEntry(
+                    groupId = bomDef.groupId,
+                    artifactId = bomDef.artifactId,
+                    directory = bomKey,
+                    versionCount = versions.size
+                ))
             }
         }
         
-        // Save JSON
-        val outputFile = File(outputDirectory, "boms.json")
-        outputFile.parentFile?.mkdirs()
-        jsonMapper.writeValue(outputFile, bomData)
+        // Save manifest file
+        val manifestFile = File(outputDirectory, "manifest.json")
+        manifestFile.parentFile?.mkdirs()
+        jsonMapper.writeValue(manifestFile, manifest)
         
-        logger.info("JSON generated: ${outputFile.absolutePath}")
-        return outputFile
+        logger.info("JSON manifest generated: ${manifestFile.absolutePath}")
+        return manifestFile
     }
     
-    data class BomData(
+    data class BomManifest(
         val generated: LocalDateTime,
-        val boms: MutableList<BomVersions>
+        val boms: MutableList<BomManifestEntry>
     )
     
-    data class BomVersions(
+    data class BomManifestEntry(
         val groupId: String,
         val artifactId: String,
-        val versions: MutableList<VersionData>
+        val directory: String,
+        val versionCount: Int
+    )
+    
+    data class BomMetadata(
+        val groupId: String,
+        val artifactId: String,
+        val versions: List<String>
     )
     
     data class VersionData(

@@ -34,7 +34,13 @@ class GenerateCommand : CliktCommand(
         help = "Force regeneration, ignore cache"
     ).flag()
     
+    private val parallel by option(
+        "--parallel", "-p",
+        help = "Enable parallel processing of BOMs"
+    ).flag()
+    
     override fun run() {
+        val startTime = System.currentTimeMillis()
         try {
             // Load configuration
             val config = ConfigLoader().load(configFile)
@@ -57,53 +63,17 @@ class GenerateCommand : CliktCommand(
             }
             
             // Process BOMs
-            logger.info("Processing ${bomsToProcess.size} BOM(s)")
+            logger.info("Processing ${bomsToProcess.size} BOM(s)${if (parallel) " in parallel" else ""}")
             
-            bomsToProcess.forEach { bomDef ->
-                logger.info("Processing BOM: ${bomDef.groupId}:${bomDef.artifactId}")
-                
-                // Determine which repository to use
-                val repositoryUrl = when {
-                    bomDef.repository != null && config.settings.repositories.containsKey(bomDef.repository) -> 
-                        config.settings.repositories[bomDef.repository]!!
-                    bomDef.repository != null -> bomDef.repository // Direct URL
-                    else -> config.settings.mavenRepository
+            if (parallel) {
+                // Process BOMs in parallel
+                bomsToProcess.parallelStream().forEach { bomDef ->
+                    processBom(bomDef, config, versionDiscoveryService, pomParser, force)
                 }
-                
-                // Discover all available versions from the repository
-                val versions = versionDiscoveryService.discoverVersions(
-                    baseUrl = repositoryUrl,
-                    groupId = bomDef.groupId,
-                    artifactId = bomDef.artifactId
-                )
-                
-                if (versions.isEmpty()) {
-                    logger.warn("No versions found for ${bomDef.groupId}:${bomDef.artifactId}")
-                    return@forEach
-                }
-                
-                logger.info("Found ${versions.size} versions for ${bomDef.artifactId}: ${versions.joinToString(", ")}")
-                
-                // Create repository-specific components
-                val pomFetcher = PomFetcher(repositoryUrl)
-                val bomExtractor = BomExtractor(
-                    pomFetcher = pomFetcher,
-                    pomParser = pomParser,
-                    snapshotDirectory = config.settings.snapshotDirectory
-                )
-                
-                versions.forEach { version ->
-                    try {
-                        bomExtractor.extractBom(
-                            groupId = bomDef.groupId,
-                            artifactId = bomDef.artifactId,
-                            version = version,
-                            force = force || !config.settings.cacheEnabled
-                        )
-                        logger.info("✓ Extracted: ${bomDef.artifactId}-$version")
-                    } catch (e: Exception) {
-                        logger.error("✗ Failed to extract ${bomDef.artifactId}-$version: ${e.message}")
-                    }
+            } else {
+                // Process BOMs sequentially
+                bomsToProcess.forEach { bomDef ->
+                    processBom(bomDef, config, versionDiscoveryService, pomParser, force)
                 }
             }
             
@@ -120,11 +90,84 @@ class GenerateCommand : CliktCommand(
             val outputFile = jsonGenerator.generateJson(config)
             logger.info("✓ JSON generated: ${outputFile.absolutePath}")
             
-            logger.info("Generation complete!")
+            val totalTime = System.currentTimeMillis() - startTime
+            logger.info("Generation complete! Total time: ${totalTime / 1000.0}s")
             
         } catch (e: Exception) {
             logger.error("Error during generation: ${e.message}", e)
             throw e
         }
+    }
+    
+    private fun processBom(
+        bomDef: com.example.bommapping.model.BomConfig.BomDefinition,
+        config: com.example.bommapping.model.BomConfig,
+        versionDiscoveryService: VersionDiscoveryService,
+        pomParser: PomParser,
+        force: Boolean
+    ) {
+        logger.info("Processing BOM: ${bomDef.groupId}:${bomDef.artifactId}")
+        
+        // Determine which repository to use
+        val repositoryUrl = when {
+            bomDef.repository != null && config.settings.repositories.containsKey(bomDef.repository) -> 
+                config.settings.repositories[bomDef.repository]!!
+            bomDef.repository != null -> bomDef.repository // Direct URL
+            else -> config.settings.mavenRepository
+        }
+        
+        // Discover all available versions from the repository
+        val versions = versionDiscoveryService.discoverVersions(
+            baseUrl = repositoryUrl,
+            groupId = bomDef.groupId,
+            artifactId = bomDef.artifactId
+        )
+        
+        if (versions.isEmpty()) {
+            logger.warn("No versions found for ${bomDef.groupId}:${bomDef.artifactId}")
+            return
+        }
+        
+        logger.info("Found ${versions.size} versions for ${bomDef.artifactId}: ${versions.joinToString(", ")}")
+        
+        // Create repository-specific components
+        val pomFetcher = PomFetcher(repositoryUrl)
+        val bomExtractor = BomExtractor(
+            pomFetcher = pomFetcher,
+            pomParser = pomParser,
+            snapshotDirectory = config.settings.snapshotDirectory
+        )
+        
+        var extractedCount = 0
+        var cachedCount = 0
+        
+        versions.forEachIndexed { index, version ->
+            try {
+                // Check if file already exists
+                val snapshotFile = File(config.settings.snapshotDirectory, "${bomDef.groupId}/${bomDef.artifactId}-$version.yaml")
+                val wasAlreadyCached = snapshotFile.exists()
+                
+                bomExtractor.extractBom(
+                    groupId = bomDef.groupId,
+                    artifactId = bomDef.artifactId,
+                    version = version,
+                    force = force || !config.settings.cacheEnabled
+                )
+                
+                val progressInfo = "[${index + 1}/${versions.size}]"
+                if (wasAlreadyCached && !force && config.settings.cacheEnabled) {
+                    logger.info("$progressInfo ◦ Cached: ${bomDef.artifactId}-$version")
+                    cachedCount++
+                } else {
+                    logger.info("$progressInfo ✓ Extracted: ${bomDef.artifactId}-$version")
+                    extractedCount++
+                }
+            } catch (e: Exception) {
+                val progressInfo = "[${index + 1}/${versions.size}]"
+                logger.error("$progressInfo ✗ Failed to extract ${bomDef.artifactId}-$version: ${e.message}")
+            }
+        }
+        
+        logger.info("Summary for ${bomDef.artifactId}: extracted=$extractedCount, cached=$cachedCount, total=${versions.size}")
     }
 }

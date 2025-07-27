@@ -52,12 +52,17 @@ class JsonGenerator(
                         val snapshot = bomExtractor.loadSnapshot(snapshotFile)
                         val version = snapshot.bomInfo.version
                         
-                        // Save individual version file
+                        // Save individual version file only if it doesn't exist or is older than snapshot
                         val versionFile = File(bomDirPath, "${version}.json")
-                        jsonMapper.writeValue(versionFile, VersionData(
-                            version = version,
-                            artifacts = snapshot.artifacts
-                        ))
+                        if (!versionFile.exists() || snapshotFile.lastModified() > versionFile.lastModified()) {
+                            jsonMapper.writeValue(versionFile, VersionData(
+                                version = version,
+                                artifacts = snapshot.artifacts
+                            ))
+                            logger.info("Generated JSON for ${bomDef.artifactId}-${version}")
+                        } else {
+                            logger.debug("Using cached JSON for ${bomDef.artifactId}-${version}")
+                        }
                         
                         versions.add(version)
                     } catch (e: Exception) {
@@ -72,16 +77,25 @@ class JsonGenerator(
                 // Sort versions in ascending order (oldest first)
                 versions.sortWith { a, b -> compareVersions(a, b) }
                 
-                // Save BOM metadata file with just version list
-                val bomMetadata = BomMetadata(
-                    groupId = bomDef.groupId,
-                    artifactId = bomDef.artifactId,
-                    versions = versions
-                )
+                // Save BOM metadata file with just version list (only if outdated)
                 val metadataFile = File(bomDirPath, "metadata.json")
-                jsonMapper.writeValue(metadataFile, bomMetadata)
+                val newestSnapshotTime = bomDir.listFiles { _, name ->
+                    name.startsWith("${bomDef.artifactId}-") && name.endsWith(".yaml")
+                }?.maxOfOrNull { it.lastModified() } ?: 0L
                 
-                logger.info("Generated ${versions.size} version files for ${bomKey}")
+                if (!metadataFile.exists() || newestSnapshotTime > metadataFile.lastModified()) {
+                    val bomMetadata = BomMetadata(
+                        groupId = bomDef.groupId,
+                        artifactId = bomDef.artifactId,
+                        versions = versions
+                    )
+                    jsonMapper.writeValue(metadataFile, bomMetadata)
+                    logger.info("Generated metadata for ${bomKey}")
+                } else {
+                    logger.debug("Using cached metadata for ${bomKey}")
+                }
+                
+                logger.info("Processed ${versions.size} versions for ${bomKey}")
                 
                 // Add to manifest
                 manifest.boms.add(BomManifestEntry(

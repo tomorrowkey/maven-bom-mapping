@@ -30,7 +30,7 @@ class BomExtractor(
         val snapshotFile = getSnapshotFile(groupId, artifactId, version)
         
         if (!force && snapshotFile.exists()) {
-            logger.info("Using cached snapshot: ${snapshotFile.absolutePath}")
+            logger.debug("Using cached snapshot: ${snapshotFile.absolutePath}")
             return snapshotFile
         }
         

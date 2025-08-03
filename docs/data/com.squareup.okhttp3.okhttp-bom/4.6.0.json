@@ -1,0 +1,49 @@
+{
+  "version" : "4.6.0",
+  "artifacts" : [ {
+    "groupId" : "com.squareup.okhttp3",
+    "artifactId" : "mockwebserver",
+    "version" : "4.6.0",
+    "coordinates" : "com.squareup.okhttp3:mockwebserver:4.6.0"
+  }, {
+    "groupId" : "com.squareup.okhttp3",
+    "artifactId" : "okcurl",
+    "version" : "4.6.0",
+    "coordinates" : "com.squareup.okhttp3:okcurl:4.6.0"
+  }, {
+    "groupId" : "com.squareup.okhttp3",
+    "artifactId" : "okhttp",
+    "version" : "4.6.0",
+    "coordinates" : "com.squareup.okhttp3:okhttp:4.6.0"
+  }, {
+    "groupId" : "com.squareup.okhttp3",
+    "artifactId" : "okhttp-brotli",
+    "version" : "4.6.0",
+    "coordinates" : "com.squareup.okhttp3:okhttp-brotli:4.6.0"
+  }, {
+    "groupId" : "com.squareup.okhttp3",
+    "artifactId" : "okhttp-dnsoverhttps",
+    "version" : "4.6.0",
+    "coordinates" : "com.squareup.okhttp3:okhttp-dnsoverhttps:4.6.0"
+  }, {
+    "groupId" : "com.squareup.okhttp3",
+    "artifactId" : "logging-interceptor",
+    "version" : "4.6.0",
+    "coordinates" : "com.squareup.okhttp3:logging-interceptor:4.6.0"
+  }, {
+    "groupId" : "com.squareup.okhttp3",
+    "artifactId" : "okhttp-sse",
+    "version" : "4.6.0",
+    "coordinates" : "com.squareup.okhttp3:okhttp-sse:4.6.0"
+  }, {
+    "groupId" : "com.squareup.okhttp3",
+    "artifactId" : "okhttp-tls",
+    "version" : "4.6.0",
+    "coordinates" : "com.squareup.okhttp3:okhttp-tls:4.6.0"
+  }, {
+    "groupId" : "com.squareup.okhttp3",
+    "artifactId" : "okhttp-urlconnection",
+    "version" : "4.6.0",
+    "coordinates" : "com.squareup.okhttp3:okhttp-urlconnection:4.6.0"
+  } ]
+}

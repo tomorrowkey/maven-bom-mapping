@@ -39,8 +39,26 @@ class BomExtractor(
         // Download POM
         val pomContent = pomFetcher.downloadPom(groupId, artifactId, version)
         
-        // Parse POM
-        val artifacts = pomParser.parsePom(pomContent)
+        // Check for parent POM
+        var parentPomContent: String? = null
+        val xmlMapper = pomParser.getXmlMapper()
+        val pomObj = xmlMapper.readValue(pomContent, PomParser.Pom::class.java)
+        
+        if (pomObj.parent != null && pomObj.parent.groupId != null && pomObj.parent.artifactId != null && pomObj.parent.version != null) {
+            logger.info("Found parent POM: ${pomObj.parent.groupId}:${pomObj.parent.artifactId}:${pomObj.parent.version}")
+            try {
+                parentPomContent = pomFetcher.downloadPom(
+                    pomObj.parent.groupId,
+                    pomObj.parent.artifactId,
+                    pomObj.parent.version
+                )
+            } catch (e: Exception) {
+                logger.warn("Failed to download parent POM: ${e.message}")
+            }
+        }
+        
+        // Parse POM with parent
+        val artifacts = pomParser.parsePom(pomContent, parentPomContent)
         
         // Create snapshot
         val snapshot = BomSnapshot(

@@ -4,6 +4,8 @@ BOM mapping
 このプロジェクトはMaven BOMの比較を行うことを目的としています。
 異なるバージョンのBOMが持つアーティファクトごとのバージョンを確認できます。
 
+🌐 URL: https://maven-bom-mapping.onrender.com/
+
 ## 機能
 
 - Maven CentralやGoogle MavenからBOMファイルを自動取得

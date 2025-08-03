@@ -3,7 +3,7 @@ bomInfo:
   groupId: "io.quarkus.platform"
   artifactId: "quarkus-bom"
   version: "3.2.12.Final"
-  extractedAt: "2025-07-25T17:47:03.175232"
+  extractedAt: "2025-08-03T14:12:15.734519"
 artifacts:
 - groupId: "io.quarkus.platform"
   artifactId: "quarkus-bom-quarkus-platform-descriptor"

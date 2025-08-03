@@ -3,1407 +3,1407 @@
   "artifacts" : [ {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codegen-lite-maven-plugin",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codegen-lite-maven-plugin:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codegen-lite-maven-plugin:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codegen-lite",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codegen-lite:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codegen-lite:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codegen-maven-plugin",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codegen-maven-plugin:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codegen-maven-plugin:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codegen",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codegen:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codegen:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "annotations",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:annotations:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:annotations:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "arns",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:arns:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:arns:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "auth",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:auth:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:auth:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "aws-core",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:aws-core:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:aws-core:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "profiles",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:profiles:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:profiles:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "aws-cbor-protocol",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:aws-cbor-protocol:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:aws-cbor-protocol:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "aws-ion-protocol",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:aws-ion-protocol:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:aws-ion-protocol:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "aws-json-protocol",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:aws-json-protocol:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:aws-json-protocol:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "aws-query-protocol",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:aws-query-protocol:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:aws-query-protocol:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "aws-xml-protocol",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:aws-xml-protocol:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:aws-xml-protocol:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "protocol-core",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:protocol-core:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:protocol-core:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "regions",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:regions:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:regions:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sdk-core",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sdk-core:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sdk-core:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "http-client-spi",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:http-client-spi:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "apache-client",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:apache-client:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:apache-client:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "netty-nio-client",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:netty-nio-client:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:netty-nio-client:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "url-connection-client",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:url-connection-client:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:url-connection-client:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "utils",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:utils:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:utils:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloudwatch-metric-publisher",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloudwatch-metric-publisher:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloudwatch-metric-publisher:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "acm",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:acm:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:acm:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "acmpca",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:acmpca:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:acmpca:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "alexaforbusiness",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:alexaforbusiness:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:alexaforbusiness:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "amplify",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:amplify:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:amplify:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "apigateway",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:apigateway:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:apigateway:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "apigatewaymanagementapi",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:apigatewaymanagementapi:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:apigatewaymanagementapi:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "apigatewayv2",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:apigatewayv2:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:apigatewayv2:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "applicationautoscaling",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:applicationautoscaling:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:applicationautoscaling:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "applicationdiscovery",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:applicationdiscovery:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:applicationdiscovery:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "appmesh",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:appmesh:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:appmesh:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "appstream",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:appstream:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:appstream:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "appsync",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:appsync:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:appsync:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "athena",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:athena:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:athena:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "autoscaling",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:autoscaling:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:autoscaling:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "autoscalingplans",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:autoscalingplans:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:autoscalingplans:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "backup",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:backup:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:backup:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "batch",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:batch:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:batch:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "budgets",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:budgets:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:budgets:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "chime",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:chime:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:chime:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloud9",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloud9:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloud9:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "clouddirectory",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:clouddirectory:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:clouddirectory:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloudformation",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloudformation:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloudformation:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloudfront",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloudfront:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloudfront:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloudhsm",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloudhsm:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloudhsm:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloudhsmv2",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloudhsmv2:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloudhsmv2:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloudsearch",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloudsearch:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloudsearch:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloudsearchdomain",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloudsearchdomain:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloudsearchdomain:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloudtrail",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloudtrail:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloudtrail:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloudwatch",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloudwatch:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloudwatch:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloudwatchevents",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloudwatchevents:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloudwatchevents:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cloudwatchlogs",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cloudwatchlogs:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cloudwatchlogs:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codebuild",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codebuild:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codebuild:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codecommit",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codecommit:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codecommit:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codedeploy",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codedeploy:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codedeploy:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codepipeline",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codepipeline:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codepipeline:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codestar",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codestar:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codestar:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cognitoidentity",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cognitoidentity:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cognitoidentity:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cognitoidentityprovider",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cognitoidentityprovider:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cognitoidentityprovider:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "cognitosync",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:cognitosync:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:cognitosync:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "comprehend",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:comprehend:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:comprehend:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "comprehendmedical",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:comprehendmedical:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:comprehendmedical:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "config",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:config:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:config:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "connect",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:connect:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:connect:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "costandusagereport",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:costandusagereport:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:costandusagereport:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "costexplorer",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:costexplorer:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:costexplorer:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "databasemigration",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:databasemigration:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:databasemigration:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "datapipeline",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:datapipeline:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:datapipeline:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "datasync",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:datasync:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:datasync:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "dax",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:dax:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:dax:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "devicefarm",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:devicefarm:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:devicefarm:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "directconnect",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:directconnect:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:directconnect:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "directory",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:directory:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:directory:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "dlm",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:dlm:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:dlm:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "docdb",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:docdb:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:docdb:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "dynamodb",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:dynamodb:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:dynamodb:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "dynamodb-enhanced",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:dynamodb-enhanced:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:dynamodb-enhanced:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ec2",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ec2:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ec2:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ecr",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ecr:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ecr:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ecs",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ecs:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ecs:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "efs",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:efs:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:efs:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "eks",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:eks:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:eks:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "elasticache",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:elasticache:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:elasticache:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "elasticbeanstalk",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:elasticbeanstalk:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:elasticbeanstalk:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "elasticloadbalancing",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:elasticloadbalancing:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:elasticloadbalancing:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "elasticloadbalancingv2",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:elasticloadbalancingv2:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:elasticloadbalancingv2:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "elasticsearch",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:elasticsearch:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:elasticsearch:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "elastictranscoder",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:elastictranscoder:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:elastictranscoder:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "emr",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:emr:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:emr:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "firehose",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:firehose:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:firehose:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "fms",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:fms:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:fms:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "fsx",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:fsx:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:fsx:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "gamelift",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:gamelift:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:gamelift:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "glacier",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:glacier:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:glacier:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "globalaccelerator",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:globalaccelerator:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:globalaccelerator:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "glue",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:glue:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:glue:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "greengrass",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:greengrass:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:greengrass:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "guardduty",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:guardduty:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:guardduty:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "health",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:health:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:health:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iam",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iam:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iam:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "inspector",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:inspector:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:inspector:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iot",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iot:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iot:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iot1clickdevices",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iot1clickdevices:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iot1clickdevices:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iot1clickprojects",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iot1clickprojects:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iot1clickprojects:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iotanalytics",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iotanalytics:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iotanalytics:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iotdataplane",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iotdataplane:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iotdataplane:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iotjobsdataplane",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iotjobsdataplane:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iotjobsdataplane:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "kafka",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:kafka:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:kafka:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "kinesis",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:kinesis:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:kinesis:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "kinesisanalytics",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:kinesisanalytics:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:kinesisanalytics:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "kinesisanalyticsv2",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:kinesisanalyticsv2:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:kinesisanalyticsv2:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "kinesisvideo",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:kinesisvideo:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:kinesisvideo:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "kinesisvideoarchivedmedia",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:kinesisvideoarchivedmedia:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:kinesisvideoarchivedmedia:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "kinesisvideomedia",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:kinesisvideomedia:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:kinesisvideomedia:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "kms",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:kms:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:kms:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "lambda",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:lambda:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:lambda:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "lexmodelbuilding",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:lexmodelbuilding:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:lexmodelbuilding:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "lexruntime",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:lexruntime:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:lexruntime:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "licensemanager",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:licensemanager:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:licensemanager:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "lightsail",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:lightsail:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:lightsail:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "machinelearning",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:machinelearning:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:machinelearning:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "macie",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:macie:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:macie:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "managedblockchain",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:managedblockchain:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:managedblockchain:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "marketplacecommerceanalytics",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:marketplacecommerceanalytics:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:marketplacecommerceanalytics:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "marketplaceentitlement",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:marketplaceentitlement:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:marketplaceentitlement:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "marketplacemetering",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:marketplacemetering:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:marketplacemetering:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "mediaconnect",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:mediaconnect:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:mediaconnect:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "mediaconvert",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:mediaconvert:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:mediaconvert:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "medialive",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:medialive:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:medialive:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "mediapackage",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:mediapackage:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:mediapackage:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "mediapackagevod",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:mediapackagevod:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:mediapackagevod:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "mediastore",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:mediastore:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:mediastore:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "mediastoredata",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:mediastoredata:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:mediastoredata:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "mediatailor",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:mediatailor:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:mediatailor:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "migrationhub",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:migrationhub:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:migrationhub:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "mobile",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:mobile:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:mobile:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "mq",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:mq:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:mq:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "mturk",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:mturk:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:mturk:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "neptune",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:neptune:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:neptune:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "opsworks",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:opsworks:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:opsworks:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "opsworkscm",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:opsworkscm:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:opsworkscm:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "organizations",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:organizations:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:organizations:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "pi",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:pi:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:pi:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "pinpoint",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:pinpoint:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:pinpoint:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "pinpointemail",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:pinpointemail:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:pinpointemail:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "pinpointsmsvoice",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:pinpointsmsvoice:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:pinpointsmsvoice:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "polly",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:polly:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:polly:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "pricing",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:pricing:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:pricing:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "quicksight",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:quicksight:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:quicksight:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ram",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ram:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ram:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "rds",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:rds:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:rds:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "rdsdata",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:rdsdata:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:rdsdata:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "redshift",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:redshift:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:redshift:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "rekognition",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:rekognition:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:rekognition:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "resourcegroups",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:resourcegroups:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:resourcegroups:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "resourcegroupstaggingapi",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:resourcegroupstaggingapi:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:resourcegroupstaggingapi:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "robomaker",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:robomaker:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:robomaker:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "route53",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:route53:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:route53:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "route53domains",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:route53domains:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:route53domains:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "route53resolver",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:route53resolver:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:route53resolver:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "s3",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:s3:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:s3:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "s3control",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:s3control:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:s3control:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sagemaker",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sagemaker:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sagemaker:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sagemakerruntime",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sagemakerruntime:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sagemakerruntime:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "secretsmanager",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:secretsmanager:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:secretsmanager:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "securityhub",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:securityhub:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:securityhub:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "serverlessapplicationrepository",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:serverlessapplicationrepository:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:serverlessapplicationrepository:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "servicecatalog",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:servicecatalog:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:servicecatalog:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "servicediscovery",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:servicediscovery:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:servicediscovery:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ses",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ses:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ses:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sfn",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sfn:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sfn:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "shield",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:shield:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:shield:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "signer",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:signer:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:signer:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sms",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sms:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sms:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "snowball",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:snowball:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:snowball:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sns",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sns:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sns:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sqs",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sqs:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sqs:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ssm",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ssm:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ssm:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "storagegateway",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:storagegateway:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:storagegateway:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sts",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sts:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sts:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "support",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:support:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:support:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "swf",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:swf:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:swf:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "textract",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:textract:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:textract:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "transcribe",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:transcribe:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:transcribe:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "transcribestreaming",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:transcribestreaming:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:transcribestreaming:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "transfer",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:transfer:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:transfer:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "translate",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:translate:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:translate:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "waf",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:waf:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:waf:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "workdocs",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:workdocs:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:workdocs:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "worklink",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:worklink:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:worklink:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "workmail",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:workmail:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:workmail:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "workspaces",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:workspaces:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:workspaces:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "xray",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:xray:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:xray:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "groundstation",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:groundstation:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:groundstation:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iotthingsgraph",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iotthingsgraph:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iotthingsgraph:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iotevents",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iotevents:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iotevents:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ioteventsdata",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ioteventsdata:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ioteventsdata:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "personalizeruntime",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:personalizeruntime:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:personalizeruntime:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "personalize",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:personalize:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:personalize:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "personalizeevents",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:personalizeevents:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:personalizeevents:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "servicequotas",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:servicequotas:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:servicequotas:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "applicationinsights",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:applicationinsights:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:applicationinsights:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ec2instanceconnect",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ec2instanceconnect:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ec2instanceconnect:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "eventbridge",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:eventbridge:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:eventbridge:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "lakeformation",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:lakeformation:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:lakeformation:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "forecast",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:forecast:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:forecast:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "forecastquery",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:forecastquery:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:forecastquery:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "qldb",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:qldb:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:qldb:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "qldbsession",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:qldbsession:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:qldbsession:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "workmailmessageflow",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:workmailmessageflow:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:workmailmessageflow:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codestarnotifications",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codestarnotifications:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codestarnotifications:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "savingsplans",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:savingsplans:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:savingsplans:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sso",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sso:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sso:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ssooidc",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ssooidc:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ssooidc:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "marketplacecatalog",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:marketplacecatalog:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:marketplacecatalog:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sesv2",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sesv2:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sesv2:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "dataexchange",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:dataexchange:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:dataexchange:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "migrationhubconfig",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:migrationhubconfig:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:migrationhubconfig:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "connectparticipant",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:connectparticipant:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:connectparticipant:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "wafv2",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:wafv2:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:wafv2:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "appconfig",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:appconfig:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:appconfig:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iotsecuretunneling",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iotsecuretunneling:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iotsecuretunneling:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "elasticinference",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:elasticinference:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:elasticinference:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "imagebuilder",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:imagebuilder:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:imagebuilder:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "schemas",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:schemas:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:schemas:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "accessanalyzer",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:accessanalyzer:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:accessanalyzer:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "computeoptimizer",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:computeoptimizer:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:computeoptimizer:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "networkmanager",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:networkmanager:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:networkmanager:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "kendra",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:kendra:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:kendra:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "frauddetector",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:frauddetector:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:frauddetector:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codegurureviewer",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codegurureviewer:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codegurureviewer:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codeguruprofiler",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codeguruprofiler:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codeguruprofiler:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "outposts",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:outposts:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:outposts:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sagemakera2iruntime",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sagemakera2iruntime:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sagemakera2iruntime:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ebs",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ebs:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ebs:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "kinesisvideosignaling",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:kinesisvideosignaling:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:kinesisvideosignaling:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "detective",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:detective:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:detective:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codestarconnections",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codestarconnections:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codestarconnections:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "synthetics",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:synthetics:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:synthetics:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iotsitewise",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iotsitewise:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iotsitewise:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "macie2",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:macie2:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:macie2:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "codeartifact",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:codeartifact:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:codeartifact:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "honeycode",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:honeycode:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:honeycode:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ivs",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ivs:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ivs:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "braket",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:braket:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:braket:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "identitystore",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:identitystore:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:identitystore:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "appflow",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:appflow:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:appflow:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "redshiftdata",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:redshiftdata:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:redshiftdata:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ssoadmin",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ssoadmin:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ssoadmin:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "timestreamwrite",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:timestreamwrite:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:timestreamwrite:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "timestreamquery",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:timestreamquery:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:timestreamquery:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "s3outposts",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:s3outposts:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:s3outposts:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "metrics-spi",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:metrics-spi:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:metrics-spi:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "databrew",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:databrew:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:databrew:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "servicecatalogappregistry",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:servicecatalogappregistry:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:servicecatalogappregistry:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "networkfirewall",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:networkfirewall:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:networkfirewall:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "mwaa",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:mwaa:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:mwaa:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "devopsguru",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:devopsguru:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:devopsguru:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sagemakerfeaturestoreruntime",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sagemakerfeaturestoreruntime:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sagemakerfeaturestoreruntime:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "appintegrations",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:appintegrations:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:appintegrations:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "ecrpublic",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:ecrpublic:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:ecrpublic:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "amplifybackend",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:amplifybackend:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:amplifybackend:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "connectcontactlens",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:connectcontactlens:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:connectcontactlens:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "lookoutvision",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:lookoutvision:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:lookoutvision:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "customerprofiles",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:customerprofiles:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:customerprofiles:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "emrcontainers",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:emrcontainers:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:emrcontainers:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "sagemakeredge",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:sagemakeredge:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:sagemakeredge:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "healthlake",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:healthlake:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:healthlake:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "auditmanager",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:auditmanager:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:auditmanager:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "amp",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:amp:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:amp:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "greengrassv2",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:greengrassv2:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:greengrassv2:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iotwireless",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iotwireless:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iotwireless:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iotfleethub",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iotfleethub:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iotfleethub:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "iotdeviceadvisor",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:iotdeviceadvisor:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:iotdeviceadvisor:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "location",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:location:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:location:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "wellarchitected",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:wellarchitected:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:wellarchitected:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "lexruntimev2",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:lexruntimev2:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:lexruntimev2:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "lexmodelsv2",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:lexmodelsv2:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:lexmodelsv2:2.16.19"
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "fis",
-    "version" : "${awsjavasdk.version}",
-    "coordinates" : "software.amazon.awssdk:fis:${awsjavasdk.version}"
+    "version" : "2.16.19",
+    "coordinates" : "software.amazon.awssdk:fis:2.16.19"
   } ]
 }

@@ -3,7 +3,7 @@ bomInfo:
   groupId: "org.junit"
   artifactId: "junit-bom"
   version: "5.9.3"
-  extractedAt: "2025-07-25T17:13:08.059029"
+  extractedAt: "2025-08-03T14:09:41.453223"
 artifacts:
 - groupId: "org.junit.jupiter"
   artifactId: "junit-jupiter"

@@ -3,157 +3,157 @@
   "artifacts" : [ {
     "groupId" : "jakarta.servlet",
     "artifactId" : "jakarta.servlet-api",
-    "version" : "${jakarta.servlet-api.version}",
-    "coordinates" : "jakarta.servlet:jakarta.servlet-api:${jakarta.servlet-api.version}"
+    "version" : "5.0.0",
+    "coordinates" : "jakarta.servlet:jakarta.servlet-api:5.0.0"
   }, {
     "groupId" : "jakarta.servlet.jsp",
     "artifactId" : "jakarta.servlet.jsp-api",
-    "version" : "${jakarta.servlet.jsp-api.version}",
-    "coordinates" : "jakarta.servlet.jsp:jakarta.servlet.jsp-api:${jakarta.servlet.jsp-api.version}"
+    "version" : "3.0.0",
+    "coordinates" : "jakarta.servlet.jsp:jakarta.servlet.jsp-api:3.0.0"
   }, {
     "groupId" : "jakarta.el",
     "artifactId" : "jakarta.el-api",
-    "version" : "${jakarta.el-api.version}",
-    "coordinates" : "jakarta.el:jakarta.el-api:${jakarta.el-api.version}"
+    "version" : "4.0.0",
+    "coordinates" : "jakarta.el:jakarta.el-api:4.0.0"
   }, {
     "groupId" : "jakarta.servlet.jsp.jstl",
     "artifactId" : "jakarta.servlet.jsp.jstl-api",
-    "version" : "${jakarta.servlet.jsp.jstl-api.version}",
-    "coordinates" : "jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:${jakarta.servlet.jsp.jstl-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:2.0.0"
   }, {
     "groupId" : "jakarta.faces",
     "artifactId" : "jakarta.faces-api",
-    "version" : "${jakarta.faces-api.version}",
-    "coordinates" : "jakarta.faces:jakarta.faces-api:${jakarta.faces-api.version}"
+    "version" : "3.0.0",
+    "coordinates" : "jakarta.faces:jakarta.faces-api:3.0.0"
   }, {
     "groupId" : "jakarta.ws.rs",
     "artifactId" : "jakarta.ws.rs-api",
-    "version" : "${jakarta.ws.rs-api.version}",
-    "coordinates" : "jakarta.ws.rs:jakarta.ws.rs-api:${jakarta.ws.rs-api.version}"
+    "version" : "3.0.0",
+    "coordinates" : "jakarta.ws.rs:jakarta.ws.rs-api:3.0.0"
   }, {
     "groupId" : "jakarta.websocket",
     "artifactId" : "jakarta.websocket-api",
-    "version" : "${jakarta.websocket-api.version}",
-    "coordinates" : "jakarta.websocket:jakarta.websocket-api:${jakarta.websocket-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.websocket:jakarta.websocket-api:2.0.0"
   }, {
     "groupId" : "jakarta.json",
     "artifactId" : "jakarta.json-api",
-    "version" : "${jakarta.json-api.version}",
-    "coordinates" : "jakarta.json:jakarta.json-api:${jakarta.json-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.json:jakarta.json-api:2.0.0"
   }, {
     "groupId" : "jakarta.json.bind",
     "artifactId" : "jakarta.json.bind-api",
-    "version" : "${jakarta.json.bind-api.version}",
-    "coordinates" : "jakarta.json.bind:jakarta.json.bind-api:${jakarta.json.bind-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.json.bind:jakarta.json.bind-api:2.0.0"
   }, {
     "groupId" : "jakarta.annotation",
     "artifactId" : "jakarta.annotation-api",
-    "version" : "${jakarta.annotation-api.version}",
-    "coordinates" : "jakarta.annotation:jakarta.annotation-api:${jakarta.annotation-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.annotation:jakarta.annotation-api:2.0.0"
   }, {
     "groupId" : "jakarta.ejb",
     "artifactId" : "jakarta.ejb-api",
-    "version" : "${jakarta.ejb-api.version}",
-    "coordinates" : "jakarta.ejb:jakarta.ejb-api:${jakarta.ejb-api.version}"
+    "version" : "4.0.0",
+    "coordinates" : "jakarta.ejb:jakarta.ejb-api:4.0.0"
   }, {
     "groupId" : "jakarta.transaction",
     "artifactId" : "jakarta.transaction-api",
-    "version" : "${jakarta.transaction-api.version}",
-    "coordinates" : "jakarta.transaction:jakarta.transaction-api:${jakarta.transaction-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.transaction:jakarta.transaction-api:2.0.0"
   }, {
     "groupId" : "jakarta.persistence",
     "artifactId" : "jakarta.persistence-api",
-    "version" : "${jakarta.persistence-api.version}",
-    "coordinates" : "jakarta.persistence:jakarta.persistence-api:${jakarta.persistence-api.version}"
+    "version" : "3.0.0",
+    "coordinates" : "jakarta.persistence:jakarta.persistence-api:3.0.0"
   }, {
     "groupId" : "jakarta.validation",
     "artifactId" : "jakarta.validation-api",
-    "version" : "${jakarta.validation-api.version}",
-    "coordinates" : "jakarta.validation:jakarta.validation-api:${jakarta.validation-api.version}"
+    "version" : "3.0.0",
+    "coordinates" : "jakarta.validation:jakarta.validation-api:3.0.0"
   }, {
     "groupId" : "jakarta.interceptor",
     "artifactId" : "jakarta.interceptor-api",
-    "version" : "${jakarta.interceptor-api.version}",
-    "coordinates" : "jakarta.interceptor:jakarta.interceptor-api:${jakarta.interceptor-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.interceptor:jakarta.interceptor-api:2.0.0"
   }, {
     "groupId" : "jakarta.enterprise",
     "artifactId" : "jakarta.enterprise.cdi-api",
-    "version" : "${jakarta.enterprise.cdi-api.version}",
-    "coordinates" : "jakarta.enterprise:jakarta.enterprise.cdi-api:${jakarta.enterprise.cdi-api.version}"
+    "version" : "3.0.0",
+    "coordinates" : "jakarta.enterprise:jakarta.enterprise.cdi-api:3.0.0"
   }, {
     "groupId" : "jakarta.inject",
     "artifactId" : "jakarta.inject-api",
-    "version" : "${jakarta.inject.version}",
-    "coordinates" : "jakarta.inject:jakarta.inject-api:${jakarta.inject.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.inject:jakarta.inject-api:2.0.0"
   }, {
     "groupId" : "jakarta.authentication",
     "artifactId" : "jakarta.authentication-api",
-    "version" : "${jakarta.authentication-api.version}",
-    "coordinates" : "jakarta.authentication:jakarta.authentication-api:${jakarta.authentication-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.authentication:jakarta.authentication-api:2.0.0"
   }, {
     "groupId" : "jakarta.security.enterprise",
     "artifactId" : "jakarta.security.enterprise-api",
-    "version" : "${jakarta.security.enterprise-api.version}",
-    "coordinates" : "jakarta.security.enterprise:jakarta.security.enterprise-api:${jakarta.security.enterprise-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.security.enterprise:jakarta.security.enterprise-api:2.0.0"
   }, {
     "groupId" : "jakarta.jms",
     "artifactId" : "jakarta.jms-api",
-    "version" : "${jakarta.jms-api.version}",
-    "coordinates" : "jakarta.jms:jakarta.jms-api:${jakarta.jms-api.version}"
+    "version" : "3.0.0",
+    "coordinates" : "jakarta.jms:jakarta.jms-api:3.0.0"
   }, {
     "groupId" : "jakarta.activation",
     "artifactId" : "jakarta.activation-api",
-    "version" : "${jakarta.activation-api.version}",
-    "coordinates" : "jakarta.activation:jakarta.activation-api:${jakarta.activation-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.activation:jakarta.activation-api:2.0.0"
   }, {
     "groupId" : "jakarta.mail",
     "artifactId" : "jakarta.mail-api",
-    "version" : "${jakarta.mail-api.version}",
-    "coordinates" : "jakarta.mail:jakarta.mail-api:${jakarta.mail-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.mail:jakarta.mail-api:2.0.0"
   }, {
     "groupId" : "com.sun.mail",
     "artifactId" : "jakarta.mail",
-    "version" : "${jakarta.mail-api.version}",
-    "coordinates" : "com.sun.mail:jakarta.mail:${jakarta.mail-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "com.sun.mail:jakarta.mail:2.0.0"
   }, {
     "groupId" : "jakarta.resource",
     "artifactId" : "jakarta.resource-api",
-    "version" : "${jakarta.resource-api.version}",
-    "coordinates" : "jakarta.resource:jakarta.resource-api:${jakarta.resource-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.resource:jakarta.resource-api:2.0.0"
   }, {
     "groupId" : "jakarta.authorization",
     "artifactId" : "jakarta.authorization-api",
-    "version" : "${jakarta.authorization-api.version}",
-    "coordinates" : "jakarta.authorization:jakarta.authorization-api:${jakarta.authorization-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.authorization:jakarta.authorization-api:2.0.0"
   }, {
     "groupId" : "jakarta.enterprise.concurrent",
     "artifactId" : "jakarta.enterprise.concurrent-api",
-    "version" : "${jakarta.enterprise.concurrent-api.version}",
-    "coordinates" : "jakarta.enterprise.concurrent:jakarta.enterprise.concurrent-api:${jakarta.enterprise.concurrent-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.enterprise.concurrent:jakarta.enterprise.concurrent-api:2.0.0"
   }, {
     "groupId" : "jakarta.batch",
     "artifactId" : "jakarta.batch-api",
-    "version" : "${jakarta.batch-api.version}",
-    "coordinates" : "jakarta.batch:jakarta.batch-api:${jakarta.batch-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.batch:jakarta.batch-api:2.0.0"
   }, {
     "groupId" : "jakarta.xml.bind",
     "artifactId" : "jakarta.xml.bind-api",
-    "version" : "${jakarta.xml.bind-api.version}",
-    "coordinates" : "jakarta.xml.bind:jakarta.xml.bind-api:${jakarta.xml.bind-api.version}"
+    "version" : "3.0.0",
+    "coordinates" : "jakarta.xml.bind:jakarta.xml.bind-api:3.0.0"
   }, {
     "groupId" : "jakarta.xml.ws",
     "artifactId" : "jakarta.xml.ws-api",
-    "version" : "${jakarta.xml.ws-api.version}",
-    "coordinates" : "jakarta.xml.ws:jakarta.xml.ws-api:${jakarta.xml.ws-api.version}"
+    "version" : "3.0.0",
+    "coordinates" : "jakarta.xml.ws:jakarta.xml.ws-api:3.0.0"
   }, {
     "groupId" : "jakarta.jws",
     "artifactId" : "jakarta.jws-api",
-    "version" : "${jakarta.jws-api.version}",
-    "coordinates" : "jakarta.jws:jakarta.jws-api:${jakarta.jws-api.version}"
+    "version" : "3.0.0",
+    "coordinates" : "jakarta.jws:jakarta.jws-api:3.0.0"
   }, {
     "groupId" : "jakarta.xml.soap",
     "artifactId" : "jakarta.xml.soap-api",
-    "version" : "${jakarta.xml.soap-api.version}",
-    "coordinates" : "jakarta.xml.soap:jakarta.xml.soap-api:${jakarta.xml.soap-api.version}"
+    "version" : "2.0.0",
+    "coordinates" : "jakarta.xml.soap:jakarta.xml.soap-api:2.0.0"
   } ]
 }

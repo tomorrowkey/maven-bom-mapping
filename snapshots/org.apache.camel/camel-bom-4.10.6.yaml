@@ -3,7 +3,7 @@ bomInfo:
   groupId: "org.apache.camel"
   artifactId: "camel-bom"
   version: "4.10.6"
-  extractedAt: "2025-07-25T17:46:09.696188"
+  extractedAt: "2025-08-03T14:11:26.142485"
 artifacts:
 - groupId: "org.apache.camel.maven"
   artifactId: "camel-debezium-maven-plugin"

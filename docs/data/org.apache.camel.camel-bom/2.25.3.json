@@ -3,2957 +3,2957 @@
   "artifacts" : [ {
     "groupId" : "org.apache.camel",
     "artifactId" : "apt",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:apt:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:apt:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ahc",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ahc:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ahc:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ahc-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ahc-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ahc-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ahc-ws",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ahc-ws:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ahc-ws:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ahc-ws-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ahc-ws-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ahc-ws-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-amqp",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-amqp:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-amqp:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-amqp-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-amqp-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-amqp-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-apns",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-apns:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-apns:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-apns-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-apns-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-apns-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-as2",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-as2:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-as2:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-as2-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-as2-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-as2-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-asn1",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-asn1:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-asn1:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-asn1-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-asn1-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-asn1-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-asterisk",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-asterisk:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-asterisk:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-asterisk-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-asterisk-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-asterisk-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-atmos",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-atmos:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-atmos:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-atmos-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-atmos-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-atmos-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-atmosphere-websocket",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-atmosphere-websocket:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-atmosphere-websocket:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-atmosphere-websocket-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-atmosphere-websocket-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-atmosphere-websocket-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-atom",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-atom:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-atom:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-atom-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-atom-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-atom-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-atomix",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-atomix:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-atomix:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-atomix-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-atomix-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-atomix-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-avro",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-avro:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-avro:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-avro-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-avro-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-avro-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-aws",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-aws:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-aws:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-aws-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-aws-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-aws-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-aws-xray",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-aws-xray:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-aws-xray:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-aws-xray-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-aws-xray-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-aws-xray-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-azure",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-azure:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-azure:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-azure-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-azure-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-azure-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-bam",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-bam:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-bam:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-bam-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-bam-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-bam-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-barcode",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-barcode:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-barcode:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-barcode-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-barcode-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-barcode-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-base64",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-base64:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-base64:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-base64-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-base64-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-base64-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-bean-validator",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-bean-validator:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-bean-validator:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-bean-validator-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-bean-validator-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-bean-validator-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-beanio",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-beanio:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-beanio:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-beanio-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-beanio-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-beanio-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-beanstalk",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-beanstalk:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-beanstalk:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-beanstalk-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-beanstalk-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-beanstalk-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-bindy",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-bindy:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-bindy:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-bindy-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-bindy-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-bindy-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-blueprint",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-blueprint:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-blueprint:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-bonita",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-bonita:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-bonita:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-bonita-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-bonita-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-bonita-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-boon",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-boon:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-boon:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-boon-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-boon-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-boon-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-box",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-box:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-box:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-box-api",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-box-api:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-box-api:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-box-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-box-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-box-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-braintree",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-braintree:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-braintree:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-braintree-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-braintree-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-braintree-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cache",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cache:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cache:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cache-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cache-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cache-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-caffeine",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-caffeine:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-caffeine:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-caffeine-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-caffeine-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-caffeine-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cassandraql",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cassandraql:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cassandraql:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cassandraql-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cassandraql-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cassandraql-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-castor",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-castor:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-castor:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-castor-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-castor-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-castor-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-catalog",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-catalog:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-catalog:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-catalog-connector",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-catalog-connector:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-catalog-connector:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-catalog-lucene",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-catalog-lucene:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-catalog-lucene:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-catalog-maven",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-catalog-maven:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-catalog-maven:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-catalog-nexus",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-catalog-nexus:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-catalog-nexus:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-catalog-provider-karaf",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-catalog-provider-karaf:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-catalog-provider-karaf:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-catalog-provider-springboot",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-catalog-provider-springboot:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-catalog-provider-springboot:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-catalog-rest",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-catalog-rest:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-catalog-rest:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-catalog-rest-app",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-catalog-rest-app:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-catalog-rest-app:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cdi",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cdi:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cdi:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-chronicle",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-chronicle:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-chronicle:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-chronicle-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-chronicle-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-chronicle-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-chunk",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-chunk:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-chunk:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-chunk-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-chunk-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-chunk-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cm-sms",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cm-sms:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cm-sms:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cm-sms-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cm-sms-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cm-sms-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cmis",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cmis:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cmis:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cmis-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cmis-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cmis-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-coap",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-coap:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-coap:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-coap-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-coap-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-coap-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cometd",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cometd:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cometd:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cometd-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cometd-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cometd-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-commands-core",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-commands-core:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-commands-core:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-commands-jolokia",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-commands-jolokia:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-commands-jolokia:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-connector",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-connector:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-connector:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-consul",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-consul:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-consul:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-consul-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-consul-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-consul-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-context",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-context:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-context:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-context-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-context-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-context-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-corda",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-corda:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-corda:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-corda-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-corda-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-corda-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-core",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-core:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-core:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-core",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-core:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-core:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-core-osgi",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-core-osgi:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-core-osgi:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-core-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-core-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-core-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-core-xml",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-core-xml:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-core-xml:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-couchbase",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-couchbase:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-couchbase:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-couchbase-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-couchbase-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-couchbase-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-couchdb",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-couchdb:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-couchdb:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-couchdb-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-couchdb-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-couchdb-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-crypto",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-crypto:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-crypto:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-crypto-cms",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-crypto-cms:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-crypto-cms:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-crypto-cms-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-crypto-cms-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-crypto-cms-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-crypto-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-crypto-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-crypto-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-csv",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-csv:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-csv:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-csv-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-csv-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-csv-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cxf",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cxf:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cxf:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cxf-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cxf-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cxf-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cxf-transport",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cxf-transport:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cxf-transport:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-cxf-transport-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-cxf-transport-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-cxf-transport-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-digitalocean",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-digitalocean:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-digitalocean:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-digitalocean-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-digitalocean-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-digitalocean-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-disruptor",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-disruptor:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-disruptor:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-disruptor-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-disruptor-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-disruptor-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-dns",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-dns:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-dns:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-dns-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-dns-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-dns-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-docker",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-docker:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-docker:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-docker-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-docker-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-docker-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-dozer",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-dozer:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-dozer:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-dozer-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-dozer-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-dozer-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-drill",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-drill:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-drill:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-drill-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-drill-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-drill-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-dropbox",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-dropbox:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-dropbox:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-dropbox-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-dropbox-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-dropbox-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-eclipse",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-eclipse:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-eclipse:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-eclipse-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-eclipse-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-eclipse-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ehcache",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ehcache:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ehcache:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ehcache-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ehcache-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ehcache-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ejb",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ejb:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ejb:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-elasticsearch",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-elasticsearch:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-elasticsearch:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-elasticsearch-rest",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-elasticsearch-rest:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-elasticsearch-rest:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-elasticsearch-rest-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-elasticsearch-rest-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-elasticsearch-rest-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-elasticsearch-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-elasticsearch-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-elasticsearch-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-elasticsearch5",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-elasticsearch5:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-elasticsearch5:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-elasticsearch5-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-elasticsearch5-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-elasticsearch5-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-elsql",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-elsql:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-elsql:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-elsql-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-elsql-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-elsql-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-etcd",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-etcd:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-etcd:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-etcd-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-etcd-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-etcd-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-eventadmin",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-eventadmin:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-eventadmin:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-exec",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-exec:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-exec:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-exec-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-exec-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-exec-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-facebook",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-facebook:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-facebook:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-facebook-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-facebook-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-facebook-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-fastjson",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-fastjson:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-fastjson:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-fastjson-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-fastjson-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-fastjson-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-fhir",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-fhir:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-fhir:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-fhir-api",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-fhir-api:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-fhir-api:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-fhir-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-fhir-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-fhir-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-flatpack",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-flatpack:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-flatpack:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-flatpack-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-flatpack-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-flatpack-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-flink",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-flink:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-flink:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-flink-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-flink-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-flink-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-fop",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-fop:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-fop:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-fop-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-fop-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-fop-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-freemarker",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-freemarker:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-freemarker:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-freemarker-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-freemarker-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-freemarker-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ftp",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ftp:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ftp:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ftp-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ftp-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ftp-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ganglia",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ganglia:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ganglia:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ganglia-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ganglia-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ganglia-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-geocoder",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-geocoder:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-geocoder:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-geocoder-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-geocoder-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-geocoder-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-git",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-git:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-git:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-git-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-git-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-git-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-github",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-github:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-github:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-github-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-github-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-github-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-bigquery",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-bigquery:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-bigquery:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-bigquery-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-bigquery-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-bigquery-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-calendar",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-calendar:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-calendar:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-calendar-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-calendar-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-calendar-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-drive",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-drive:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-drive:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-drive-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-drive-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-drive-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-mail",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-mail:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-mail:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-mail-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-mail-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-mail-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-pubsub",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-pubsub:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-pubsub:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-pubsub-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-pubsub-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-pubsub-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-sheets",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-sheets:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-sheets:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-google-sheets-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-google-sheets-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-google-sheets-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-gora",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-gora:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-gora:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-gora-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-gora-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-gora-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-grape",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-grape:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-grape:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-grape-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-grape-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-grape-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-groovy",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-groovy:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-groovy:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-groovy-dsl",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-groovy-dsl:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-groovy-dsl:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-groovy-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-groovy-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-groovy-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-grpc",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-grpc:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-grpc:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-grpc-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-grpc-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-grpc-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-gson",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-gson:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-gson:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-gson-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-gson-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-gson-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-guava-eventbus",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-guava-eventbus:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-guava-eventbus:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-guava-eventbus-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-guava-eventbus-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-guava-eventbus-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-guice",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-guice:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-guice:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-guice-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-guice-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-guice-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hawtdb",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hawtdb:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hawtdb:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hawtdb-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hawtdb-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hawtdb-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hazelcast",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hazelcast:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hazelcast:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hazelcast-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hazelcast-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hazelcast-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hbase",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hbase:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hbase:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hbase-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hbase-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hbase-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hdfs",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hdfs:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hdfs:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hdfs-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hdfs-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hdfs-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hdfs2",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hdfs2:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hdfs2:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hdfs2-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hdfs2-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hdfs2-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-headersmap",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-headersmap:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-headersmap:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-headersmap-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-headersmap-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-headersmap-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hessian",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hessian:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hessian:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hessian-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hessian-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hessian-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hipchat",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hipchat:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hipchat:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hipchat-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hipchat-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hipchat-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hl7",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hl7:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hl7:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hl7-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hl7-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hl7-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-http",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-http:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-http:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-http-common",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-http-common:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-http-common:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-http-common-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-http-common-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-http-common-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-http-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-http-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-http-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-http4",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-http4:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-http4:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-http4-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-http4-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-http4-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hystrix",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hystrix:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hystrix:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-hystrix-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-hystrix-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-hystrix-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ibatis",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ibatis:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ibatis:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ical",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ical:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ical:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ical-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ical-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ical-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-iec60870",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-iec60870:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-iec60870:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-iec60870-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-iec60870-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-iec60870-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ignite",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ignite:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ignite:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ignite-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ignite-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ignite-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-infinispan",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-infinispan:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-infinispan:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-infinispan-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-infinispan-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-infinispan-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-influxdb",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-influxdb:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-influxdb:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-influxdb-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-influxdb-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-influxdb-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-iota",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-iota:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-iota:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-iota-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-iota-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-iota-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ipfs",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ipfs:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ipfs:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ipfs-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ipfs-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ipfs-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-irc",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-irc:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-irc:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-irc-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-irc-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-irc-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ironmq",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ironmq:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ironmq:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ironmq-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ironmq-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ironmq-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jackson",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jackson:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jackson:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jackson-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jackson-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jackson-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jacksonxml",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jacksonxml:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jacksonxml:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jacksonxml-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jacksonxml-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jacksonxml-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jasypt",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jasypt:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jasypt:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jasypt-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jasypt-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jasypt-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-javaspace",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-javaspace:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-javaspace:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-javaspace-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-javaspace-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-javaspace-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jaxb",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jaxb:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jaxb:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jaxb-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jaxb-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jaxb-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jbpm",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jbpm:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jbpm:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jbpm-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jbpm-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jbpm-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jcache",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jcache:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jcache:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jcache-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jcache-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jcache-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jclouds",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jclouds:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jclouds:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jclouds-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jclouds-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jclouds-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jcr",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jcr:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jcr:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jcr-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jcr-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jcr-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jdbc",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jdbc:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jdbc:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jdbc-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jdbc-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jdbc-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jetty",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jetty:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jetty:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jetty-common",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jetty-common:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jetty-common:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jetty-common-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jetty-common-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jetty-common-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jetty-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jetty-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jetty-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jetty9",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jetty9:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jetty9:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jetty9-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jetty9-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jetty9-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jgroups",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jgroups:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jgroups:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jgroups-raft",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jgroups-raft:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jgroups-raft:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jgroups-raft-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jgroups-raft-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jgroups-raft-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jgroups-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jgroups-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jgroups-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jibx",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jibx:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jibx:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jibx-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jibx-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jibx-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jing",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jing:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jing:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jing-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jing-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jing-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jira",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jira:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jira:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jira-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jira-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jira-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jms",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jms:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jms:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jms-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jms-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jms-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jmx",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jmx:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jmx:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jmx-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jmx-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jmx-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-johnzon",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-johnzon:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-johnzon:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-johnzon-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-johnzon-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-johnzon-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jolt",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jolt:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jolt:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jolt-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jolt-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jolt-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-josql",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-josql:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-josql:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-josql-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-josql-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-josql-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jpa",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jpa:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jpa:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jpa-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jpa-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jpa-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jsch",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jsch:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jsch:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jsch-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jsch-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jsch-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-json-validator",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-json-validator:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-json-validator:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-json-validator-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-json-validator-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-json-validator-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jsonpath",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jsonpath:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jsonpath:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jsonpath-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jsonpath-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jsonpath-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jt400",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jt400:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jt400:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jt400-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jt400-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jt400-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-juel",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-juel:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-juel:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-juel-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-juel-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-juel-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jxpath",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jxpath:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jxpath:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-jxpath-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-jxpath-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-jxpath-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-kafka",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-kafka:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-kafka:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-kafka-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-kafka-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-kafka-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-kestrel",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-kestrel:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-kestrel:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-kestrel-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-kestrel-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-kestrel-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-krati",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-krati:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-krati:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-krati-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-krati-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-krati-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-kubernetes",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-kubernetes:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-kubernetes:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-kubernetes-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-kubernetes-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-kubernetes-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-kura",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-kura:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-kura:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-kura-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-kura-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-kura-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ldap",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ldap:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ldap:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ldap-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ldap-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ldap-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ldif",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ldif:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ldif:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ldif-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ldif-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ldif-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-leveldb",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-leveldb:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-leveldb:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-leveldb-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-leveldb-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-leveldb-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-linkedin",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-linkedin:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-linkedin:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-linkedin-api",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-linkedin-api:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-linkedin-api:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-linkedin-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-linkedin-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-linkedin-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-lra",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-lra:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-lra:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-lra-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-lra-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-lra-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-lucene",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-lucene:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-lucene:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-lucene-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-lucene-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-lucene-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-lumberjack",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-lumberjack:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-lumberjack:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-lumberjack-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-lumberjack-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-lumberjack-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-lzf",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-lzf:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-lzf:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-lzf-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-lzf-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-lzf-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mail",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mail:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mail:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mail-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mail-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mail-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-manual",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-manual:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-manual:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-master",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-master:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-master:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-master-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-master-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-master-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-metrics",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-metrics:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-metrics:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-metrics-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-metrics-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-metrics-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-micrometer",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-micrometer:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-micrometer:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-micrometer-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-micrometer-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-micrometer-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-milo",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-milo:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-milo:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-milo-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-milo-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-milo-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mina",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mina:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mina:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mina2",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mina2:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mina2:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mina2-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mina2-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mina2-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mllp",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mllp:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mllp:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mllp-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mllp-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mllp-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mongodb",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mongodb:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mongodb:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mongodb-gridfs",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mongodb-gridfs:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mongodb-gridfs:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mongodb-gridfs-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mongodb-gridfs-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mongodb-gridfs-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mongodb-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mongodb-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mongodb-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mongodb3",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mongodb3:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mongodb3:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mongodb3-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mongodb3-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mongodb3-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mqtt",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mqtt:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mqtt:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mqtt-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mqtt-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mqtt-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-msv",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-msv:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-msv:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-msv-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-msv-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-msv-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mustache",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mustache:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mustache:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mustache-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mustache-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mustache-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mvel",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mvel:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mvel:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mvel-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mvel-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mvel-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mybatis",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mybatis:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mybatis:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-mybatis-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-mybatis-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-mybatis-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-nagios",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-nagios:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-nagios:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-nagios-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-nagios-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-nagios-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-nats",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-nats:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-nats:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-nats-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-nats-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-nats-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-netty",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-netty:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-netty:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-netty-http",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-netty-http:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-netty-http:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-netty-http-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-netty-http-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-netty-http-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-netty-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-netty-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-netty-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-netty4",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-netty4:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-netty4:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-netty4-http",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-netty4-http:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-netty4-http:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-netty4-http-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-netty4-http-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-netty4-http-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-netty4-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-netty4-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-netty4-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-nsq",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-nsq:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-nsq:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-nsq-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-nsq-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-nsq-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ognl",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ognl:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ognl:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ognl-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ognl-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ognl-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-olingo2",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-olingo2:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-olingo2:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-olingo2-api",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-olingo2-api:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-olingo2-api:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-olingo2-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-olingo2-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-olingo2-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-olingo4",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-olingo4:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-olingo4:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-olingo4-api",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-olingo4-api:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-olingo4-api:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-olingo4-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-olingo4-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-olingo4-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-openshift",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-openshift:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-openshift:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-openshift-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-openshift-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-openshift-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-openstack",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-openstack:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-openstack:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-openstack-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-openstack-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-openstack-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-opentracing",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-opentracing:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-opentracing:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-opentracing-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-opentracing-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-opentracing-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-optaplanner",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-optaplanner:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-optaplanner:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-optaplanner-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-optaplanner-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-optaplanner-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-paho",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-paho:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-paho:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-paho-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-paho-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-paho-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-paxlogging",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-paxlogging:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-paxlogging:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-pdf",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-pdf:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-pdf:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-pdf-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-pdf-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-pdf-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-pgevent",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-pgevent:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-pgevent:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-pgevent-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-pgevent-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-pgevent-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-printer",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-printer:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-printer:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-printer-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-printer-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-printer-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-protobuf",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-protobuf:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-protobuf:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-protobuf-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-protobuf-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-protobuf-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-pubnub",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-pubnub:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-pubnub:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-pubnub-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-pubnub-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-pubnub-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-pulsar",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-pulsar:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-pulsar:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-pulsar-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-pulsar-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-pulsar-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-quartz",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-quartz:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-quartz:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-quartz2",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-quartz2:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-quartz2:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-quartz2-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-quartz2-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-quartz2-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-quickfix",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-quickfix:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-quickfix:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-quickfix-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-quickfix-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-quickfix-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rabbitmq",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rabbitmq:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rabbitmq:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rabbitmq-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rabbitmq-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rabbitmq-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-reactive-streams",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-reactive-streams:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-reactive-streams:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-reactive-streams-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-reactive-streams-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-reactive-streams-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-reactor",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-reactor:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-reactor:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-reactor-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-reactor-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-reactor-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rest-swagger",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rest-swagger:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rest-swagger:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rest-swagger-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rest-swagger-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rest-swagger-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-restlet",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-restlet:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-restlet:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-restlet-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-restlet-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-restlet-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ribbon",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ribbon:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ribbon:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ribbon-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ribbon-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ribbon-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rmi",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rmi:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rmi:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rmi-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rmi-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rmi-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-route-parser",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-route-parser:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-route-parser:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-routebox",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-routebox:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-routebox:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-routebox-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-routebox-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-routebox-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rss",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rss:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rss:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rss-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rss-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rss-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ruby",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ruby:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ruby:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ruby-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ruby-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ruby-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rx",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rx:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rx:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rx-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rx-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rx-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rxjava2",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rxjava2:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rxjava2:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-rxjava2-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-rxjava2-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-rxjava2-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-salesforce",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-salesforce:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-salesforce:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-salesforce-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-salesforce-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-salesforce-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-sap-netweaver",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-sap-netweaver:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-sap-netweaver:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-sap-netweaver-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-sap-netweaver-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-sap-netweaver-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-saxon",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-saxon:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-saxon:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-saxon-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-saxon-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-saxon-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-scala",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-scala:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-scala:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-schematron",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-schematron:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-schematron:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-schematron-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-schematron-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-schematron-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-scr",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-scr:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-scr:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-script",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-script:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-script:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-script-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-script-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-script-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-service",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-service:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-service:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-service-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-service-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-service-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-servicenow",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-servicenow:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-servicenow:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-servicenow-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-servicenow-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-servicenow-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-servlet",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-servlet:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-servlet:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-servlet-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-servlet-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-servlet-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-servletlistener",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-servletlistener:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-servletlistener:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-servletlistener-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-servletlistener-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-servletlistener-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-shiro",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-shiro:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-shiro:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-shiro-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-shiro-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-shiro-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-sip",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-sip:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-sip:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-sip-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-sip-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-sip-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-sjms",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-sjms:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-sjms:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-sjms-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-sjms-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-sjms-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-sjms2",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-sjms2:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-sjms2:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-sjms2-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-sjms2-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-sjms2-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-slack",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-slack:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-slack:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-slack-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-slack-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-slack-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-smpp",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-smpp:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-smpp:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-smpp-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-smpp-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-smpp-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-snakeyaml",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-snakeyaml:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-snakeyaml:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-snakeyaml-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-snakeyaml-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-snakeyaml-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-snmp",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-snmp:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-snmp:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-snmp-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-snmp-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-snmp-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-soap",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-soap:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-soap:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-soap-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-soap-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-soap-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-solr",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-solr:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-solr:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-solr-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-solr-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-solr-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spark",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spark:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spark:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spark-rest",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spark-rest:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spark-rest:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spark-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spark-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spark-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-splunk",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-splunk:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-splunk:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-splunk-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-splunk-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-splunk-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-batch",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-batch:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-batch:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-batch-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-batch-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-batch-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-boot",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-boot:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-boot:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-boot-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-boot-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-boot-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-cloud",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-cloud:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-cloud:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-cloud-consul",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-cloud-consul:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-cloud-consul:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-cloud-consul-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-cloud-consul-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-cloud-consul-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-cloud-netflix",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-cloud-netflix:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-cloud-netflix:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-cloud-netflix-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-cloud-netflix-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-cloud-netflix-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-cloud-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-cloud-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-cloud-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-cloud-zookeeper",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-cloud-zookeeper:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-cloud-zookeeper:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-cloud-zookeeper-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-cloud-zookeeper-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-cloud-zookeeper-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-integration",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-integration:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-integration:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-integration-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-integration-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-integration-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-javaconfig",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-javaconfig:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-javaconfig:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-javaconfig-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-javaconfig-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-javaconfig-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-ldap",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-ldap:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-ldap:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-ldap-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-ldap-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-ldap-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-redis",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-redis:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-redis:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-redis-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-redis-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-redis-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-security",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-security:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-security:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-security-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-security-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-security-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-ws",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-ws:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-ws:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-spring-ws-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-spring-ws-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-spring-ws-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-sql",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-sql:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-sql:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-sql-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-sql-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-sql-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ssh",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ssh:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ssh:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-ssh-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-ssh-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-ssh-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-stax",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-stax:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-stax:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-stax-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-stax-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-stax-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-stomp",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-stomp:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-stomp:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-stomp-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-stomp-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-stomp-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-stream",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-stream:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-stream:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-stream-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-stream-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-stream-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-stringtemplate",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-stringtemplate:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-stringtemplate:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-stringtemplate-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-stringtemplate-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-stringtemplate-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-swagger",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-swagger:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-swagger:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-swagger-java",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-swagger-java:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-swagger-java:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-swagger-java-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-swagger-java-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-swagger-java-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-syslog",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-syslog:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-syslog:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-syslog-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-syslog-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-syslog-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-tagsoup",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-tagsoup:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-tagsoup:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-tagsoup-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-tagsoup-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-tagsoup-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-tarfile",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-tarfile:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-tarfile:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-tarfile-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-tarfile-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-tarfile-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-telegram",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-telegram:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-telegram:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-telegram-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-telegram-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-telegram-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-test",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-test:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-test:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-test-blueprint",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-test-blueprint:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-test-blueprint:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-test-cdi",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-test-cdi:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-test-cdi:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-test-karaf",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-test-karaf:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-test-karaf:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-test-spring",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-test-spring:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-test-spring:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-testcontainers",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-testcontainers:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-testcontainers:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-testcontainers-spring",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-testcontainers-spring:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-testcontainers-spring:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-testng",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-testng:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-testng:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-thrift",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-thrift:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-thrift:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-thrift-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-thrift-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-thrift-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-tika",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-tika:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-tika:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-tika-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-tika-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-tika-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-twilio",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-twilio:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-twilio:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-twilio-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-twilio-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-twilio-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-twitter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-twitter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-twitter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-twitter-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-twitter-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-twitter-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-undertow",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-undertow:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-undertow:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-undertow-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-undertow-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-undertow-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-univocity-parsers",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-univocity-parsers:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-univocity-parsers:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-univocity-parsers-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-univocity-parsers-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-univocity-parsers-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-urlrewrite",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-urlrewrite:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-urlrewrite:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-urlrewrite-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-urlrewrite-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-urlrewrite-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-velocity",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-velocity:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-velocity:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-velocity-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-velocity-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-velocity-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-vertx",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-vertx:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-vertx:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-vertx-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-vertx-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-vertx-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-weather",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-weather:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-weather:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-weather-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-weather-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-weather-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-web3j",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-web3j:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-web3j:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-web3j-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-web3j-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-web3j-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-websocket",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-websocket:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-websocket:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-websocket-jsr356",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-websocket-jsr356:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-websocket-jsr356:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-websocket-jsr356-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-websocket-jsr356-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-websocket-jsr356-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-websocket-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-websocket-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-websocket-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-wordpress",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-wordpress:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-wordpress:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-wordpress-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-wordpress-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-wordpress-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xchange",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xchange:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xchange:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xchange-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xchange-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xchange-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xmlbeans",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xmlbeans:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xmlbeans:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xmlbeans-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xmlbeans-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xmlbeans-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xmlrpc",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xmlrpc:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xmlrpc:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xmlrpc-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xmlrpc-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xmlrpc-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xmlsecurity",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xmlsecurity:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xmlsecurity:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xmlsecurity-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xmlsecurity-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xmlsecurity-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xmpp",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xmpp:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xmpp:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xmpp-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xmpp-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xmpp-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xstream",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xstream:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xstream:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-xstream-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-xstream-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-xstream-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-yammer",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-yammer:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-yammer:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-yammer-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-yammer-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-yammer-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-zendesk",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-zendesk:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-zendesk:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-zendesk-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-zendesk-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-zendesk-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-zipfile",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-zipfile:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-zipfile:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-zipfile-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-zipfile-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-zipfile-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-zipkin",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-zipkin:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-zipkin:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-zipkin-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-zipkin-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-zipkin-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-zookeeper",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-zookeeper:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-zookeeper:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-zookeeper-master",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-zookeeper-master:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-zookeeper-master:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-zookeeper-master-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-zookeeper-master-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-zookeeper-master-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-zookeeper-starter",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:camel-zookeeper-starter:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:camel-zookeeper-starter:2.25.3"
   }, {
     "groupId" : "org.apache.camel",
     "artifactId" : "spi-annotations",
-    "version" : "${project.version}",
-    "coordinates" : "org.apache.camel:spi-annotations:${project.version}"
+    "version" : "2.25.3",
+    "coordinates" : "org.apache.camel:spi-annotations:2.25.3"
   } ]
 }

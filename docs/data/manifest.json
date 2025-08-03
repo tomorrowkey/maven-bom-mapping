@@ -1,5 +1,5 @@
 {
-  "generated" : "2025-07-27T11:51:18.222529",
+  "generated" : "2025-08-03T14:12:34.746042",
   "boms" : [ {
     "groupId" : "androidx.compose",
     "artifactId" : "compose-bom",
@@ -19,7 +19,7 @@
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-dependencies",
     "directory" : "org.springframework.cloud.spring-cloud-dependencies",
-    "versionCount" : 90
+    "versionCount" : 91
   }, {
     "groupId" : "com.amazonaws",
     "artifactId" : "aws-java-sdk-bom",
@@ -29,7 +29,7 @@
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "bom",
     "directory" : "software.amazon.awssdk.bom",
-    "versionCount" : 1576
+    "versionCount" : 1581
   }, {
     "groupId" : "org.junit",
     "artifactId" : "junit-bom",
@@ -59,6 +59,6 @@
     "groupId" : "io.quarkus.platform",
     "artifactId" : "quarkus-bom",
     "directory" : "io.quarkus.platform.quarkus-bom",
-    "versionCount" : 263
+    "versionCount" : 264
   } ]
 }

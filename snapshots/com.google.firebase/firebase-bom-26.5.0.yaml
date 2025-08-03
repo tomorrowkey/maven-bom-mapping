@@ -3,7 +3,7 @@ bomInfo:
   groupId: "com.google.firebase"
   artifactId: "firebase-bom"
   version: "26.5.0"
-  extractedAt: "2025-07-24T10:12:25.11733"
+  extractedAt: "2025-08-03T13:47:52.430454"
 artifacts:
 - groupId: "com.google.firebase"
   artifactId: "firebase-appindexing"

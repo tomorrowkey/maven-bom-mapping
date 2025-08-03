@@ -3,7 +3,7 @@ bomInfo:
   groupId: "com.google.firebase"
   artifactId: "firebase-bom"
   version: "34.0.0"
-  extractedAt: "2025-07-24T10:12:13.174977"
+  extractedAt: "2025-08-03T13:48:09.496065"
 artifacts:
 - groupId: "com.google.firebase"
   artifactId: "firebase-analytics"

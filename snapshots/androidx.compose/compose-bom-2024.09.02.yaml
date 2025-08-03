@@ -3,7 +3,7 @@ bomInfo:
   groupId: "androidx.compose"
   artifactId: "compose-bom"
   version: "2024.09.02"
-  extractedAt: "2025-07-23T17:22:14.828301"
+  extractedAt: "2025-08-03T13:47:37.685933"
 artifacts:
 - groupId: "androidx.compose.animation"
   artifactId: "animation"

@@ -3,147 +3,147 @@
   "artifacts" : [ {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-commons",
-    "version" : "${spring-cloud-commons.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-commons:${spring-cloud-commons.version}"
+    "version" : "1.1.1.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-commons:1.1.1.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-context",
-    "version" : "${spring-cloud-commons.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-context:${spring-cloud-commons.version}"
+    "version" : "1.1.1.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-context:1.1.1.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter",
-    "version" : "${spring-cloud-commons.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter:${spring-cloud-commons.version}"
+    "version" : "1.1.1.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter:1.1.1.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-security",
-    "version" : "${spring-cloud-security.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-security:${spring-cloud-security.version}"
+    "version" : "1.1.2.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-security:1.1.2.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-bus-kafka",
-    "version" : "${spring-cloud-bus.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-bus-kafka:${spring-cloud-bus.version}"
+    "version" : "1.1.0.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-bus-kafka:1.1.0.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-cloudfoundry",
-    "version" : "${spring-cloud-cloudfoundry.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-cloudfoundry:${spring-cloud-cloudfoundry.version}"
+    "version" : "1.0.0.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-cloudfoundry:1.0.0.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-config",
-    "version" : "${spring-cloud-config.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-config:${spring-cloud-config.version}"
+    "version" : "1.1.2.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-config:1.1.2.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-eureka",
-    "version" : "${spring-cloud-netflix.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-eureka:${spring-cloud-netflix.version}"
+    "version" : "1.1.4.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-eureka:1.1.4.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-eureka-server",
-    "version" : "${spring-cloud-netflix.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-eureka-server:${spring-cloud-netflix.version}"
+    "version" : "1.1.4.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-eureka-server:1.1.4.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-feign",
-    "version" : "${spring-cloud-netflix.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-feign:${spring-cloud-netflix.version}"
+    "version" : "1.1.4.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-feign:1.1.4.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-hystrix",
-    "version" : "${spring-cloud-netflix.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-hystrix:${spring-cloud-netflix.version}"
+    "version" : "1.1.4.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-hystrix:1.1.4.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-hystrix-dashboard",
-    "version" : "${spring-cloud-netflix.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-hystrix-dashboard:${spring-cloud-netflix.version}"
+    "version" : "1.1.4.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-hystrix-dashboard:1.1.4.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-oauth2",
-    "version" : "${spring-cloud-security.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-oauth2:${spring-cloud-security.version}"
+    "version" : "1.1.2.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-oauth2:1.1.2.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-ribbon",
-    "version" : "${spring-cloud-netflix.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-ribbon:${spring-cloud-netflix.version}"
+    "version" : "1.1.4.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-ribbon:1.1.4.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-security",
-    "version" : "${spring-cloud-security.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-security:${spring-cloud-security.version}"
+    "version" : "1.1.2.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-security:1.1.2.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-turbine",
-    "version" : "${spring-cloud-netflix.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-turbine:${spring-cloud-netflix.version}"
+    "version" : "1.1.4.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-turbine:1.1.4.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-turbine-amqp",
-    "version" : "${spring-cloud-netflix.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-turbine-amqp:${spring-cloud-netflix.version}"
+    "version" : "1.1.4.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-turbine-amqp:1.1.4.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-starter-zuul",
-    "version" : "${spring-cloud-netflix.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-starter-zuul:${spring-cloud-netflix.version}"
+    "version" : "1.1.4.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-starter-zuul:1.1.4.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-netflix-dependencies",
-    "version" : "${spring-cloud-netflix.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-netflix-dependencies:${spring-cloud-netflix.version}"
+    "version" : "1.1.4.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-netflix-dependencies:1.1.4.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-stream-dependencies",
-    "version" : "${spring-cloud-stream.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-stream-dependencies:${spring-cloud-stream.version}"
+    "version" : "1.0.2.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-stream-dependencies:1.0.2.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-task-dependencies",
-    "version" : "${spring-cloud-task.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-task-dependencies:${spring-cloud-task.version}"
+    "version" : "1.0.1.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-task-dependencies:1.0.1.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-config-dependencies",
-    "version" : "${spring-cloud-config.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-config-dependencies:${spring-cloud-config.version}"
+    "version" : "1.1.2.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-config-dependencies:1.1.2.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-consul-dependencies",
-    "version" : "${spring-cloud-consul.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-consul-dependencies:${spring-cloud-consul.version}"
+    "version" : "1.0.2.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-consul-dependencies:1.0.2.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-sleuth-dependencies",
-    "version" : "${spring-cloud-sleuth.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-sleuth-dependencies:${spring-cloud-sleuth.version}"
+    "version" : "1.0.3.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-sleuth-dependencies:1.0.3.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-zookeeper-dependencies",
-    "version" : "${spring-cloud-zookeeper.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-zookeeper-dependencies:${spring-cloud-zookeeper.version}"
+    "version" : "1.0.2.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-zookeeper-dependencies:1.0.2.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-cloudfoundry-dependencies",
-    "version" : "${spring-cloud-cloudfoundry.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-cloudfoundry-dependencies:${spring-cloud-cloudfoundry.version}"
+    "version" : "1.0.0.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-cloudfoundry-dependencies:1.0.0.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-bus-dependencies",
-    "version" : "${spring-cloud-bus.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-bus-dependencies:${spring-cloud-bus.version}"
+    "version" : "1.1.0.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-bus-dependencies:1.1.0.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-cluster-dependencies",
-    "version" : "${spring-cloud-cluster.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-cluster-dependencies:${spring-cloud-cluster.version}"
+    "version" : "1.0.0.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-cluster-dependencies:1.0.0.RELEASE"
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-aws-dependencies",
-    "version" : "${spring-cloud-aws.version}",
-    "coordinates" : "org.springframework.cloud:spring-cloud-aws-dependencies:${spring-cloud-aws.version}"
+    "version" : "1.1.0.RELEASE",
+    "coordinates" : "org.springframework.cloud:spring-cloud-aws-dependencies:1.1.0.RELEASE"
   } ]
 }

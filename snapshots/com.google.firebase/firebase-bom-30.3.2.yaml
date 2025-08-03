@@ -3,7 +3,7 @@ bomInfo:
   groupId: "com.google.firebase"
   artifactId: "firebase-bom"
   version: "30.3.2"
-  extractedAt: "2025-07-24T10:12:19.215433"
+  extractedAt: "2025-08-03T13:47:59.140978"
 artifacts:
 - groupId: "com.google.firebase"
   artifactId: "firebase-appcheck-safetynet"

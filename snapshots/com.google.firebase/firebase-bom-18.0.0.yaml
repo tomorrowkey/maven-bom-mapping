@@ -3,7 +3,7 @@ bomInfo:
   groupId: "com.google.firebase"
   artifactId: "firebase-bom"
   version: "18.0.0"
-  extractedAt: "2025-07-24T10:12:36.114587"
+  extractedAt: "2025-08-03T13:47:42.001773"
 artifacts:
 - groupId: "com.google.firebase"
   artifactId: "firebase-core"

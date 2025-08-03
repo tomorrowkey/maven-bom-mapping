@@ -38,14 +38,17 @@ export const Controls: React.FC<ControlsProps> = ({
           onChange={(e) => onBomChange(e.target.value)}
         >
           <option value="">-- Select BOM --</option>
-          {boms.map((bom) => (
-            <option
-              key={`${bom.groupId}:${bom.artifactId}`}
-              value={`${bom.groupId}:${bom.artifactId}`}
-            >
-              {bom.groupId}:{bom.artifactId}
-            </option>
-          ))}
+          {boms
+            .slice()
+            .sort((a, b) => `${a.groupId}:${a.artifactId}`.localeCompare(`${b.groupId}:${b.artifactId}`))
+            .map((bom) => (
+              <option
+                key={`${bom.groupId}:${bom.artifactId}`}
+                value={`${bom.groupId}:${bom.artifactId}`}
+              >
+                {bom.groupId}:{bom.artifactId}
+              </option>
+            ))}
         </select>
       </div>
 

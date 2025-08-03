@@ -3,7 +3,6 @@ bomInfo:
   groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-bom"
   version: "1.12.194"
-  extractedAt: "2025-08-03T13:55:02.154388"
 artifacts:
 - groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-pinpointsmsvoicev2"

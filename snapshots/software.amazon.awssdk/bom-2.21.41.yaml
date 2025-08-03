@@ -3,7 +3,6 @@ bomInfo:
   groupId: "software.amazon.awssdk"
   artifactId: "bom"
   version: "2.21.41"
-  extractedAt: "2025-08-03T14:05:35.862643"
 artifacts:
 - groupId: "software.amazon.awssdk"
   artifactId: "codegen-lite-maven-plugin"

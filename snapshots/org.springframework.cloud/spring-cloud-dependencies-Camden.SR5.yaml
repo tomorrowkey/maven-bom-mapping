@@ -3,7 +3,6 @@ bomInfo:
   groupId: "org.springframework.cloud"
   artifactId: "spring-cloud-dependencies"
   version: "Camden.SR5"
-  extractedAt: "2025-08-03T13:49:04.054807"
 artifacts:
 - groupId: "org.springframework.cloud"
   artifactId: "spring-cloud-commons-dependencies"

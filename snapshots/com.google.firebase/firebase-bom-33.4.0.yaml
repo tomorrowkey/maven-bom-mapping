@@ -3,7 +3,6 @@ bomInfo:
   groupId: "com.google.firebase"
   artifactId: "firebase-bom"
   version: "33.4.0"
-  extractedAt: "2025-08-03T13:48:08.221713"
 artifacts:
 - groupId: "com.google.firebase"
   artifactId: "firebase-ml-modeldownloader-ktx"

@@ -3,7 +3,6 @@ bomInfo:
   groupId: "org.springframework.cloud"
   artifactId: "spring-cloud-dependencies"
   version: "Dalston.SR2"
-  extractedAt: "2025-08-03T13:49:05.390099"
 artifacts:
 - groupId: "org.springframework.cloud"
   artifactId: "spring-cloud-commons-dependencies"

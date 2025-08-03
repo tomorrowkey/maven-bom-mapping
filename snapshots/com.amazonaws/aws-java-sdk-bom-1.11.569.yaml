@@ -3,7 +3,6 @@ bomInfo:
   groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-bom"
   version: "1.11.569"
-  extractedAt: "2025-08-03T13:52:09.253877"
 artifacts:
 - groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-personalizeevents"

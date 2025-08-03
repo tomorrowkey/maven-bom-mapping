@@ -3,7 +3,6 @@ bomInfo:
   groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-bom"
   version: "1.11.348"
-  extractedAt: "2025-08-03T13:51:00.615712"
 artifacts:
 - groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-eks"

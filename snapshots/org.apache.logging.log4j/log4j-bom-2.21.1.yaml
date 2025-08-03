@@ -3,7 +3,6 @@ bomInfo:
   groupId: "org.apache.logging.log4j"
   artifactId: "log4j-bom"
   version: "2.21.1"
-  extractedAt: "2025-08-03T14:09:50.526127"
 artifacts:
 - groupId: "org.apache.logging.log4j"
   artifactId: "log4j-1.2-api"

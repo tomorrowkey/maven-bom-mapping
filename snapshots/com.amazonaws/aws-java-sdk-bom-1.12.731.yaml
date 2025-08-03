@@ -3,7 +3,6 @@ bomInfo:
   groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-bom"
   version: "1.12.731"
-  extractedAt: "2025-08-03T13:58:18.281337"
 artifacts:
 - groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-mailmanager"

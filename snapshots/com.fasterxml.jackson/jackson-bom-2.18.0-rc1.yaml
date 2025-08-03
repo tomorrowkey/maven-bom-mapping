@@ -3,7 +3,6 @@ bomInfo:
   groupId: "com.fasterxml.jackson"
   artifactId: "jackson-bom"
   version: "2.18.0-rc1"
-  extractedAt: "2025-08-03T14:10:17.664074"
 artifacts:
 - groupId: "com.fasterxml.jackson.core"
   artifactId: "jackson-annotations"

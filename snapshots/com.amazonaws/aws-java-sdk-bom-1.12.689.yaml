@@ -3,7 +3,6 @@ bomInfo:
   groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-bom"
   version: "1.12.689"
-  extractedAt: "2025-08-03T13:58:02.467669"
 artifacts:
 - groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-timestreaminfluxdb"

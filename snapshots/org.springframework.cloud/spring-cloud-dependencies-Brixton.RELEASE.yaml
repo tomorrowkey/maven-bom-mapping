@@ -3,7 +3,6 @@ bomInfo:
   groupId: "org.springframework.cloud"
   artifactId: "spring-cloud-dependencies"
   version: "Brixton.RELEASE"
-  extractedAt: "2025-08-03T13:49:00.632107"
 artifacts:
 - groupId: "org.springframework.cloud"
   artifactId: "spring-cloud-commons"

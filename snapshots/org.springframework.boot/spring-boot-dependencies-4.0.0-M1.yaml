@@ -3,7 +3,6 @@ bomInfo:
   groupId: "org.springframework.boot"
   artifactId: "spring-boot-dependencies"
   version: "4.0.0-M1"
-  extractedAt: "2025-08-03T13:48:49.535382"
 artifacts:
 - groupId: "org.apache.activemq"
   artifactId: "activemq-console"

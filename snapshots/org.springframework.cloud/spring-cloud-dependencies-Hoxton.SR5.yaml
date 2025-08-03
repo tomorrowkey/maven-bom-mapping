@@ -3,7 +3,6 @@ bomInfo:
   groupId: "org.springframework.cloud"
   artifactId: "spring-cloud-dependencies"
   version: "Hoxton.SR5"
-  extractedAt: "2025-08-03T13:49:13.582163"
 artifacts:
 - groupId: "org.springframework.cloud"
   artifactId: "spring-cloud-commons-dependencies"

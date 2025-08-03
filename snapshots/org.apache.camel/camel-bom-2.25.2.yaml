@@ -3,7 +3,6 @@ bomInfo:
   groupId: "org.apache.camel"
   artifactId: "camel-bom"
   version: "2.25.2"
-  extractedAt: "2025-08-03T14:10:50.344676"
 artifacts:
 - groupId: "org.apache.camel"
   artifactId: "apt"

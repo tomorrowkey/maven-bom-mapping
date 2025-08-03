@@ -3,7 +3,6 @@ bomInfo:
   groupId: "com.google.firebase"
   artifactId: "firebase-bom"
   version: "25.2.0"
-  extractedAt: "2025-08-03T13:47:48.466441"
 artifacts:
 - groupId: "com.google.firebase"
   artifactId: "firebase-ml-natural-language-translate-model"

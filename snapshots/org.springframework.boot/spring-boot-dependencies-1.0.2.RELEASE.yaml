@@ -3,7 +3,6 @@ bomInfo:
   groupId: "org.springframework.boot"
   artifactId: "spring-boot-dependencies"
   version: "1.0.2.RELEASE"
-  extractedAt: "2025-08-03T13:48:11.397202"
 artifacts:
 - groupId: "ch.qos.logback"
   artifactId: "logback-classic"

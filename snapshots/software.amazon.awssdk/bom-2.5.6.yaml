@@ -3,7 +3,6 @@ bomInfo:
   groupId: "software.amazon.awssdk"
   artifactId: "bom"
   version: "2.5.6"
-  extractedAt: "2025-08-03T14:08:57.186479"
 artifacts:
 - groupId: "software.amazon.awssdk"
   artifactId: "annotations"

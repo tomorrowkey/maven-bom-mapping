@@ -3,7 +3,6 @@ bomInfo:
   groupId: "org.springframework.boot"
   artifactId: "spring-boot-dependencies"
   version: "1.1.11.RELEASE"
-  extractedAt: "2025-08-03T13:48:12.016549"
 artifacts:
 - groupId: "org.springframework.boot"
   artifactId: "spring-boot"

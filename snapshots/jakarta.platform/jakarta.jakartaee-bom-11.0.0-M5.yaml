@@ -3,7 +3,6 @@ bomInfo:
   groupId: "jakarta.platform"
   artifactId: "jakarta.jakartaee-bom"
   version: "11.0.0-M5"
-  extractedAt: "2025-08-03T14:10:36.853285"
 artifacts:
 - groupId: "jakarta.ws.rs"
   artifactId: "jakarta.ws.rs-api"

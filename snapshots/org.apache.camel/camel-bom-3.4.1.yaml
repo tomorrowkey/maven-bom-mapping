@@ -3,7 +3,6 @@ bomInfo:
   groupId: "org.apache.camel"
   artifactId: "camel-bom"
   version: "3.4.1"
-  extractedAt: "2025-08-03T14:11:14.321693"
 artifacts:
 - groupId: "org.apache.camel"
   artifactId: "camel-activemq"

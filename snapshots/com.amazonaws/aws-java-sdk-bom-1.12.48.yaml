@@ -3,7 +3,6 @@ bomInfo:
   groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-bom"
   version: "1.12.48"
-  extractedAt: "2025-08-03T13:56:44.650653"
 artifacts:
 - groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-snowdevicemanagement"

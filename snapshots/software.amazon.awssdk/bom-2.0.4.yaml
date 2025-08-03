@@ -3,7 +3,6 @@ bomInfo:
   groupId: "software.amazon.awssdk"
   artifactId: "bom"
   version: "2.0.4"
-  extractedAt: "2025-08-03T13:58:53.700853"
 artifacts:
 - groupId: "software.amazon.awssdk"
   artifactId: "dynamodb"

@@ -3,7 +3,6 @@ bomInfo:
   groupId: "software.amazon.awssdk"
   artifactId: "bom"
   version: "2.3.8"
-  extractedAt: "2025-08-03T14:07:34.801569"
 artifacts:
 - groupId: "software.amazon.awssdk"
   artifactId: "pinpoint"

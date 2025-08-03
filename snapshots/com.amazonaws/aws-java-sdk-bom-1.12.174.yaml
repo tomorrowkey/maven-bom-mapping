@@ -3,7 +3,6 @@ bomInfo:
   groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-bom"
   version: "1.12.174"
-  extractedAt: "2025-08-03T13:54:55.249391"
 artifacts:
 - groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-keyspaces"

@@ -3,7 +3,6 @@ bomInfo:
   groupId: "org.springframework.boot"
   artifactId: "spring-boot-dependencies"
   version: "3.0.11"
-  extractedAt: "2025-08-03T13:48:39.869105"
 artifacts:
 - groupId: "org.eclipse.angus"
   artifactId: "angus-core"

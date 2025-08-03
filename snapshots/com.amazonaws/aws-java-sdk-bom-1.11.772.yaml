@@ -3,7 +3,6 @@ bomInfo:
   groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-bom"
   version: "1.11.772"
-  extractedAt: "2025-08-03T13:53:14.551221"
 artifacts:
 - groupId: "com.amazonaws"
   artifactId: "aws-java-sdk-iotsitewise"

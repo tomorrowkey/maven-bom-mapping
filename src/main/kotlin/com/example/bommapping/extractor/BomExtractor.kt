@@ -11,7 +11,6 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 import org.slf4j.LoggerFactory
 import java.io.File
-import java.time.LocalDateTime
 
 class BomExtractor(
     private val pomFetcher: PomFetcher,
@@ -65,8 +64,7 @@ class BomExtractor(
             bomInfo = BomSnapshot.BomInfo(
                 groupId = groupId,
                 artifactId = artifactId,
-                version = version,
-                extractedAt = LocalDateTime.now()
+                version = version
             ),
             artifacts = artifacts
         )

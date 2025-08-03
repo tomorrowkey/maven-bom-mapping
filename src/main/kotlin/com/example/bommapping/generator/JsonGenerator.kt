@@ -8,7 +8,6 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 import org.slf4j.LoggerFactory
 import java.io.File
-import java.time.LocalDateTime
 
 class JsonGenerator(
     private val bomExtractor: BomExtractor,
@@ -27,7 +26,6 @@ class JsonGenerator(
         
         // Create a manifest file that lists all available BOMs
         val manifest = BomManifest(
-            generated = LocalDateTime.now(),
             boms = mutableListOf()
         )
         
@@ -117,7 +115,6 @@ class JsonGenerator(
     }
     
     data class BomManifest(
-        val generated: LocalDateTime,
         val boms: MutableList<BomManifestEntry>
     )
     

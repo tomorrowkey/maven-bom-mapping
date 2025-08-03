@@ -1,10 +1,6 @@
 import React from 'react';
 
-interface FooterProps {
-  lastUpdated: string | null;
-}
-
-export const Footer: React.FC<FooterProps> = ({ lastUpdated }) => {
+export const Footer: React.FC = () => {
   return (
     <footer style={{
       display: 'flex',
@@ -16,21 +12,16 @@ export const Footer: React.FC<FooterProps> = ({ lastUpdated }) => {
       fontSize: '14px',
       color: '#666'
     }}>
-      <div>
-        <p style={{ margin: 0 }}>
-          Last updated: <span id="last-updated">{lastUpdated || '-'}</span>
-        </p>
-        <p style={{ margin: '4px 0 0 0', fontSize: '12px' }}>
-          Revision: <code style={{ 
-            backgroundColor: '#f5f5f5', 
-            padding: '2px 4px', 
-            borderRadius: '3px',
-            fontFamily: 'monospace'
-          }}>
-            {__GIT_HASH__}
-          </code>
-        </p>
-      </div>
+      <p style={{ margin: 0, fontSize: '12px' }}>
+        Revision: <code style={{ 
+          backgroundColor: '#f5f5f5', 
+          padding: '2px 4px', 
+          borderRadius: '3px',
+          fontFamily: 'monospace'
+        }}>
+          {__GIT_HASH__}
+        </code>
+      </p>
       <p style={{ margin: 0 }}>
         <a 
           href="https://github.com/tomorrowkey/bom-mapping" 

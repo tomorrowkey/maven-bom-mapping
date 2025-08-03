@@ -156,7 +156,6 @@ function App() {
       
       // Filter out any failed loads and convert to BomData format
       const bomData: BomData = {
-        generated: manifest.generated,
         boms: bomDataList.filter(bom => bom !== null)
       };
       
@@ -201,11 +200,6 @@ function App() {
     }
   };
 
-  const getLastUpdated = () => {
-    if (!bomData) return null;
-    return new Date(bomData.generated).toLocaleString('en-US');
-  };
-
   return (
     <div className="container">
       <Header />
@@ -237,7 +231,7 @@ function App() {
         <Loading visible={loading} />
       </main>
 
-      <Footer lastUpdated={getLastUpdated()} />
+      <Footer />
     </div>
   );
 }

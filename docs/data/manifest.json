@@ -1,5 +1,4 @@
 {
-  "generated" : "2025-08-03T14:12:34.746042",
   "boms" : [ {
     "groupId" : "androidx.compose",
     "artifactId" : "compose-bom",

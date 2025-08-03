@@ -6,7 +6,6 @@ export interface Artifact {
 
 export interface BomVersion {
   version: string;
-  generated: string;
   artifacts: Artifact[];
 }
 
@@ -18,7 +17,6 @@ export interface Bom {
 }
 
 export interface BomData {
-  generated: string;
   boms: Bom[];
 }
 

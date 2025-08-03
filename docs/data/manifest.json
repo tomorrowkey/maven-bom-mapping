@@ -59,5 +59,10 @@
     "artifactId" : "quarkus-bom",
     "directory" : "io.quarkus.platform.quarkus-bom",
     "versionCount" : 264
+  }, {
+    "groupId" : "com.squareup.okhttp3",
+    "artifactId" : "okhttp-bom",
+    "directory" : "com.squareup.okhttp3.okhttp-bom",
+    "versionCount" : 51
   } ]
 }

@@ -4,7 +4,7 @@ export const Footer: React.FC = () => {
   return (
     <footer style={{
       display: 'flex',
-      justifyContent: 'space-between',
+      justifyContent: 'center',
       alignItems: 'center',
       padding: '20px 0',
       borderTop: '1px solid #e0e0e0',
@@ -12,17 +12,11 @@ export const Footer: React.FC = () => {
       fontSize: '14px',
       color: '#666'
     }}>
-      <p style={{ margin: 0, fontSize: '12px' }}>
-        Revision: <code style={{ 
-          backgroundColor: '#f5f5f5', 
-          padding: '2px 4px', 
-          borderRadius: '3px',
-          fontFamily: 'monospace'
-        }}>
-          {__GIT_HASH__}
-        </code>
-      </p>
-      <p style={{ margin: 0 }}>
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: '12px'
+      }}>
         <a 
           href="https://github.com/tomorrowkey/bom-mapping" 
           target="_blank" 
@@ -40,7 +34,19 @@ export const Footer: React.FC = () => {
           </svg>
           View on GitHub
         </a>
-      </p>
+        <span style={{ color: '#ccc' }}>•</span>
+        <span style={{ fontSize: '12px' }}>
+          <code style={{ 
+            backgroundColor: '#f5f5f5', 
+            padding: '2px 4px', 
+            borderRadius: '3px',
+            fontFamily: 'monospace',
+            color: '#666'
+          }}>
+            {__GIT_HASH__}
+          </code>
+        </span>
+      </div>
     </footer>
   );
 };

@@ -21,6 +21,9 @@ on:
 jobs:
   update-bom-data:
     runs-on: ubuntu-latest
+    # GitHub Actionsにリポジトリへの書き込み権限を付与
+    permissions:
+      contents: write
     
     steps:
       - name: チェックアウト

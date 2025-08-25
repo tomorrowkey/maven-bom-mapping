@@ -1,0 +1,2629 @@
+{
+  "version" : "4.0.0-M2",
+  "artifacts" : [ {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-console",
+    "version" : "6.1.7",
+    "coordinates" : "org.apache.activemq:activemq-console:6.1.7"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-spring",
+    "version" : "6.1.7",
+    "coordinates" : "org.apache.activemq:activemq-spring:6.1.7"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "angus-core",
+    "version" : "2.0.4",
+    "coordinates" : "org.eclipse.angus:angus-core:2.0.4"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "angus-mail",
+    "version" : "2.0.4",
+    "coordinates" : "org.eclipse.angus:angus-mail:2.0.4"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "dsn",
+    "version" : "2.0.4",
+    "coordinates" : "org.eclipse.angus:dsn:2.0.4"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "gimap",
+    "version" : "2.0.4",
+    "coordinates" : "org.eclipse.angus:gimap:2.0.4"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "imap",
+    "version" : "2.0.4",
+    "coordinates" : "org.eclipse.angus:imap:2.0.4"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "jakarta.mail",
+    "version" : "2.0.4",
+    "coordinates" : "org.eclipse.angus:jakarta.mail:2.0.4"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "logging-mailhandler",
+    "version" : "2.0.4",
+    "coordinates" : "org.eclipse.angus:logging-mailhandler:2.0.4"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "pop3",
+    "version" : "2.0.4",
+    "coordinates" : "org.eclipse.angus:pop3:2.0.4"
+  }, {
+    "groupId" : "org.eclipse.angus",
+    "artifactId" : "smtp",
+    "version" : "2.0.4",
+    "coordinates" : "org.eclipse.angus:smtp:2.0.4"
+  }, {
+    "groupId" : "org.aspectj",
+    "artifactId" : "aspectjrt",
+    "version" : "1.9.24",
+    "coordinates" : "org.aspectj:aspectjrt:1.9.24"
+  }, {
+    "groupId" : "org.aspectj",
+    "artifactId" : "aspectjtools",
+    "version" : "1.9.24",
+    "coordinates" : "org.aspectj:aspectjtools:1.9.24"
+  }, {
+    "groupId" : "org.aspectj",
+    "artifactId" : "aspectjweaver",
+    "version" : "1.9.24",
+    "coordinates" : "org.aspectj:aspectjweaver:1.9.24"
+  }, {
+    "groupId" : "org.awaitility",
+    "artifactId" : "awaitility",
+    "version" : "4.3.0",
+    "coordinates" : "org.awaitility:awaitility:4.3.0"
+  }, {
+    "groupId" : "org.awaitility",
+    "artifactId" : "awaitility-groovy",
+    "version" : "4.3.0",
+    "coordinates" : "org.awaitility:awaitility-groovy:4.3.0"
+  }, {
+    "groupId" : "org.awaitility",
+    "artifactId" : "awaitility-kotlin",
+    "version" : "4.3.0",
+    "coordinates" : "org.awaitility:awaitility-kotlin:4.3.0"
+  }, {
+    "groupId" : "org.awaitility",
+    "artifactId" : "awaitility-scala",
+    "version" : "4.3.0",
+    "coordinates" : "org.awaitility:awaitility-scala:4.3.0"
+  }, {
+    "groupId" : "net.bytebuddy",
+    "artifactId" : "byte-buddy",
+    "version" : "1.17.7",
+    "coordinates" : "net.bytebuddy:byte-buddy:1.17.7"
+  }, {
+    "groupId" : "net.bytebuddy",
+    "artifactId" : "byte-buddy-agent",
+    "version" : "1.17.7",
+    "coordinates" : "net.bytebuddy:byte-buddy-agent:1.17.7"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-api",
+    "version" : "2.6.1.Final",
+    "coordinates" : "org.cache2k:cache2k-api:2.6.1.Final"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-config",
+    "version" : "2.6.1.Final",
+    "coordinates" : "org.cache2k:cache2k-config:2.6.1.Final"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-core",
+    "version" : "2.6.1.Final",
+    "coordinates" : "org.cache2k:cache2k-core:2.6.1.Final"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-jcache",
+    "version" : "2.6.1.Final",
+    "coordinates" : "org.cache2k:cache2k-jcache:2.6.1.Final"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-micrometer",
+    "version" : "2.6.1.Final",
+    "coordinates" : "org.cache2k:cache2k-micrometer:2.6.1.Final"
+  }, {
+    "groupId" : "org.cache2k",
+    "artifactId" : "cache2k-spring",
+    "version" : "2.6.1.Final",
+    "coordinates" : "org.cache2k:cache2k-spring:2.6.1.Final"
+  }, {
+    "groupId" : "com.github.ben-manes.caffeine",
+    "artifactId" : "caffeine",
+    "version" : "3.2.2",
+    "coordinates" : "com.github.ben-manes.caffeine:caffeine:3.2.2"
+  }, {
+    "groupId" : "com.github.ben-manes.caffeine",
+    "artifactId" : "guava",
+    "version" : "3.2.2",
+    "coordinates" : "com.github.ben-manes.caffeine:guava:3.2.2"
+  }, {
+    "groupId" : "com.github.ben-manes.caffeine",
+    "artifactId" : "jcache",
+    "version" : "3.2.2",
+    "coordinates" : "com.github.ben-manes.caffeine:jcache:3.2.2"
+  }, {
+    "groupId" : "com.github.ben-manes.caffeine",
+    "artifactId" : "simulator",
+    "version" : "3.2.2",
+    "coordinates" : "com.github.ben-manes.caffeine:simulator:3.2.2"
+  }, {
+    "groupId" : "org.apache.cassandra",
+    "artifactId" : "java-driver-core",
+    "version" : "4.19.0",
+    "coordinates" : "org.apache.cassandra:java-driver-core:4.19.0"
+  }, {
+    "groupId" : "com.fasterxml",
+    "artifactId" : "classmate",
+    "version" : "1.7.0",
+    "coordinates" : "com.fasterxml:classmate:1.7.0"
+  }, {
+    "groupId" : "commons-codec",
+    "artifactId" : "commons-codec",
+    "version" : "1.19.0",
+    "coordinates" : "commons-codec:commons-codec:1.19.0"
+  }, {
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-dbcp2",
+    "version" : "2.13.0",
+    "coordinates" : "org.apache.commons:commons-dbcp2:2.13.0"
+  }, {
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-lang3",
+    "version" : "3.18.0",
+    "coordinates" : "org.apache.commons:commons-lang3:3.18.0"
+  }, {
+    "groupId" : "commons-logging",
+    "artifactId" : "commons-logging",
+    "version" : "1.3.5",
+    "coordinates" : "commons-logging:commons-logging:1.3.5"
+  }, {
+    "groupId" : "commons-pool",
+    "artifactId" : "commons-pool",
+    "version" : "1.6",
+    "coordinates" : "commons-pool:commons-pool:1.6"
+  }, {
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-pool2",
+    "version" : "2.12.1",
+    "coordinates" : "org.apache.commons:commons-pool2:2.12.1"
+  }, {
+    "groupId" : "com.couchbase.client",
+    "artifactId" : "java-client",
+    "version" : "3.9.0",
+    "coordinates" : "com.couchbase.client:java-client:3.9.0"
+  }, {
+    "groupId" : "org.crac",
+    "artifactId" : "crac",
+    "version" : "1.5.0",
+    "coordinates" : "org.crac:crac:1.5.0"
+  }, {
+    "groupId" : "com.ibm.db2",
+    "artifactId" : "jcc",
+    "version" : "12.1.2.0",
+    "coordinates" : "com.ibm.db2:jcc:12.1.2.0"
+  }, {
+    "groupId" : "io.spring.gradle",
+    "artifactId" : "dependency-management-plugin",
+    "version" : "1.1.7",
+    "coordinates" : "io.spring.gradle:dependency-management-plugin:1.1.7"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derby",
+    "version" : "10.16.1.1",
+    "coordinates" : "org.apache.derby:derby:10.16.1.1"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derbyclient",
+    "version" : "10.16.1.1",
+    "coordinates" : "org.apache.derby:derbyclient:10.16.1.1"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derbynet",
+    "version" : "10.16.1.1",
+    "coordinates" : "org.apache.derby:derbynet:10.16.1.1"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derbyoptionaltools",
+    "version" : "10.16.1.1",
+    "coordinates" : "org.apache.derby:derbyoptionaltools:10.16.1.1"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derbyshared",
+    "version" : "10.16.1.1",
+    "coordinates" : "org.apache.derby:derbyshared:10.16.1.1"
+  }, {
+    "groupId" : "org.apache.derby",
+    "artifactId" : "derbytools",
+    "version" : "10.16.1.1",
+    "coordinates" : "org.apache.derby:derbytools:10.16.1.1"
+  }, {
+    "groupId" : "org.ehcache",
+    "artifactId" : "ehcache",
+    "version" : "3.10.8",
+    "coordinates" : "org.ehcache:ehcache:3.10.8"
+  }, {
+    "groupId" : "org.ehcache",
+    "artifactId" : "ehcache",
+    "version" : "3.10.8",
+    "coordinates" : "org.ehcache:ehcache:3.10.8"
+  }, {
+    "groupId" : "org.ehcache",
+    "artifactId" : "ehcache-clustered",
+    "version" : "3.10.8",
+    "coordinates" : "org.ehcache:ehcache-clustered:3.10.8"
+  }, {
+    "groupId" : "org.ehcache",
+    "artifactId" : "ehcache-transactions",
+    "version" : "3.10.8",
+    "coordinates" : "org.ehcache:ehcache-transactions:3.10.8"
+  }, {
+    "groupId" : "org.ehcache",
+    "artifactId" : "ehcache-transactions",
+    "version" : "3.10.8",
+    "coordinates" : "org.ehcache:ehcache-transactions:3.10.8"
+  }, {
+    "groupId" : "co.elastic.clients",
+    "artifactId" : "elasticsearch-java",
+    "version" : "9.1.1",
+    "coordinates" : "co.elastic.clients:elasticsearch-java:9.1.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-commandline",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-commandline:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-core",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-core:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-cassandra",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-cassandra:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-db2",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-db2:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-derby",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-derby:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-hsqldb",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-hsqldb:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-informix",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-informix:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-mongodb",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-mongodb:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-oracle",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-oracle:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-postgresql",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-postgresql:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-redshift",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-redshift:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-saphana",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-saphana:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-snowflake",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-snowflake:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-database-sybasease",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-database-sybasease:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-firebird",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-firebird:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-gcp-bigquery",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-gcp-bigquery:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-gcp-spanner",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-gcp-spanner:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-mysql",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-mysql:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-singlestore",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-singlestore:11.11.1"
+  }, {
+    "groupId" : "org.flywaydb",
+    "artifactId" : "flyway-sqlserver",
+    "version" : "11.11.1",
+    "coordinates" : "org.flywaydb:flyway-sqlserver:11.11.1"
+  }, {
+    "groupId" : "org.freemarker",
+    "artifactId" : "freemarker",
+    "version" : "2.3.34",
+    "coordinates" : "org.freemarker:freemarker:2.3.34"
+  }, {
+    "groupId" : "org.glassfish.web",
+    "artifactId" : "jakarta.servlet.jsp.jstl",
+    "version" : "3.0.1",
+    "coordinates" : "org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1"
+  }, {
+    "groupId" : "com.graphql-java",
+    "artifactId" : "graphql-java",
+    "version" : "25.0.beta-5",
+    "coordinates" : "com.graphql-java:graphql-java:25.0.beta-5"
+  }, {
+    "groupId" : "com.google.code.gson",
+    "artifactId" : "gson",
+    "version" : "2.13.1",
+    "coordinates" : "com.google.code.gson:gson:2.13.1"
+  }, {
+    "groupId" : "com.h2database",
+    "artifactId" : "h2",
+    "version" : "2.3.232",
+    "coordinates" : "com.h2database:h2:2.3.232"
+  }, {
+    "groupId" : "org.hamcrest",
+    "artifactId" : "hamcrest",
+    "version" : "3.0",
+    "coordinates" : "org.hamcrest:hamcrest:3.0"
+  }, {
+    "groupId" : "org.hamcrest",
+    "artifactId" : "hamcrest-core",
+    "version" : "3.0",
+    "coordinates" : "org.hamcrest:hamcrest-core:3.0"
+  }, {
+    "groupId" : "org.hamcrest",
+    "artifactId" : "hamcrest-library",
+    "version" : "3.0",
+    "coordinates" : "org.hamcrest:hamcrest-library:3.0"
+  }, {
+    "groupId" : "com.hazelcast",
+    "artifactId" : "hazelcast",
+    "version" : "5.5.0",
+    "coordinates" : "com.hazelcast:hazelcast:5.5.0"
+  }, {
+    "groupId" : "com.hazelcast",
+    "artifactId" : "hazelcast-spring",
+    "version" : "5.5.0",
+    "coordinates" : "com.hazelcast:hazelcast-spring:5.5.0"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-agroal",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-agroal:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-ant",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-ant:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-c3p0",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-c3p0:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-community-dialects",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-community-dialects:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-core",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-core:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-envers",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-envers:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-graalvm",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-graalvm:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-hikaricp",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-hikaricp:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-jcache",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-jcache:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-jpamodelgen",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-jpamodelgen:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-micrometer",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-micrometer:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-proxool",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-proxool:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-spatial",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-spatial:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-testing",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-testing:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.orm",
+    "artifactId" : "hibernate-vibur",
+    "version" : "7.1.0.Final",
+    "coordinates" : "org.hibernate.orm:hibernate-vibur:7.1.0.Final"
+  }, {
+    "groupId" : "org.hibernate.validator",
+    "artifactId" : "hibernate-validator",
+    "version" : "9.0.1.Final",
+    "coordinates" : "org.hibernate.validator:hibernate-validator:9.0.1.Final"
+  }, {
+    "groupId" : "org.hibernate.validator",
+    "artifactId" : "hibernate-validator-annotation-processor",
+    "version" : "9.0.1.Final",
+    "coordinates" : "org.hibernate.validator:hibernate-validator-annotation-processor:9.0.1.Final"
+  }, {
+    "groupId" : "com.zaxxer",
+    "artifactId" : "HikariCP",
+    "version" : "7.0.1",
+    "coordinates" : "com.zaxxer:HikariCP:7.0.1"
+  }, {
+    "groupId" : "org.hsqldb",
+    "artifactId" : "hsqldb",
+    "version" : "2.7.3",
+    "coordinates" : "org.hsqldb:hsqldb:2.7.3"
+  }, {
+    "groupId" : "org.htmlunit",
+    "artifactId" : "htmlunit",
+    "version" : "4.15.0",
+    "coordinates" : "org.htmlunit:htmlunit:4.15.0"
+  }, {
+    "groupId" : "org.apache.httpcomponents",
+    "artifactId" : "httpasyncclient",
+    "version" : "4.1.5",
+    "coordinates" : "org.apache.httpcomponents:httpasyncclient:4.1.5"
+  }, {
+    "groupId" : "org.apache.httpcomponents.client5",
+    "artifactId" : "httpclient5",
+    "version" : "5.5",
+    "coordinates" : "org.apache.httpcomponents.client5:httpclient5:5.5"
+  }, {
+    "groupId" : "org.apache.httpcomponents.client5",
+    "artifactId" : "httpclient5-cache",
+    "version" : "5.5",
+    "coordinates" : "org.apache.httpcomponents.client5:httpclient5-cache:5.5"
+  }, {
+    "groupId" : "org.apache.httpcomponents.client5",
+    "artifactId" : "httpclient5-fluent",
+    "version" : "5.5",
+    "coordinates" : "org.apache.httpcomponents.client5:httpclient5-fluent:5.5"
+  }, {
+    "groupId" : "org.apache.httpcomponents",
+    "artifactId" : "httpcore",
+    "version" : "4.4.16",
+    "coordinates" : "org.apache.httpcomponents:httpcore:4.4.16"
+  }, {
+    "groupId" : "org.apache.httpcomponents",
+    "artifactId" : "httpcore-nio",
+    "version" : "4.4.16",
+    "coordinates" : "org.apache.httpcomponents:httpcore-nio:4.4.16"
+  }, {
+    "groupId" : "org.apache.httpcomponents.core5",
+    "artifactId" : "httpcore5",
+    "version" : "5.3.4",
+    "coordinates" : "org.apache.httpcomponents.core5:httpcore5:5.3.4"
+  }, {
+    "groupId" : "org.apache.httpcomponents.core5",
+    "artifactId" : "httpcore5-h2",
+    "version" : "5.3.4",
+    "coordinates" : "org.apache.httpcomponents.core5:httpcore5-h2:5.3.4"
+  }, {
+    "groupId" : "org.apache.httpcomponents.core5",
+    "artifactId" : "httpcore5-reactive",
+    "version" : "5.3.4",
+    "coordinates" : "org.apache.httpcomponents.core5:httpcore5-reactive:5.3.4"
+  }, {
+    "groupId" : "org.influxdb",
+    "artifactId" : "influxdb-java",
+    "version" : "2.25",
+    "coordinates" : "org.influxdb:influxdb-java:2.25"
+  }, {
+    "groupId" : "jakarta.activation",
+    "artifactId" : "jakarta.activation-api",
+    "version" : "2.1.3",
+    "coordinates" : "jakarta.activation:jakarta.activation-api:2.1.3"
+  }, {
+    "groupId" : "jakarta.annotation",
+    "artifactId" : "jakarta.annotation-api",
+    "version" : "3.0.0",
+    "coordinates" : "jakarta.annotation:jakarta.annotation-api:3.0.0"
+  }, {
+    "groupId" : "jakarta.inject",
+    "artifactId" : "jakarta.inject-api",
+    "version" : "2.0.1",
+    "coordinates" : "jakarta.inject:jakarta.inject-api:2.0.1"
+  }, {
+    "groupId" : "jakarta.jms",
+    "artifactId" : "jakarta.jms-api",
+    "version" : "3.1.0",
+    "coordinates" : "jakarta.jms:jakarta.jms-api:3.1.0"
+  }, {
+    "groupId" : "jakarta.json",
+    "artifactId" : "jakarta.json-api",
+    "version" : "2.1.3",
+    "coordinates" : "jakarta.json:jakarta.json-api:2.1.3"
+  }, {
+    "groupId" : "jakarta.json.bind",
+    "artifactId" : "jakarta.json.bind-api",
+    "version" : "3.0.1",
+    "coordinates" : "jakarta.json.bind:jakarta.json.bind-api:3.0.1"
+  }, {
+    "groupId" : "jakarta.mail",
+    "artifactId" : "jakarta.mail-api",
+    "version" : "2.1.3",
+    "coordinates" : "jakarta.mail:jakarta.mail-api:2.1.3"
+  }, {
+    "groupId" : "jakarta.management.j2ee",
+    "artifactId" : "jakarta.management.j2ee-api",
+    "version" : "1.1.4",
+    "coordinates" : "jakarta.management.j2ee:jakarta.management.j2ee-api:1.1.4"
+  }, {
+    "groupId" : "jakarta.persistence",
+    "artifactId" : "jakarta.persistence-api",
+    "version" : "3.2.0",
+    "coordinates" : "jakarta.persistence:jakarta.persistence-api:3.2.0"
+  }, {
+    "groupId" : "jakarta.servlet",
+    "artifactId" : "jakarta.servlet-api",
+    "version" : "6.1.0",
+    "coordinates" : "jakarta.servlet:jakarta.servlet-api:6.1.0"
+  }, {
+    "groupId" : "jakarta.servlet.jsp.jstl",
+    "artifactId" : "jakarta.servlet.jsp.jstl-api",
+    "version" : "3.0.2",
+    "coordinates" : "jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.2"
+  }, {
+    "groupId" : "jakarta.transaction",
+    "artifactId" : "jakarta.transaction-api",
+    "version" : "2.0.1",
+    "coordinates" : "jakarta.transaction:jakarta.transaction-api:2.0.1"
+  }, {
+    "groupId" : "jakarta.validation",
+    "artifactId" : "jakarta.validation-api",
+    "version" : "3.1.1",
+    "coordinates" : "jakarta.validation:jakarta.validation-api:3.1.1"
+  }, {
+    "groupId" : "jakarta.websocket",
+    "artifactId" : "jakarta.websocket-api",
+    "version" : "2.2.0",
+    "coordinates" : "jakarta.websocket:jakarta.websocket-api:2.2.0"
+  }, {
+    "groupId" : "jakarta.websocket",
+    "artifactId" : "jakarta.websocket-client-api",
+    "version" : "2.2.0",
+    "coordinates" : "jakarta.websocket:jakarta.websocket-client-api:2.2.0"
+  }, {
+    "groupId" : "jakarta.ws.rs",
+    "artifactId" : "jakarta.ws.rs-api",
+    "version" : "4.0.0",
+    "coordinates" : "jakarta.ws.rs:jakarta.ws.rs-api:4.0.0"
+  }, {
+    "groupId" : "jakarta.xml.bind",
+    "artifactId" : "jakarta.xml.bind-api",
+    "version" : "4.0.2",
+    "coordinates" : "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2"
+  }, {
+    "groupId" : "jakarta.xml.soap",
+    "artifactId" : "jakarta.xml.soap-api",
+    "version" : "3.0.2",
+    "coordinates" : "jakarta.xml.soap:jakarta.xml.soap-api:3.0.2"
+  }, {
+    "groupId" : "jakarta.xml.ws",
+    "artifactId" : "jakarta.xml.ws-api",
+    "version" : "4.0.2",
+    "coordinates" : "jakarta.xml.ws:jakarta.xml.ws-api:4.0.2"
+  }, {
+    "groupId" : "org.codehaus.janino",
+    "artifactId" : "commons-compiler",
+    "version" : "3.1.12",
+    "coordinates" : "org.codehaus.janino:commons-compiler:3.1.12"
+  }, {
+    "groupId" : "org.codehaus.janino",
+    "artifactId" : "commons-compiler-jdk",
+    "version" : "3.1.12",
+    "coordinates" : "org.codehaus.janino:commons-compiler-jdk:3.1.12"
+  }, {
+    "groupId" : "org.codehaus.janino",
+    "artifactId" : "janino",
+    "version" : "3.1.12",
+    "coordinates" : "org.codehaus.janino:janino:3.1.12"
+  }, {
+    "groupId" : "javax.cache",
+    "artifactId" : "cache-api",
+    "version" : "1.1.1",
+    "coordinates" : "javax.cache:cache-api:1.1.1"
+  }, {
+    "groupId" : "javax.money",
+    "artifactId" : "money-api",
+    "version" : "1.1",
+    "coordinates" : "javax.money:money-api:1.1"
+  }, {
+    "groupId" : "jaxen",
+    "artifactId" : "jaxen",
+    "version" : "2.0.0",
+    "coordinates" : "jaxen:jaxen:2.0.0"
+  }, {
+    "groupId" : "org.firebirdsql.jdbc",
+    "artifactId" : "jaybird",
+    "version" : "6.0.2",
+    "coordinates" : "org.firebirdsql.jdbc:jaybird:6.0.2"
+  }, {
+    "groupId" : "org.jboss.logging",
+    "artifactId" : "jboss-logging",
+    "version" : "3.6.1.Final",
+    "coordinates" : "org.jboss.logging:jboss-logging:3.6.1.Final"
+  }, {
+    "groupId" : "org.jdom",
+    "artifactId" : "jdom2",
+    "version" : "2.0.6.1",
+    "coordinates" : "org.jdom:jdom2:2.0.6.1"
+  }, {
+    "groupId" : "redis.clients",
+    "artifactId" : "jedis",
+    "version" : "6.1.0",
+    "coordinates" : "redis.clients:jedis:6.1.0"
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-reactive-httpclient",
+    "version" : "4.0.11",
+    "coordinates" : "org.eclipse.jetty:jetty-reactive-httpclient:4.0.11"
+  }, {
+    "groupId" : "com.samskivert",
+    "artifactId" : "jmustache",
+    "version" : "1.16",
+    "coordinates" : "com.samskivert:jmustache:1.16"
+  }, {
+    "groupId" : "com.jayway.jsonpath",
+    "artifactId" : "json-path",
+    "version" : "2.9.0",
+    "coordinates" : "com.jayway.jsonpath:json-path:2.9.0"
+  }, {
+    "groupId" : "com.jayway.jsonpath",
+    "artifactId" : "json-path-assert",
+    "version" : "2.9.0",
+    "coordinates" : "com.jayway.jsonpath:json-path-assert:2.9.0"
+  }, {
+    "groupId" : "net.minidev",
+    "artifactId" : "json-smart",
+    "version" : "2.6.0",
+    "coordinates" : "net.minidev:json-smart:2.6.0"
+  }, {
+    "groupId" : "org.skyscreamer",
+    "artifactId" : "jsonassert",
+    "version" : "1.5.3",
+    "coordinates" : "org.skyscreamer:jsonassert:1.5.3"
+  }, {
+    "groupId" : "org.jspecify",
+    "artifactId" : "jspecify",
+    "version" : "1.0.0",
+    "coordinates" : "org.jspecify:jspecify:1.0.0"
+  }, {
+    "groupId" : "net.sourceforge.jtds",
+    "artifactId" : "jtds",
+    "version" : "1.3.1",
+    "coordinates" : "net.sourceforge.jtds:jtds:1.3.1"
+  }, {
+    "groupId" : "junit",
+    "artifactId" : "junit",
+    "version" : "4.13.2",
+    "coordinates" : "junit:junit:4.13.2"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:connect:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-api",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:connect-api:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-basic-auth-extension",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:connect-basic-auth-extension:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-file",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:connect-file:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-json",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:connect-json:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-mirror",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:connect-mirror:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-mirror-client",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:connect-mirror-client:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-runtime",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:connect-runtime:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "connect-transforms",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:connect-transforms:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "generator",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:generator:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-clients",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-clients:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-clients",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-clients:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-log4j-appender",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-log4j-appender:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-metadata",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-metadata:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-raft",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-raft:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-server",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-server:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-server-common",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-server-common:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-server-common",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-server-common:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-shell",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-shell:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-storage",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-storage:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-storage-api",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-storage-api:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-streams",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-streams:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-streams-scala_2.12",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-streams-scala_2.12:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-streams-scala_2.13",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-streams-scala_2.13:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-streams-test-utils",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-streams-test-utils:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka-tools",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka-tools:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka_2.12",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka_2.12:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka_2.12",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka_2.12:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka_2.13",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka_2.13:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "kafka_2.13",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:kafka_2.13:4.0.0"
+  }, {
+    "groupId" : "org.apache.kafka",
+    "artifactId" : "trogdor",
+    "version" : "4.0.0",
+    "coordinates" : "org.apache.kafka:trogdor:4.0.0"
+  }, {
+    "groupId" : "io.lettuce",
+    "artifactId" : "lettuce-core",
+    "version" : "6.8.0.RELEASE",
+    "coordinates" : "io.lettuce:lettuce-core:6.8.0.RELEASE"
+  }, {
+    "groupId" : "org.liquibase",
+    "artifactId" : "liquibase-cdi",
+    "version" : "4.33.0",
+    "coordinates" : "org.liquibase:liquibase-cdi:4.33.0"
+  }, {
+    "groupId" : "org.liquibase",
+    "artifactId" : "liquibase-core",
+    "version" : "4.33.0",
+    "coordinates" : "org.liquibase:liquibase-core:4.33.0"
+  }, {
+    "groupId" : "ch.qos.logback",
+    "artifactId" : "logback-classic",
+    "version" : "1.5.18",
+    "coordinates" : "ch.qos.logback:logback-classic:1.5.18"
+  }, {
+    "groupId" : "ch.qos.logback",
+    "artifactId" : "logback-core",
+    "version" : "1.5.18",
+    "coordinates" : "ch.qos.logback:logback-core:1.5.18"
+  }, {
+    "groupId" : "org.projectlombok",
+    "artifactId" : "lombok",
+    "version" : "1.18.38",
+    "coordinates" : "org.projectlombok:lombok:1.18.38"
+  }, {
+    "groupId" : "org.mariadb.jdbc",
+    "artifactId" : "mariadb-java-client",
+    "version" : "3.5.5",
+    "coordinates" : "org.mariadb.jdbc:mariadb-java-client:3.5.5"
+  }, {
+    "groupId" : "io.micrometer",
+    "artifactId" : "micrometer-registry-stackdriver",
+    "version" : "1.16.0-M2",
+    "coordinates" : "io.micrometer:micrometer-registry-stackdriver:1.16.0-M2"
+  }, {
+    "groupId" : "com.microsoft.sqlserver",
+    "artifactId" : "mssql-jdbc",
+    "version" : "13.2.0.jre11",
+    "coordinates" : "com.microsoft.sqlserver:mssql-jdbc:13.2.0.jre11"
+  }, {
+    "groupId" : "com.mysql",
+    "artifactId" : "mysql-connector-j",
+    "version" : "9.4.0",
+    "coordinates" : "com.mysql:mysql-connector-j:9.4.0"
+  }, {
+    "groupId" : "net.sourceforge.nekohtml",
+    "artifactId" : "nekohtml",
+    "version" : "1.9.22",
+    "coordinates" : "net.sourceforge.nekohtml:nekohtml:1.9.22"
+  }, {
+    "groupId" : "org.neo4j.driver",
+    "artifactId" : "neo4j-java-driver",
+    "version" : "5.28.9",
+    "coordinates" : "org.neo4j.driver:neo4j-java-driver:5.28.9"
+  }, {
+    "groupId" : "com.oracle.database.ha",
+    "artifactId" : "ons",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.ha:ons:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.ha",
+    "artifactId" : "simplefan",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.ha:simplefan:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.jdbc",
+    "artifactId" : "ojdbc11",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.jdbc:ojdbc11:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.jdbc",
+    "artifactId" : "ojdbc11-production",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.jdbc:ojdbc11-production:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.jdbc",
+    "artifactId" : "ojdbc17",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.jdbc:ojdbc17:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.jdbc",
+    "artifactId" : "ojdbc17-production",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.jdbc:ojdbc17-production:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.jdbc",
+    "artifactId" : "ojdbc8",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.jdbc:ojdbc8:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.jdbc",
+    "artifactId" : "ojdbc8-production",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.jdbc:ojdbc8-production:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.jdbc",
+    "artifactId" : "rsi",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.jdbc:rsi:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.jdbc",
+    "artifactId" : "ucp",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.jdbc:ucp:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.jdbc",
+    "artifactId" : "ucp11",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.jdbc:ucp11:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.jdbc",
+    "artifactId" : "ucp17",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.jdbc:ucp17:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.nls",
+    "artifactId" : "orai18n",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.nls:orai18n:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.security",
+    "artifactId" : "oraclepki",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.security:oraclepki:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.xml",
+    "artifactId" : "xdb",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.xml:xdb:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.xml",
+    "artifactId" : "xmlparserv2",
+    "version" : "23.9.0.25.07",
+    "coordinates" : "com.oracle.database.xml:xmlparserv2:23.9.0.25.07"
+  }, {
+    "groupId" : "com.oracle.database.r2dbc",
+    "artifactId" : "oracle-r2dbc",
+    "version" : "1.3.0",
+    "coordinates" : "com.oracle.database.r2dbc:oracle-r2dbc:1.3.0"
+  }, {
+    "groupId" : "org.messaginghub",
+    "artifactId" : "pooled-jms",
+    "version" : "3.1.7",
+    "coordinates" : "org.messaginghub:pooled-jms:3.1.7"
+  }, {
+    "groupId" : "org.postgresql",
+    "artifactId" : "postgresql",
+    "version" : "42.7.7",
+    "coordinates" : "org.postgresql:postgresql:42.7.7"
+  }, {
+    "groupId" : "org.quartz-scheduler",
+    "artifactId" : "quartz",
+    "version" : "2.5.0",
+    "coordinates" : "org.quartz-scheduler:quartz:2.5.0"
+  }, {
+    "groupId" : "org.quartz-scheduler",
+    "artifactId" : "quartz-jobs",
+    "version" : "2.5.0",
+    "coordinates" : "org.quartz-scheduler:quartz-jobs:2.5.0"
+  }, {
+    "groupId" : "io.r2dbc",
+    "artifactId" : "r2dbc-h2",
+    "version" : "1.0.0.RELEASE",
+    "coordinates" : "io.r2dbc:r2dbc-h2:1.0.0.RELEASE"
+  }, {
+    "groupId" : "org.mariadb",
+    "artifactId" : "r2dbc-mariadb",
+    "version" : "1.3.0",
+    "coordinates" : "org.mariadb:r2dbc-mariadb:1.3.0"
+  }, {
+    "groupId" : "io.r2dbc",
+    "artifactId" : "r2dbc-mssql",
+    "version" : "1.0.2.RELEASE",
+    "coordinates" : "io.r2dbc:r2dbc-mssql:1.0.2.RELEASE"
+  }, {
+    "groupId" : "io.asyncer",
+    "artifactId" : "r2dbc-mysql",
+    "version" : "1.4.1",
+    "coordinates" : "io.asyncer:r2dbc-mysql:1.4.1"
+  }, {
+    "groupId" : "io.r2dbc",
+    "artifactId" : "r2dbc-pool",
+    "version" : "1.0.2.RELEASE",
+    "coordinates" : "io.r2dbc:r2dbc-pool:1.0.2.RELEASE"
+  }, {
+    "groupId" : "org.postgresql",
+    "artifactId" : "r2dbc-postgresql",
+    "version" : "1.0.7.RELEASE",
+    "coordinates" : "org.postgresql:r2dbc-postgresql:1.0.7.RELEASE"
+  }, {
+    "groupId" : "io.r2dbc",
+    "artifactId" : "r2dbc-proxy",
+    "version" : "1.1.6.RELEASE",
+    "coordinates" : "io.r2dbc:r2dbc-proxy:1.1.6.RELEASE"
+  }, {
+    "groupId" : "io.r2dbc",
+    "artifactId" : "r2dbc-spi",
+    "version" : "1.0.0.RELEASE",
+    "coordinates" : "io.r2dbc:r2dbc-spi:1.0.0.RELEASE"
+  }, {
+    "groupId" : "com.rabbitmq",
+    "artifactId" : "amqp-client",
+    "version" : "5.26.0",
+    "coordinates" : "com.rabbitmq:amqp-client:5.26.0"
+  }, {
+    "groupId" : "com.rabbitmq",
+    "artifactId" : "stream-client",
+    "version" : "0.23.0",
+    "coordinates" : "com.rabbitmq:stream-client:0.23.0"
+  }, {
+    "groupId" : "org.reactivestreams",
+    "artifactId" : "reactive-streams",
+    "version" : "1.0.4",
+    "coordinates" : "org.reactivestreams:reactive-streams:1.0.4"
+  }, {
+    "groupId" : "io.reactivex.rxjava3",
+    "artifactId" : "rxjava",
+    "version" : "3.1.11",
+    "coordinates" : "io.reactivex.rxjava3:rxjava:3.1.11"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-activemq",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-activemq:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-actuator",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-actuator:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-actuator-autoconfigure",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-actuator-autoconfigure:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-amqp",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-amqp:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-artemis",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-artemis:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-autoconfigure",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-autoconfigure:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-autoconfigure-classic",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-autoconfigure-classic:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-autoconfigure-classic-modules",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-autoconfigure-classic-modules:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-autoconfigure-processor",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-autoconfigure-processor:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-batch",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-batch:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-buildpack-platform",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-buildpack-platform:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-cache",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-cache:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-cassandra",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-cassandra:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-cloudfoundry",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-cloudfoundry:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-configuration-metadata",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-configuration-metadata:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-configuration-processor",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-configuration-processor:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-couchbase",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-couchbase:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-cassandra",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-cassandra:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-commons",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-commons:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-couchbase",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-couchbase:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-elasticsearch",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-elasticsearch:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-jdbc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-jdbc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-jpa",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-jpa:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-ldap",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-ldap:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-mongodb",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-mongodb:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-neo4j",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-neo4j:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-r2dbc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-r2dbc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-redis",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-redis:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-data-rest",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-data-rest:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-devtools",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-devtools:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-docker-compose",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-docker-compose:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-elasticsearch",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-elasticsearch:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-flyway",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-flyway:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-freemarker",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-freemarker:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-graphql",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-graphql:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-graphql-test",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-graphql-test:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-groovy-templates",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-groovy-templates:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-gson",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-gson:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-h2console",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-h2console:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-hateoas",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-hateoas:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-hazelcast",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-hazelcast:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-health",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-health:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-hibernate",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-hibernate:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-http-client",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-http-client:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-http-codec",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-http-codec:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-http-converter",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-http-converter:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-integration",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-integration:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-jackson",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-jackson:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-jarmode-tools",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-jarmode-tools:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-jdbc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-jdbc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-jersey",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-jersey:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-jetty",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-jetty:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-jms",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-jms:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-jooq",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-jooq:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-jpa",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-jpa:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-jsonb",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-jsonb:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-kafka",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-kafka:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-ldap",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-ldap:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-liquibase",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-liquibase:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-loader",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-loader:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-loader-classic",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-loader-classic:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-loader-tools",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-loader-tools:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-mail",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-mail:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-micrometer-metrics",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-micrometer-metrics:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-micrometer-observation",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-micrometer-observation:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-micrometer-tracing",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-micrometer-tracing:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-mongodb",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-mongodb:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-mustache",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-mustache:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-neo4j",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-neo4j:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-netty",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-netty:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-opentelemetry",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-opentelemetry:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-properties-migrator",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-properties-migrator:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-pulsar",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-pulsar:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-quartz",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-quartz:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-r2dbc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-r2dbc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-reactor",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-reactor:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-reactor-netty",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-reactor-netty:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-restclient",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-restclient:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-restclient-test",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-restclient-test:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-rsocket",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-rsocket:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-security",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-security:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-security-oauth2-authorization-server",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-security-oauth2-authorization-server:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-security-oauth2-client",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-security-oauth2-client:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-security-oauth2-resource-server",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-security-oauth2-resource-server:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-security-saml2",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-security-saml2:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-sendgrid",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-sendgrid:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-servlet",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-servlet:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-session",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-session:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-session-data-mongodb",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-session-data-mongodb:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-session-data-redis",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-session-data-redis:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-session-hazelcast",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-session-hazelcast:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-session-jdbc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-session-jdbc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-sql",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-sql:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-activemq",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-activemq:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-actuator",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-actuator:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-amqp",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-amqp:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-aop",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-aop:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-artemis",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-artemis:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-batch",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-batch:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-cassandra",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-cassandra:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-cache",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-cache:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-classic",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-classic:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-cloudfoundry",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-cloudfoundry:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-couchbase",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-couchbase:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-cassandra",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-cassandra:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-cassandra-reactive",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-cassandra-reactive:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-couchbase",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-couchbase:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-couchbase-reactive",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-couchbase-reactive:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-elasticsearch",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-elasticsearch:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-jdbc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-jdbc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-jpa",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-jpa:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-ldap",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-ldap:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-mongodb",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-mongodb:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-mongodb-reactive",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-mongodb-reactive:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-neo4j",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-neo4j:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-r2dbc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-r2dbc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-redis",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-redis:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-redis-reactive",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-redis-reactive:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-rest",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-data-rest:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-elasticsearch",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-elasticsearch:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-flyway",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-flyway:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-freemarker",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-freemarker:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-graphql",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-graphql:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-groovy-templates",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-groovy-templates:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-gson",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-gson:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-hateoas",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-hateoas:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-hazelcast",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-hazelcast:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-integration",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-integration:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jackson",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-jackson:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jdbc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-jdbc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jersey",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-jersey:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jetty",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-jetty:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jms",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-jms:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jooq",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-jooq:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-json",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-json:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jsonb",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-jsonb:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-kafka",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-kafka:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-ldap",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-ldap:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-liquibase",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-liquibase:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-log4j2",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-log4j2:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-logback",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-logback:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-logging",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-logging:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-mail",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-mail:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-mongodb",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-mongodb:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-mustache",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-mustache:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-neo4j",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-neo4j:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-oauth2-authorization-server",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-oauth2-authorization-server:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-oauth2-client",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-oauth2-client:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-oauth2-resource-server",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-oauth2-resource-server:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-opentelemetry",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-opentelemetry:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-pulsar",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-pulsar:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-pulsar-reactive",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-pulsar-reactive:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-quartz",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-quartz:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-r2dbc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-r2dbc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-reactor",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-reactor:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-reactor-netty",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-reactor-netty:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-restclient",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-restclient:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-rsocket",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-rsocket:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-security",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-security:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-security-oauth2-authorization-server",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-security-oauth2-authorization-server:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-security-oauth2-client",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-security-oauth2-client:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-security-oauth2-resource-server",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-security-oauth2-resource-server:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-security-saml2",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-security-saml2:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-sendgrid",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-sendgrid:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-session-data-mongodb",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-session-data-mongodb:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-session-data-redis",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-session-data-redis:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-session-hazelcast",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-session-hazelcast:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-session-jdbc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-session-jdbc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-sql",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-sql:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-test",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-test:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-thymeleaf",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-thymeleaf:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-tomcat",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-tomcat:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-validation",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-validation:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-web",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-web:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-web-services",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-web-services:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-webclient",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-webclient:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-webflux",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-webflux:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-webmvc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-webmvc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-webservices",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-webservices:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-websocket",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-websocket:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-zipkin",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-starter-zipkin:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-test",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-test:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-test-autoconfigure",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-test-autoconfigure:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-testcontainers",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-testcontainers:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-thymeleaf",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-thymeleaf:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-tomcat",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-tomcat:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-tx",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-tx:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-validation",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-validation:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-webclient",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-webclient:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-webflux",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-webflux:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-webmvc",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-webmvc:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-webservices",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-webservices:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-websocket",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-websocket:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-web-server",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-web-server:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-web-server-test",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-web-server-test:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-zipkin",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.boot:spring-boot-zipkin:4.0.0-M2"
+  }, {
+    "groupId" : "com.sun.xml.messaging.saaj",
+    "artifactId" : "saaj-impl",
+    "version" : "3.0.4",
+    "coordinates" : "com.sun.xml.messaging.saaj:saaj-impl:3.0.4"
+  }, {
+    "groupId" : "org.seleniumhq.selenium",
+    "artifactId" : "htmlunit3-driver",
+    "version" : "4.35.0",
+    "coordinates" : "org.seleniumhq.selenium:htmlunit3-driver:4.35.0"
+  }, {
+    "groupId" : "com.sendgrid",
+    "artifactId" : "sendgrid-java",
+    "version" : "4.10.3",
+    "coordinates" : "com.sendgrid:sendgrid-java:4.10.3"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "jcl-over-slf4j",
+    "version" : "2.0.17",
+    "coordinates" : "org.slf4j:jcl-over-slf4j:2.0.17"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "jul-to-slf4j",
+    "version" : "2.0.17",
+    "coordinates" : "org.slf4j:jul-to-slf4j:2.0.17"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "log4j-over-slf4j",
+    "version" : "2.0.17",
+    "coordinates" : "org.slf4j:log4j-over-slf4j:2.0.17"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-api",
+    "version" : "2.0.17",
+    "coordinates" : "org.slf4j:slf4j-api:2.0.17"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-ext",
+    "version" : "2.0.17",
+    "coordinates" : "org.slf4j:slf4j-ext:2.0.17"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-jdk-platform-logging",
+    "version" : "2.0.17",
+    "coordinates" : "org.slf4j:slf4j-jdk-platform-logging:2.0.17"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-jdk14",
+    "version" : "2.0.17",
+    "coordinates" : "org.slf4j:slf4j-jdk14:2.0.17"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-log4j12",
+    "version" : "2.0.17",
+    "coordinates" : "org.slf4j:slf4j-log4j12:2.0.17"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-nop",
+    "version" : "2.0.17",
+    "coordinates" : "org.slf4j:slf4j-nop:2.0.17"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-reload4j",
+    "version" : "2.0.17",
+    "coordinates" : "org.slf4j:slf4j-reload4j:2.0.17"
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-simple",
+    "version" : "2.0.17",
+    "coordinates" : "org.slf4j:slf4j-simple:2.0.17"
+  }, {
+    "groupId" : "org.yaml",
+    "artifactId" : "snakeyaml",
+    "version" : "2.4",
+    "coordinates" : "org.yaml:snakeyaml:2.4"
+  }, {
+    "groupId" : "org.springframework.security",
+    "artifactId" : "spring-security-oauth2-authorization-server",
+    "version" : "2.0.0-M2",
+    "coordinates" : "org.springframework.security:spring-security-oauth2-authorization-server:2.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.graphql",
+    "artifactId" : "spring-graphql",
+    "version" : "2.0.0-M2",
+    "coordinates" : "org.springframework.graphql:spring-graphql:2.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.graphql",
+    "artifactId" : "spring-graphql-test",
+    "version" : "2.0.0-M2",
+    "coordinates" : "org.springframework.graphql:spring-graphql-test:2.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.hateoas",
+    "artifactId" : "spring-hateoas",
+    "version" : "3.0.0-M4",
+    "coordinates" : "org.springframework.hateoas:spring-hateoas:3.0.0-M4"
+  }, {
+    "groupId" : "org.springframework.kafka",
+    "artifactId" : "spring-kafka",
+    "version" : "4.0.0-M4",
+    "coordinates" : "org.springframework.kafka:spring-kafka:4.0.0-M4"
+  }, {
+    "groupId" : "org.springframework.kafka",
+    "artifactId" : "spring-kafka-test",
+    "version" : "4.0.0-M4",
+    "coordinates" : "org.springframework.kafka:spring-kafka-test:4.0.0-M4"
+  }, {
+    "groupId" : "org.springframework.ldap",
+    "artifactId" : "spring-ldap-core",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.ldap:spring-ldap-core:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.ldap",
+    "artifactId" : "spring-ldap-ldif-core",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.ldap:spring-ldap-ldif-core:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.ldap",
+    "artifactId" : "spring-ldap-odm",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.ldap:spring-ldap-odm:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.ldap",
+    "artifactId" : "spring-ldap-test",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.ldap:spring-ldap-test:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.retry",
+    "artifactId" : "spring-retry",
+    "version" : "2.0.12",
+    "coordinates" : "org.springframework.retry:spring-retry:2.0.12"
+  }, {
+    "groupId" : "org.xerial",
+    "artifactId" : "sqlite-jdbc",
+    "version" : "3.50.3.0",
+    "coordinates" : "org.xerial:sqlite-jdbc:3.50.3.0"
+  }, {
+    "groupId" : "com.redis",
+    "artifactId" : "testcontainers-redis",
+    "version" : "2.2.4",
+    "coordinates" : "com.redis:testcontainers-redis:2.2.4"
+  }, {
+    "groupId" : "org.thymeleaf",
+    "artifactId" : "thymeleaf",
+    "version" : "3.1.3.RELEASE",
+    "coordinates" : "org.thymeleaf:thymeleaf:3.1.3.RELEASE"
+  }, {
+    "groupId" : "org.thymeleaf",
+    "artifactId" : "thymeleaf-spring6",
+    "version" : "3.1.3.RELEASE",
+    "coordinates" : "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE"
+  }, {
+    "groupId" : "com.github.mxab.thymeleaf.extras",
+    "artifactId" : "thymeleaf-extras-data-attribute",
+    "version" : "2.0.1",
+    "coordinates" : "com.github.mxab.thymeleaf.extras:thymeleaf-extras-data-attribute:2.0.1"
+  }, {
+    "groupId" : "org.thymeleaf.extras",
+    "artifactId" : "thymeleaf-extras-springsecurity6",
+    "version" : "3.1.3.RELEASE",
+    "coordinates" : "org.thymeleaf.extras:thymeleaf-extras-springsecurity6:3.1.3.RELEASE"
+  }, {
+    "groupId" : "nz.net.ultraq.thymeleaf",
+    "artifactId" : "thymeleaf-layout-dialect",
+    "version" : "3.4.0",
+    "coordinates" : "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.4.0"
+  }, {
+    "groupId" : "org.apache.tomcat",
+    "artifactId" : "tomcat-annotations-api",
+    "version" : "11.0.10",
+    "coordinates" : "org.apache.tomcat:tomcat-annotations-api:11.0.10"
+  }, {
+    "groupId" : "org.apache.tomcat",
+    "artifactId" : "tomcat-jdbc",
+    "version" : "11.0.10",
+    "coordinates" : "org.apache.tomcat:tomcat-jdbc:11.0.10"
+  }, {
+    "groupId" : "org.apache.tomcat",
+    "artifactId" : "tomcat-jsp-api",
+    "version" : "11.0.10",
+    "coordinates" : "org.apache.tomcat:tomcat-jsp-api:11.0.10"
+  }, {
+    "groupId" : "org.apache.tomcat.embed",
+    "artifactId" : "tomcat-embed-core",
+    "version" : "11.0.10",
+    "coordinates" : "org.apache.tomcat.embed:tomcat-embed-core:11.0.10"
+  }, {
+    "groupId" : "org.apache.tomcat.embed",
+    "artifactId" : "tomcat-embed-el",
+    "version" : "11.0.10",
+    "coordinates" : "org.apache.tomcat.embed:tomcat-embed-el:11.0.10"
+  }, {
+    "groupId" : "org.apache.tomcat.embed",
+    "artifactId" : "tomcat-embed-jasper",
+    "version" : "11.0.10",
+    "coordinates" : "org.apache.tomcat.embed:tomcat-embed-jasper:11.0.10"
+  }, {
+    "groupId" : "org.apache.tomcat.embed",
+    "artifactId" : "tomcat-embed-websocket",
+    "version" : "11.0.10",
+    "coordinates" : "org.apache.tomcat.embed:tomcat-embed-websocket:11.0.10"
+  }, {
+    "groupId" : "com.unboundid",
+    "artifactId" : "unboundid-ldapsdk",
+    "version" : "7.0.3",
+    "coordinates" : "com.unboundid:unboundid-ldapsdk:7.0.3"
+  }, {
+    "groupId" : "org.vibur",
+    "artifactId" : "vibur-dbcp",
+    "version" : "26.0",
+    "coordinates" : "org.vibur:vibur-dbcp:26.0"
+  }, {
+    "groupId" : "org.vibur",
+    "artifactId" : "vibur-object-pool",
+    "version" : "26.0",
+    "coordinates" : "org.vibur:vibur-object-pool:26.0"
+  }, {
+    "groupId" : "org.webjars",
+    "artifactId" : "webjars-locator-core",
+    "version" : "0.59",
+    "coordinates" : "org.webjars:webjars-locator-core:0.59"
+  }, {
+    "groupId" : "org.webjars",
+    "artifactId" : "webjars-locator-lite",
+    "version" : "1.1.0",
+    "coordinates" : "org.webjars:webjars-locator-lite:1.1.0"
+  }, {
+    "groupId" : "wsdl4j",
+    "artifactId" : "wsdl4j",
+    "version" : "1.6.3",
+    "coordinates" : "wsdl4j:wsdl4j:1.6.3"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-assertj",
+    "version" : "2.10.3",
+    "coordinates" : "org.xmlunit:xmlunit-assertj:2.10.3"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-assertj3",
+    "version" : "2.10.3",
+    "coordinates" : "org.xmlunit:xmlunit-assertj3:2.10.3"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-core",
+    "version" : "2.10.3",
+    "coordinates" : "org.xmlunit:xmlunit-core:2.10.3"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-jakarta-jaxb-impl",
+    "version" : "2.10.3",
+    "coordinates" : "org.xmlunit:xmlunit-jakarta-jaxb-impl:2.10.3"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-legacy",
+    "version" : "2.10.3",
+    "coordinates" : "org.xmlunit:xmlunit-legacy:2.10.3"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-matchers",
+    "version" : "2.10.3",
+    "coordinates" : "org.xmlunit:xmlunit-matchers:2.10.3"
+  }, {
+    "groupId" : "org.xmlunit",
+    "artifactId" : "xmlunit-placeholders",
+    "version" : "2.10.3",
+    "coordinates" : "org.xmlunit:xmlunit-placeholders:2.10.3"
+  }, {
+    "groupId" : "org.eclipse",
+    "artifactId" : "yasson",
+    "version" : "3.0.4",
+    "coordinates" : "org.eclipse:yasson:3.0.4"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "activemq-bom",
+    "version" : "6.1.7",
+    "coordinates" : "org.apache.activemq:activemq-bom:6.1.7"
+  }, {
+    "groupId" : "org.apache.activemq",
+    "artifactId" : "artemis-bom",
+    "version" : "2.42.0",
+    "coordinates" : "org.apache.activemq:artemis-bom:2.42.0"
+  }, {
+    "groupId" : "org.assertj",
+    "artifactId" : "assertj-bom",
+    "version" : "3.27.4",
+    "coordinates" : "org.assertj:assertj-bom:3.27.4"
+  }, {
+    "groupId" : "io.zipkin.reporter2",
+    "artifactId" : "zipkin-reporter-bom",
+    "version" : "3.5.1",
+    "coordinates" : "io.zipkin.reporter2:zipkin-reporter-bom:3.5.1"
+  }, {
+    "groupId" : "io.zipkin.brave",
+    "artifactId" : "brave-bom",
+    "version" : "6.3.0",
+    "coordinates" : "io.zipkin.brave:brave-bom:6.3.0"
+  }, {
+    "groupId" : "org.apache.cassandra",
+    "artifactId" : "java-driver-bom",
+    "version" : "4.19.0",
+    "coordinates" : "org.apache.cassandra:java-driver-bom:4.19.0"
+  }, {
+    "groupId" : "org.glassfish.jaxb",
+    "artifactId" : "jaxb-bom",
+    "version" : "4.0.5",
+    "coordinates" : "org.glassfish.jaxb:jaxb-bom:4.0.5"
+  }, {
+    "groupId" : "org.apache.groovy",
+    "artifactId" : "groovy-bom",
+    "version" : "4.0.28",
+    "coordinates" : "org.apache.groovy:groovy-bom:4.0.28"
+  }, {
+    "groupId" : "org.infinispan",
+    "artifactId" : "infinispan-bom",
+    "version" : "15.2.5.Final",
+    "coordinates" : "org.infinispan:infinispan-bom:15.2.5.Final"
+  }, {
+    "groupId" : "com.fasterxml.jackson",
+    "artifactId" : "jackson-bom",
+    "version" : "2.20.0-rc1",
+    "coordinates" : "com.fasterxml.jackson:jackson-bom:2.20.0-rc1"
+  }, {
+    "groupId" : "org.glassfish.jersey",
+    "artifactId" : "jersey-bom",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.glassfish.jersey:jersey-bom:4.0.0-M2"
+  }, {
+    "groupId" : "org.eclipse.jetty.ee11",
+    "artifactId" : "jetty-ee11-bom",
+    "version" : "12.1.0",
+    "coordinates" : "org.eclipse.jetty.ee11:jetty-ee11-bom:12.1.0"
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-bom",
+    "version" : "12.1.0",
+    "coordinates" : "org.eclipse.jetty:jetty-bom:12.1.0"
+  }, {
+    "groupId" : "org.jooq",
+    "artifactId" : "jooq-bom",
+    "version" : "3.19.25",
+    "coordinates" : "org.jooq:jooq-bom:3.19.25"
+  }, {
+    "groupId" : "org.junit",
+    "artifactId" : "junit-bom",
+    "version" : "5.13.4",
+    "coordinates" : "org.junit:junit-bom:5.13.4"
+  }, {
+    "groupId" : "org.jetbrains.kotlin",
+    "artifactId" : "kotlin-bom",
+    "version" : "2.2.0",
+    "coordinates" : "org.jetbrains.kotlin:kotlin-bom:2.2.0"
+  }, {
+    "groupId" : "org.jetbrains.kotlinx",
+    "artifactId" : "kotlinx-coroutines-bom",
+    "version" : "1.10.2",
+    "coordinates" : "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.2"
+  }, {
+    "groupId" : "org.jetbrains.kotlinx",
+    "artifactId" : "kotlinx-serialization-bom",
+    "version" : "1.9.0",
+    "coordinates" : "org.jetbrains.kotlinx:kotlinx-serialization-bom:1.9.0"
+  }, {
+    "groupId" : "org.apache.logging.log4j",
+    "artifactId" : "log4j-bom",
+    "version" : "2.24.3",
+    "coordinates" : "org.apache.logging.log4j:log4j-bom:2.24.3"
+  }, {
+    "groupId" : "io.micrometer",
+    "artifactId" : "micrometer-bom",
+    "version" : "1.16.0-M2",
+    "coordinates" : "io.micrometer:micrometer-bom:1.16.0-M2"
+  }, {
+    "groupId" : "io.micrometer",
+    "artifactId" : "micrometer-tracing-bom",
+    "version" : "1.6.0-M2",
+    "coordinates" : "io.micrometer:micrometer-tracing-bom:1.6.0-M2"
+  }, {
+    "groupId" : "org.mockito",
+    "artifactId" : "mockito-bom",
+    "version" : "5.19.0",
+    "coordinates" : "org.mockito:mockito-bom:5.19.0"
+  }, {
+    "groupId" : "org.mongodb",
+    "artifactId" : "mongodb-driver-bom",
+    "version" : "5.5.1",
+    "coordinates" : "org.mongodb:mongodb-driver-bom:5.5.1"
+  }, {
+    "groupId" : "io.netty",
+    "artifactId" : "netty-bom",
+    "version" : "4.2.4.Final",
+    "coordinates" : "io.netty:netty-bom:4.2.4.Final"
+  }, {
+    "groupId" : "io.opentelemetry",
+    "artifactId" : "opentelemetry-bom",
+    "version" : "1.53.0",
+    "coordinates" : "io.opentelemetry:opentelemetry-bom:1.53.0"
+  }, {
+    "groupId" : "io.prometheus",
+    "artifactId" : "prometheus-metrics-bom",
+    "version" : "1.4.1",
+    "coordinates" : "io.prometheus:prometheus-metrics-bom:1.4.1"
+  }, {
+    "groupId" : "io.prometheus",
+    "artifactId" : "simpleclient_bom",
+    "version" : "0.16.0",
+    "coordinates" : "io.prometheus:simpleclient_bom:0.16.0"
+  }, {
+    "groupId" : "org.apache.pulsar",
+    "artifactId" : "pulsar-bom",
+    "version" : "4.0.6",
+    "coordinates" : "org.apache.pulsar:pulsar-bom:4.0.6"
+  }, {
+    "groupId" : "org.apache.pulsar",
+    "artifactId" : "pulsar-client-reactive-bom",
+    "version" : "0.7.0",
+    "coordinates" : "org.apache.pulsar:pulsar-client-reactive-bom:0.7.0"
+  }, {
+    "groupId" : "com.querydsl",
+    "artifactId" : "querydsl-bom",
+    "version" : "5.1.0",
+    "coordinates" : "com.querydsl:querydsl-bom:5.1.0"
+  }, {
+    "groupId" : "io.projectreactor",
+    "artifactId" : "reactor-bom",
+    "version" : "2025.0.0-M6",
+    "coordinates" : "io.projectreactor:reactor-bom:2025.0.0-M6"
+  }, {
+    "groupId" : "io.rest-assured",
+    "artifactId" : "rest-assured-bom",
+    "version" : "5.5.6",
+    "coordinates" : "io.rest-assured:rest-assured-bom:5.5.6"
+  }, {
+    "groupId" : "io.rsocket",
+    "artifactId" : "rsocket-bom",
+    "version" : "1.1.5",
+    "coordinates" : "io.rsocket:rsocket-bom:1.1.5"
+  }, {
+    "groupId" : "org.seleniumhq.selenium",
+    "artifactId" : "selenium-bom",
+    "version" : "4.35.0",
+    "coordinates" : "org.seleniumhq.selenium:selenium-bom:4.35.0"
+  }, {
+    "groupId" : "org.springframework.amqp",
+    "artifactId" : "spring-amqp-bom",
+    "version" : "4.0.0-M4",
+    "coordinates" : "org.springframework.amqp:spring-amqp-bom:4.0.0-M4"
+  }, {
+    "groupId" : "org.springframework.batch",
+    "artifactId" : "spring-batch-bom",
+    "version" : "6.0.0-M2",
+    "coordinates" : "org.springframework.batch:spring-batch-bom:6.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.data",
+    "artifactId" : "spring-data-bom",
+    "version" : "2025.1.0-M5",
+    "coordinates" : "org.springframework.data:spring-data-bom:2025.1.0-M5"
+  }, {
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-framework-bom",
+    "version" : "7.0.0-M8",
+    "coordinates" : "org.springframework:spring-framework-bom:7.0.0-M8"
+  }, {
+    "groupId" : "org.springframework.integration",
+    "artifactId" : "spring-integration-bom",
+    "version" : "7.0.0-M2",
+    "coordinates" : "org.springframework.integration:spring-integration-bom:7.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.pulsar",
+    "artifactId" : "spring-pulsar-bom",
+    "version" : "2.0.0-M2",
+    "coordinates" : "org.springframework.pulsar:spring-pulsar-bom:2.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.restdocs",
+    "artifactId" : "spring-restdocs-bom",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.restdocs:spring-restdocs-bom:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.security",
+    "artifactId" : "spring-security-bom",
+    "version" : "7.0.0-M2",
+    "coordinates" : "org.springframework.security:spring-security-bom:7.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.session",
+    "artifactId" : "spring-session-bom",
+    "version" : "4.0.0-M2",
+    "coordinates" : "org.springframework.session:spring-session-bom:4.0.0-M2"
+  }, {
+    "groupId" : "org.springframework.ws",
+    "artifactId" : "spring-ws-bom",
+    "version" : "5.0.0-M1",
+    "coordinates" : "org.springframework.ws:spring-ws-bom:5.0.0-M1"
+  }, {
+    "groupId" : "org.testcontainers",
+    "artifactId" : "testcontainers-bom",
+    "version" : "1.21.3",
+    "coordinates" : "org.testcontainers:testcontainers-bom:1.21.3"
+  } ]
+}

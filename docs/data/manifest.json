@@ -18,22 +18,22 @@
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-dependencies",
     "directory" : "org.springframework.cloud.spring-cloud-dependencies",
-    "versionCount" : 92
+    "versionCount" : 93
   }, {
     "groupId" : "com.amazonaws",
     "artifactId" : "aws-java-sdk-bom",
     "directory" : "com.amazonaws.aws-java-sdk-bom",
-    "versionCount" : 1899
+    "versionCount" : 1900
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "bom",
     "directory" : "software.amazon.awssdk.bom",
-    "versionCount" : 1620
+    "versionCount" : 1625
   }, {
     "groupId" : "org.junit",
     "artifactId" : "junit-bom",
     "directory" : "org.junit.junit-bom",
-    "versionCount" : 80
+    "versionCount" : 82
   }, {
     "groupId" : "org.apache.logging.log4j",
     "artifactId" : "log4j-bom",
@@ -53,12 +53,12 @@
     "groupId" : "org.apache.camel",
     "artifactId" : "camel-bom",
     "directory" : "org.apache.camel.camel-bom",
-    "versionCount" : 165
+    "versionCount" : 166
   }, {
     "groupId" : "io.quarkus.platform",
     "artifactId" : "quarkus-bom",
     "directory" : "io.quarkus.platform.quarkus-bom",
-    "versionCount" : 284
+    "versionCount" : 285
   }, {
     "groupId" : "com.squareup.okhttp3",
     "artifactId" : "okhttp-bom",

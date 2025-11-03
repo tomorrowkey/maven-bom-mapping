@@ -1,0 +1,349 @@
+{
+  "version" : "2.20.1",
+  "artifacts" : [ {
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-annotations",
+    "version" : "2.20",
+    "coordinates" : "com.fasterxml.jackson.core:jackson-annotations:2.20"
+  }, {
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-core",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.core:jackson-core:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-databind",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.core:jackson-databind:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-avro",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.dataformat:jackson-dataformat-avro:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-cbor",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-csv",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-ion",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.dataformat:jackson-dataformat-ion:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-properties",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.dataformat:jackson-dataformat-properties:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-protobuf",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-smile",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-toml",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.dataformat:jackson-dataformat-toml:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-xml",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-yaml",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-eclipse-collections",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-guava",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-guava:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-hibernate4",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-hibernate4:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-hibernate5",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-hibernate5-jakarta",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5-jakarta:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-hibernate6",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-hibernate7",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-hibernate7:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-hppc",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-hppc:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-jakarta-jsonp",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-jaxrs",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-javax-money",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-javax-money:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-jdk8",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-joda",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-joda:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-joda-money",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-joda-money:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-json-org",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-json-org:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-jsr310",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-jsr353",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr353:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-moneta",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-moneta:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-pcollections",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.datatype:jackson-datatype-pcollections:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jaxrs",
+    "artifactId" : "jackson-jaxrs-base",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jaxrs",
+    "artifactId" : "jackson-jaxrs-cbor-provider",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jaxrs",
+    "artifactId" : "jackson-jaxrs-json-provider",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jaxrs",
+    "artifactId" : "jackson-jaxrs-smile-provider",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jaxrs",
+    "artifactId" : "jackson-jaxrs-xml-provider",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jaxrs",
+    "artifactId" : "jackson-jaxrs-yaml-provider",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jakarta.rs",
+    "artifactId" : "jackson-jakarta-rs-base",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jakarta.rs",
+    "artifactId" : "jackson-jakarta-rs-cbor-provider",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jakarta.rs",
+    "artifactId" : "jackson-jakarta-rs-json-provider",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jakarta.rs",
+    "artifactId" : "jackson-jakarta-rs-smile-provider",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jakarta.rs",
+    "artifactId" : "jackson-jakarta-rs-xml-provider",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jakarta.rs",
+    "artifactId" : "jackson-jakarta-rs-yaml-provider",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jr",
+    "artifactId" : "jackson-jr-all",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jr:jackson-jr-all:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jr",
+    "artifactId" : "jackson-jr-annotation-support",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jr:jackson-jr-annotation-support:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jr",
+    "artifactId" : "jackson-jr-extension-javatime",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jr:jackson-jr-extension-javatime:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jr",
+    "artifactId" : "jackson-jr-objects",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jr:jackson-jr-objects:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jr",
+    "artifactId" : "jackson-jr-retrofit2",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jr:jackson-jr-retrofit2:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.jr",
+    "artifactId" : "jackson-jr-stree",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.jr:jackson-jr-stree:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-afterburner",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-afterburner:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-android-record",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-android-record:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-blackbird",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-blackbird:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-guice",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-guice:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-guice7",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-guice7:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-jaxb-annotations",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-jakarta-xmlbind-annotations",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-jsonSchema",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-jsonSchema:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-jsonSchema-jakarta",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-jsonSchema-jakarta:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-kotlin",
+    "version" : "${jackson.version}",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-kotlin:${jackson.version}"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-mrbean",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-mrbean:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-no-ctor-deser",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-no-ctor-deser:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-osgi",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-osgi:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-parameter-names",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-parameter-names:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-paranamer",
+    "version" : "2.20.1",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-paranamer:2.20.1"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-scala_2.11",
+    "version" : "${jackson.version}",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-scala_2.11:${jackson.version}"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-scala_2.12",
+    "version" : "${jackson.version}",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-scala_2.12:${jackson.version}"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-scala_2.13",
+    "version" : "${jackson.version}",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-scala_2.13:${jackson.version}"
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-scala_3",
+    "version" : "${jackson.version}",
+    "coordinates" : "com.fasterxml.jackson.module:jackson-module-scala_3:${jackson.version}"
+  } ]
+}

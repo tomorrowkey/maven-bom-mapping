@@ -3,7 +3,7 @@
     "groupId" : "androidx.compose",
     "artifactId" : "compose-bom",
     "directory" : "androidx.compose.compose-bom",
-    "versionCount" : 58
+    "versionCount" : 59
   }, {
     "groupId" : "com.google.firebase",
     "artifactId" : "firebase-bom",
@@ -13,22 +13,22 @@
     "groupId" : "org.springframework.boot",
     "artifactId" : "spring-boot-dependencies",
     "directory" : "org.springframework.boot.spring-boot-dependencies",
-    "versionCount" : 268
+    "versionCount" : 271
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-dependencies",
     "directory" : "org.springframework.cloud.spring-cloud-dependencies",
-    "versionCount" : 97
+    "versionCount" : 98
   }, {
     "groupId" : "com.amazonaws",
     "artifactId" : "aws-java-sdk-bom",
     "directory" : "com.amazonaws.aws-java-sdk-bom",
-    "versionCount" : 1903
+    "versionCount" : 1904
   }, {
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "bom",
     "directory" : "software.amazon.awssdk.bom",
-    "versionCount" : 1672
+    "versionCount" : 1677
   }, {
     "groupId" : "org.junit",
     "artifactId" : "junit-bom",
@@ -38,7 +38,7 @@
     "groupId" : "org.apache.logging.log4j",
     "artifactId" : "log4j-bom",
     "directory" : "org.apache.logging.log4j.log4j-bom",
-    "versionCount" : 61
+    "versionCount" : 62
   }, {
     "groupId" : "com.fasterxml.jackson",
     "artifactId" : "jackson-bom",
@@ -58,7 +58,7 @@
     "groupId" : "io.quarkus.platform",
     "artifactId" : "quarkus-bom",
     "directory" : "io.quarkus.platform.quarkus-bom",
-    "versionCount" : 300
+    "versionCount" : 301
   }, {
     "groupId" : "com.squareup.okhttp3",
     "artifactId" : "okhttp-bom",

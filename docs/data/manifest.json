@@ -13,7 +13,7 @@
     "groupId" : "org.springframework.boot",
     "artifactId" : "spring-boot-dependencies",
     "directory" : "org.springframework.boot.spring-boot-dependencies",
-    "versionCount" : 271
+    "versionCount" : 274
   }, {
     "groupId" : "org.springframework.cloud",
     "artifactId" : "spring-cloud-dependencies",
@@ -28,7 +28,7 @@
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "bom",
     "directory" : "software.amazon.awssdk.bom",
-    "versionCount" : 1692
+    "versionCount" : 1696
   }, {
     "groupId" : "org.junit",
     "artifactId" : "junit-bom",
@@ -43,7 +43,7 @@
     "groupId" : "com.fasterxml.jackson",
     "artifactId" : "jackson-bom",
     "directory" : "com.fasterxml.jackson.jackson-bom",
-    "versionCount" : 138
+    "versionCount" : 139
   }, {
     "groupId" : "jakarta.platform",
     "artifactId" : "jakarta.jakartaee-bom",
@@ -58,7 +58,7 @@
     "groupId" : "io.quarkus.platform",
     "artifactId" : "quarkus-bom",
     "directory" : "io.quarkus.platform.quarkus-bom",
-    "versionCount" : 304
+    "versionCount" : 308
   }, {
     "groupId" : "com.squareup.okhttp3",
     "artifactId" : "okhttp-bom",

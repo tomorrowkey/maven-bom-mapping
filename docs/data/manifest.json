@@ -28,7 +28,7 @@
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "bom",
     "directory" : "software.amazon.awssdk.bom",
-    "versionCount" : 1721
+    "versionCount" : 1725
   }, {
     "groupId" : "org.junit",
     "artifactId" : "junit-bom",
@@ -58,7 +58,7 @@
     "groupId" : "io.quarkus.platform",
     "artifactId" : "quarkus-bom",
     "directory" : "io.quarkus.platform.quarkus-bom",
-    "versionCount" : 314
+    "versionCount" : 315
   }, {
     "groupId" : "com.squareup.okhttp3",
     "artifactId" : "okhttp-bom",

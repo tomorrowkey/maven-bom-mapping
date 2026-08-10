@@ -28,12 +28,12 @@
     "groupId" : "software.amazon.awssdk",
     "artifactId" : "bom",
     "directory" : "software.amazon.awssdk.bom",
-    "versionCount" : 1822
+    "versionCount" : 1827
   }, {
     "groupId" : "org.junit",
     "artifactId" : "junit-bom",
     "directory" : "org.junit.junit-bom",
-    "versionCount" : 94
+    "versionCount" : 95
   }, {
     "groupId" : "org.apache.logging.log4j",
     "artifactId" : "log4j-bom",
@@ -58,7 +58,7 @@
     "groupId" : "io.quarkus.platform",
     "artifactId" : "quarkus-bom",
     "directory" : "io.quarkus.platform.quarkus-bom",
-    "versionCount" : 356
+    "versionCount" : 359
   }, {
     "groupId" : "com.squareup.okhttp3",
     "artifactId" : "okhttp-bom",
